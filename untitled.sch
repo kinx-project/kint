@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,12 +53,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -595,410 +595,378 @@ W = angled&lt;p&gt;
 <plain>
 </plain>
 <instances>
-<instance part="DAUMENRECHTS" gate="1" x="12.7" y="-22.86" rot="R90"/>
-<instance part="DAUMENLINKS" gate="1" x="147.32" y="-17.78" rot="MR90"/>
+<instance part="DAUMENRECHTS" gate="1" x="15.24" y="-27.94" rot="R90"/>
+<instance part="DAUMENLINKS" gate="1" x="109.22" y="-27.94" rot="MR90"/>
 <instance part="U$1" gate="G$1" x="66.04" y="45.72"/>
-<instance part="SV1" gate="G$1" x="162.56" y="43.18" rot="R180"/>
-<instance part="TASTENRECHTS" gate="-2" x="38.1" y="43.18" rot="R180"/>
-<instance part="TASTENRECHTS" gate="-3" x="38.1" y="50.8" rot="R180"/>
+<instance part="SV1" gate="G$1" x="109.22" y="45.72" rot="R180"/>
+<instance part="TASTENRECHTS" gate="-2" x="12.7" y="43.18" rot="R180"/>
+<instance part="TASTENRECHTS" gate="-3" x="12.7" y="50.8" rot="R180"/>
 <instance part="TASTENRECHTS" gate="-4" x="124.46" y="68.58"/>
 <instance part="TASTENRECHTS" gate="-5" x="60.96" y="93.98"/>
-<instance part="TASTENRECHTS" gate="-6" x="38.1" y="35.56" rot="R180"/>
+<instance part="TASTENRECHTS" gate="-6" x="12.7" y="35.56" rot="R180"/>
 <instance part="TASTENRECHTS" gate="-7" x="152.4" y="66.04"/>
-<instance part="TASTENRECHTS" gate="-8" x="180.34" y="63.5"/>
-<instance part="TASTENRECHTS" gate="-9" x="205.74" y="60.96"/>
-<instance part="TASTENRECHTS" gate="-10" x="231.14" y="53.34"/>
+<instance part="TASTENRECHTS" gate="-8" x="152.4" y="58.42"/>
+<instance part="TASTENRECHTS" gate="-9" x="124.46" y="55.88"/>
+<instance part="TASTENRECHTS" gate="-10" x="124.46" y="45.72"/>
 <instance part="TASTENRECHTS" gate="-11" x="88.9" y="93.98"/>
-<instance part="TASTENRECHTS" gate="-12" x="38.1" y="40.64" rot="R180"/>
-<instance part="TASTENRECHTS" gate="-13" x="38.1" y="38.1" rot="R180"/>
-<instance part="TASTENRECHTS" gate="-1" x="40.64" y="53.34" smashed="yes" rot="R180">
-<attribute name="NAME" x="35.56" y="54.102" size="1.524" layer="95" rot="R180"/>
+<instance part="TASTENRECHTS" gate="-12" x="12.7" y="40.64" rot="R180"/>
+<instance part="TASTENRECHTS" gate="-13" x="12.7" y="38.1" rot="R180"/>
+<instance part="TASTENRECHTS" gate="-1" x="15.24" y="53.34" smashed="yes" rot="R180">
+<attribute name="NAME" x="10.16" y="54.102" size="1.524" layer="95" rot="R180"/>
 </instance>
 <instance part="TOPRECHTS" gate="-2" x="5.08" y="134.62"/>
-<instance part="TOPRECHTS" gate="-3" x="-20.32" y="30.48" rot="R180"/>
-<instance part="TOPRECHTS" gate="-4" x="-45.72" y="27.94" rot="R180"/>
+<instance part="TOPRECHTS" gate="-3" x="-17.78" y="17.78" rot="R180"/>
+<instance part="TOPRECHTS" gate="-4" x="10.16" y="15.24" rot="R180"/>
 <instance part="TOPRECHTS" gate="-5" x="124.46" y="71.12"/>
-<instance part="TOPRECHTS" gate="-6" x="-20.32" y="33.02" rot="R180"/>
-<instance part="TOPRECHTS" gate="-7" x="-45.72" y="30.48" rot="R180"/>
+<instance part="TOPRECHTS" gate="-6" x="-17.78" y="20.32" rot="R180"/>
+<instance part="TOPRECHTS" gate="-7" x="10.16" y="17.78" rot="R180"/>
 <instance part="TOPRECHTS" gate="-8" x="152.4" y="68.58"/>
-<instance part="TOPRECHTS" gate="-9" x="7.62" y="33.02" rot="R180"/>
-<instance part="TOPRECHTS" gate="-10" x="99.06" y="68.58"/>
-<instance part="TOPRECHTS" gate="-11" x="99.06" y="71.12"/>
-<instance part="TOPRECHTS" gate="-12" x="-45.72" y="33.02" rot="R180"/>
-<instance part="TOPRECHTS" gate="-13" x="-20.32" y="35.56" rot="R180"/>
+<instance part="TOPRECHTS" gate="-9" x="-17.78" y="33.02" rot="R180"/>
+<instance part="TOPRECHTS" gate="-10" x="124.46" y="73.66"/>
+<instance part="TOPRECHTS" gate="-11" x="124.46" y="76.2"/>
+<instance part="TOPRECHTS" gate="-12" x="10.16" y="20.32" rot="R180"/>
+<instance part="TOPRECHTS" gate="-13" x="-17.78" y="22.86" rot="R180"/>
 <instance part="TOPRECHTS" gate="-1" x="2.54" y="137.16"/>
-<instance part="TOPLINKS" gate="-2" x="7.62" y="35.56" rot="R180"/>
-<instance part="TOPLINKS" gate="-3" x="-20.32" y="38.1" rot="R180"/>
-<instance part="TOPLINKS" gate="-4" x="-45.72" y="35.56" rot="R180"/>
-<instance part="TOPLINKS" gate="-5" x="180.34" y="66.04"/>
-<instance part="TOPLINKS" gate="-6" x="-20.32" y="40.64" rot="R180"/>
-<instance part="TOPLINKS" gate="-7" x="-45.72" y="38.1" rot="R180"/>
-<instance part="TOPLINKS" gate="-8" x="205.74" y="63.5"/>
+<instance part="TOPLINKS" gate="-2" x="-17.78" y="35.56" rot="R180"/>
+<instance part="TOPLINKS" gate="-3" x="-17.78" y="25.4" rot="R180"/>
+<instance part="TOPLINKS" gate="-4" x="10.16" y="22.86" rot="R180"/>
+<instance part="TOPLINKS" gate="-5" x="152.4" y="60.96"/>
+<instance part="TOPLINKS" gate="-6" x="-17.78" y="27.94" rot="R180"/>
+<instance part="TOPLINKS" gate="-7" x="10.16" y="25.4" rot="R180"/>
+<instance part="TOPLINKS" gate="-8" x="124.46" y="58.42"/>
 <instance part="TOPLINKS" gate="-9" x="30.48" y="106.68"/>
-<instance part="TOPLINKS" gate="-10" x="-20.32" y="43.18" rot="R180"/>
-<instance part="TOPLINKS" gate="-11" x="-45.72" y="40.64" rot="R180"/>
+<instance part="TOPLINKS" gate="-10" x="-17.78" y="30.48" rot="R180"/>
+<instance part="TOPLINKS" gate="-11" x="10.16" y="27.94" rot="R180"/>
 <instance part="TOPLINKS" gate="-12" x="30.48" y="111.76"/>
 <instance part="TOPLINKS" gate="-13" x="30.48" y="116.84"/>
-<instance part="TOPLINKS" gate="-1" x="228.6" y="58.42" smashed="yes">
-<attribute name="NAME" x="233.68" y="57.658" size="1.524" layer="95"/>
+<instance part="TOPLINKS" gate="-1" x="121.92" y="50.8" smashed="yes">
+<attribute name="NAME" x="127" y="50.038" size="1.524" layer="95"/>
 </instance>
-<instance part="TASTENLINKS" gate="-2" x="38.1" y="60.96" rot="R180"/>
-<instance part="TASTENLINKS" gate="-3" x="38.1" y="58.42" rot="R180"/>
-<instance part="TASTENLINKS" gate="-4" x="38.1" y="63.5" rot="R180"/>
+<instance part="TASTENLINKS" gate="-2" x="12.7" y="60.96" rot="R180"/>
+<instance part="TASTENLINKS" gate="-3" x="12.7" y="58.42" rot="R180"/>
+<instance part="TASTENLINKS" gate="-4" x="12.7" y="63.5" rot="R180"/>
 <instance part="TASTENLINKS" gate="-5" x="93.98" y="99.06"/>
-<instance part="TASTENLINKS" gate="-6" x="38.1" y="68.58" rot="R180"/>
-<instance part="TASTENLINKS" gate="-7" x="38.1" y="66.04" rot="R180"/>
+<instance part="TASTENLINKS" gate="-6" x="12.7" y="68.58" rot="R180"/>
+<instance part="TASTENLINKS" gate="-7" x="12.7" y="66.04" rot="R180"/>
 <instance part="TASTENLINKS" gate="-8" x="58.42" y="83.82" rot="R180"/>
-<instance part="TASTENLINKS" gate="-9" x="205.74" y="58.42"/>
+<instance part="TASTENLINKS" gate="-9" x="124.46" y="53.34"/>
 <instance part="TASTENLINKS" gate="-10" x="152.4" y="63.5"/>
-<instance part="TASTENLINKS" gate="-11" x="180.34" y="60.96"/>
+<instance part="TASTENLINKS" gate="-11" x="152.4" y="55.88"/>
 <instance part="TASTENLINKS" gate="-12" x="60.96" y="88.9"/>
 <instance part="TASTENLINKS" gate="-13" x="124.46" y="66.04"/>
-<instance part="TASTENLINKS" gate="-1" x="228.6" y="55.88" smashed="yes">
-<attribute name="NAME" x="233.68" y="55.118" size="1.524" layer="95"/>
+<instance part="TASTENLINKS" gate="-1" x="121.92" y="48.26" smashed="yes">
+<attribute name="NAME" x="127" y="47.498" size="1.524" layer="95"/>
 </instance>
 </instances>
 <busses>
-<bus name="C[0..7]">
-<segment>
-<wire x1="38.1" y1="43.18" x2="38.1" y2="25.4" width="0.762" layer="92"/>
-</segment>
-<segment>
-<wire x1="147.32" y1="0" x2="149.86" y2="0" width="0.762" layer="92"/>
-</segment>
-</bus>
-<bus name="D[0..7]">
-<segment>
-<wire x1="142.24" y1="-5.08" x2="144.78" y2="-5.08" width="0.762" layer="92"/>
-</segment>
-<segment>
-<wire x1="38.1" y1="68.58" x2="38.1" y2="50.8" width="0.762" layer="92"/>
-</segment>
-<segment>
-<wire x1="5.08" y1="-5.08" x2="22.86" y2="-5.08" width="0.762" layer="92"/>
-</segment>
-</bus>
-<bus name="B[0..6]">
-<segment>
-<wire x1="93.98" y1="55.88" x2="93.98" y2="71.12" width="0.762" layer="92"/>
-</segment>
-<segment>
-<wire x1="154.94" y1="-5.08" x2="152.4" y2="-5.08" width="0.762" layer="92"/>
-</segment>
-<segment>
-<wire x1="15.24" y1="-7.62" x2="12.7" y2="-7.62" width="0.762" layer="92"/>
-</segment>
-</bus>
 </busses>
 <nets>
-<net name="N$14" class="0">
-<segment>
-<pinref part="SV1" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="45.72" x2="111.76" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="45.72" x2="111.76" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="GND@1"/>
-<wire x1="111.76" y1="48.26" x2="91.44" y2="48.26" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="C0" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PC0"/>
-<wire x1="38.1" y1="43.18" x2="40.64" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="TASTENRECHTS" gate="-2" pin="S"/>
-<junction x="40.64" y="43.18"/>
-</segment>
-<segment>
+<pinref part="U$1" gate="G$1" pin="PC0"/>
+<wire x1="15.24" y1="43.18" x2="33.02" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="43.18" x2="40.64" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="43.18" x2="33.02" y2="-7.62" width="0.1524" layer="91"/>
 <pinref part="DAUMENLINKS" gate="1" pin="5"/>
-<wire x1="147.32" y1="0" x2="147.32" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="-7.62" x2="109.22" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="-7.62" x2="109.22" y2="-20.32" width="0.1524" layer="91"/>
+<junction x="33.02" y="43.18"/>
 </segment>
 </net>
 <net name="C1" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PC1"/>
-<wire x1="38.1" y1="40.64" x2="40.64" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="TASTENRECHTS" gate="-12" pin="S"/>
-<junction x="40.64" y="40.64"/>
-</segment>
-<segment>
+<wire x1="15.24" y1="40.64" x2="35.56" y2="40.64" width="0.1524" layer="91"/>
+<junction x="35.56" y="40.64"/>
+<wire x1="35.56" y1="40.64" x2="40.64" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="40.64" x2="35.56" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="-5.08" x2="111.76" y2="-5.08" width="0.1524" layer="91"/>
 <pinref part="DAUMENLINKS" gate="1" pin="6"/>
-<wire x1="149.86" y1="0" x2="149.86" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="-5.08" x2="111.76" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="C2" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="PC2"/>
-<wire x1="38.1" y1="38.1" x2="40.64" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="TASTENRECHTS" gate="-13" pin="S"/>
-<junction x="40.64" y="38.1"/>
+<pinref part="U$1" gate="G$1" pin="PC2"/>
+<wire x1="40.64" y1="38.1" x2="15.24" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="C3" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="T3,PC3"/>
-<wire x1="38.1" y1="35.56" x2="40.64" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="TASTENRECHTS" gate="-6" pin="S"/>
-<junction x="40.64" y="35.56"/>
+<pinref part="U$1" gate="G$1" pin="T3,PC3"/>
+<wire x1="15.24" y1="35.56" x2="40.64" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="C4" class="0">
 <segment>
-<wire x1="38.1" y1="33.02" x2="38.1" y2="30.48" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="38.1" y1="38.1" x2="38.1" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="38.1" x2="38.1" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="35.56" x2="38.1" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="43.18" x2="38.1" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="43.18" x2="38.1" y2="40.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="OC3C,PC4"/>
-<wire x1="38.1" y1="33.02" x2="10.16" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="TOPRECHTS" gate="-9" pin="S"/>
-<junction x="10.16" y="33.02"/>
 <pinref part="TOPLINKS" gate="-2" pin="S"/>
-<wire x1="10.16" y1="35.56" x2="10.16" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="33.02" x2="40.64" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="35.56" x2="-15.24" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="OC3C,PC4"/>
+<wire x1="40.64" y1="33.02" x2="-15.24" y2="33.02" width="0.1524" layer="91"/>
+<junction x="-15.24" y="33.02"/>
 </segment>
 </net>
 <net name="C6" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OC3A,PC6"/>
-<wire x1="38.1" y1="27.94" x2="-43.18" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="TOPRECHTS" gate="-4" pin="S"/>
-<junction x="-43.18" y="27.94"/>
 <pinref part="TOPRECHTS" gate="-7" pin="S"/>
-<wire x1="-43.18" y1="30.48" x2="-43.18" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="-43.18" y1="27.94" x2="40.64" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="TOPRECHTS" gate="-12" pin="S"/>
-<wire x1="-43.18" y1="27.94" x2="-43.18" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="TOPLINKS" gate="-4" pin="S"/>
-<wire x1="-43.18" y1="27.94" x2="-43.18" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="TOPLINKS" gate="-7" pin="S"/>
-<wire x1="-43.18" y1="27.94" x2="-43.18" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="15.24" x2="12.7" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="TOPLINKS" gate="-11" pin="S"/>
-<wire x1="-43.18" y1="27.94" x2="-43.18" y2="40.64" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="C7" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="IPC3,PC7"/>
-<wire x1="38.1" y1="25.4" x2="40.64" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="OC3A,PC6"/>
+<wire x1="12.7" y1="17.78" x2="12.7" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="20.32" x2="12.7" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="22.86" x2="12.7" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="25.4" x2="12.7" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="27.94" x2="12.7" y2="27.94" width="0.1524" layer="91"/>
+<junction x="12.7" y="25.4"/>
+<junction x="12.7" y="22.86"/>
+<junction x="12.7" y="20.32"/>
+<junction x="12.7" y="17.78"/>
+<junction x="12.7" y="27.94"/>
 </segment>
 </net>
 <net name="C5" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OC3B,PC5"/>
-<wire x1="38.1" y1="30.48" x2="-17.78" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="TOPRECHTS" gate="-3" pin="S"/>
-<junction x="-17.78" y="30.48"/>
 <pinref part="TOPRECHTS" gate="-6" pin="S"/>
-<wire x1="-17.78" y1="33.02" x2="-17.78" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="TOPRECHTS" gate="-13" pin="S"/>
-<wire x1="-17.78" y1="35.56" x2="-17.78" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="-17.78" y1="30.48" x2="40.64" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="TOPLINKS" gate="-3" pin="S"/>
-<wire x1="-17.78" y1="30.48" x2="-17.78" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="TOPLINKS" gate="-6" pin="S"/>
-<wire x1="-17.78" y1="30.48" x2="-17.78" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="TOPLINKS" gate="-10" pin="S"/>
-<wire x1="-17.78" y1="30.48" x2="-17.78" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="D1" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="SDA,OC2B,INT1,PD1"/>
-<wire x1="38.1" y1="66.04" x2="40.64" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="TASTENLINKS" gate="-7" pin="S"/>
-<junction x="40.64" y="66.04"/>
+<pinref part="U$1" gate="G$1" pin="OC3B,PC5"/>
+<wire x1="-15.24" y1="20.32" x2="-15.24" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="22.86" x2="-15.24" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="25.4" x2="-15.24" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="27.94" x2="-15.24" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="30.48" x2="40.64" y2="30.48" width="0.1524" layer="91"/>
+<junction x="-15.24" y="22.86"/>
+<junction x="-15.24" y="27.94"/>
+<junction x="-15.24" y="25.4"/>
+<pinref part="TOPRECHTS" gate="-3" pin="S"/>
+<wire x1="-15.24" y1="17.78" x2="-15.24" y2="20.32" width="0.1524" layer="91"/>
+<junction x="-15.24" y="20.32"/>
+<junction x="-15.24" y="30.48"/>
 </segment>
 </net>
 <net name="D2" class="0">
 <segment>
 <pinref part="DAUMENRECHTS" gate="1" pin="2"/>
-<wire x1="20.32" y1="-5.08" x2="20.32" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="RXD1,INT2,PD2"/>
+<pinref part="TASTENLINKS" gate="-4" pin="S"/>
+<wire x1="15.24" y1="63.5" x2="22.86" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="63.5" x2="40.64" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="-20.32" x2="22.86" y2="63.5" width="0.1524" layer="91"/>
+<junction x="22.86" y="63.5"/>
 </segment>
 </net>
 <net name="D3" class="0">
 <segment>
 <pinref part="DAUMENRECHTS" gate="1" pin="8"/>
-<wire x1="5.08" y1="-5.08" x2="5.08" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="TXD1,INT3,PD3"/>
+<pinref part="TASTENLINKS" gate="-2" pin="S"/>
+<wire x1="15.24" y1="60.96" x2="17.78" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="60.96" x2="40.64" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="60.96" x2="17.78" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="-7.62" x2="7.62" y2="-7.62" width="0.1524" layer="91"/>
+<junction x="17.78" y="60.96"/>
 </segment>
 </net>
 <net name="D4" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="ICP1,PD4"/>
-<wire x1="38.1" y1="58.42" x2="40.64" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="TASTENLINKS" gate="-3" pin="S"/>
-<junction x="40.64" y="58.42"/>
-</segment>
-<segment>
 <pinref part="DAUMENRECHTS" gate="1" pin="1"/>
-<wire x1="22.86" y1="-5.08" x2="22.86" y2="-15.24" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="ICP1,PD4"/>
+<wire x1="40.64" y1="58.42" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="-20.32" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="TASTENLINKS" gate="-3" pin="S"/>
+<wire x1="15.24" y1="58.42" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
+<junction x="25.4" y="58.42"/>
 </segment>
 </net>
 <net name="D5" class="0">
 <segment>
 <pinref part="DAUMENRECHTS" gate="1" pin="3"/>
-<wire x1="17.78" y1="-5.08" x2="17.78" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="-20.32" x2="20.32" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="XCK1,PD5"/>
+<wire x1="20.32" y1="55.88" x2="40.64" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D6" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="LED,T1,PD6"/>
-<wire x1="38.1" y1="53.34" x2="40.64" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="TASTENRECHTS" gate="-1" pin="S"/>
-<junction x="40.64" y="53.34"/>
-</segment>
-<segment>
 <pinref part="DAUMENLINKS" gate="1" pin="3"/>
-<wire x1="142.24" y1="-5.08" x2="142.24" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="-17.78" x2="104.14" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="53.34" x2="27.94" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="TASTENRECHTS" gate="-1" pin="S"/>
+<pinref part="U$1" gate="G$1" pin="LED,T1,PD6"/>
+<wire x1="27.94" y1="53.34" x2="15.24" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="-17.78" x2="27.94" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="-17.78" x2="27.94" y2="53.34" width="0.1524" layer="91"/>
+<junction x="27.94" y="53.34"/>
 </segment>
 </net>
 <net name="D7" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="T0,PD7"/>
-<wire x1="38.1" y1="50.8" x2="40.64" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="TASTENRECHTS" gate="-3" pin="S"/>
-<junction x="40.64" y="50.8"/>
-</segment>
-<segment>
 <pinref part="DAUMENLINKS" gate="1" pin="4"/>
-<wire x1="144.78" y1="-5.08" x2="144.78" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="-20.32" x2="106.68" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="50.8" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="TASTENRECHTS" gate="-3" pin="S"/>
+<pinref part="U$1" gate="G$1" pin="T0,PD7"/>
+<wire x1="30.48" y1="50.8" x2="15.24" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="-15.24" x2="30.48" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="-15.24" x2="30.48" y2="50.8" width="0.1524" layer="91"/>
+<junction x="30.48" y="50.8"/>
 </segment>
 </net>
 <net name="B0" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SS,PB0"/>
-<wire x1="93.98" y1="55.88" x2="228.6" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="TASTENLINKS" gate="-1" pin="S"/>
-<junction x="228.6" y="55.88"/>
+<junction x="121.92" y="48.26"/>
 <pinref part="TOPLINKS" gate="-1" pin="S"/>
-<wire x1="228.6" y1="58.42" x2="228.6" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="53.34" x2="228.6" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="55.88" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="50.8" x2="121.92" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="45.72" x2="121.92" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="TASTENRECHTS" gate="-10" pin="S"/>
+<pinref part="U$1" gate="G$1" pin="SS,PB0"/>
+<wire x1="91.44" y1="55.88" x2="119.38" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="55.88" x2="119.38" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="50.8" x2="121.92" y2="50.8" width="0.1524" layer="91"/>
+<junction x="121.92" y="50.8"/>
 </segment>
 </net>
 <net name="B1" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="SCLK,PB1"/>
 <pinref part="TASTENLINKS" gate="-9" pin="S"/>
-<wire x1="96.52" y1="58.42" x2="203.2" y2="58.42" width="0.1524" layer="91"/>
-<junction x="203.2" y="58.42"/>
 <pinref part="TOPLINKS" gate="-8" pin="S"/>
-<wire x1="203.2" y1="63.5" x2="203.2" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="60.96" x2="203.2" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="58.42" x2="91.44" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="58.42" x2="121.92" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="55.88" x2="121.92" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="TASTENRECHTS" gate="-9" pin="S"/>
-<junction x="203.2" y="60.96"/>
+<junction x="121.92" y="55.88"/>
+<pinref part="U$1" gate="G$1" pin="SCLK,PB1"/>
+<wire x1="121.92" y1="58.42" x2="91.44" y2="58.42" width="0.1524" layer="91"/>
+<junction x="121.92" y="58.42"/>
 </segment>
 </net>
 <net name="B2" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="MOSI,PB2"/>
-<wire x1="93.98" y1="60.96" x2="177.8" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="TASTENLINKS" gate="-11" pin="S"/>
-<junction x="177.8" y="60.96"/>
-<wire x1="116.84" y1="60.96" x2="177.8" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="TOPLINKS" gate="-5" pin="S"/>
-<wire x1="177.8" y1="66.04" x2="177.8" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="63.5" x2="177.8" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="60.96" x2="91.44" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="60.96" x2="149.86" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="58.42" x2="149.86" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="TASTENRECHTS" gate="-8" pin="S"/>
-<junction x="177.8" y="63.5"/>
+<junction x="149.86" y="58.42"/>
+<pinref part="U$1" gate="G$1" pin="MOSI,PB2"/>
+<wire x1="91.44" y1="60.96" x2="149.86" y2="60.96" width="0.1524" layer="91"/>
+<junction x="149.86" y="60.96"/>
 </segment>
 </net>
 <net name="B4" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OC2A,PB4"/>
-<wire x1="93.98" y1="66.04" x2="121.92" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="TASTENLINKS" gate="-13" pin="S"/>
-<junction x="121.92" y="66.04"/>
 <pinref part="TASTENRECHTS" gate="-4" pin="S"/>
 <wire x1="121.92" y1="68.58" x2="121.92" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="66.04" x2="91.44" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="TOPRECHTS" gate="-5" pin="S"/>
 <wire x1="121.92" y1="68.58" x2="121.92" y2="71.12" width="0.1524" layer="91"/>
 <junction x="121.92" y="68.58"/>
+<pinref part="U$1" gate="G$1" pin="OC2A,PB4"/>
+<wire x1="121.92" y1="66.04" x2="91.44" y2="66.04" width="0.1524" layer="91"/>
+<junction x="121.92" y="66.04"/>
 </segment>
 </net>
 <net name="B5" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OC1A,PB5"/>
-<wire x1="93.98" y1="68.58" x2="96.52" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="TOPRECHTS" gate="-10" pin="S"/>
-<junction x="96.52" y="68.58"/>
-<pinref part="TOPRECHTS" gate="-11" pin="S"/>
-<wire x1="96.52" y1="71.12" x2="96.52" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="68.58" x2="91.44" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="DAUMENRECHTS" gate="1" pin="5"/>
-<wire x1="12.7" y1="-7.62" x2="12.7" y2="-15.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
+<wire x1="15.24" y1="-10.16" x2="15.24" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="DAUMENLINKS" gate="1" pin="8"/>
-<wire x1="154.94" y1="-5.08" x2="154.94" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="OC1A,PB5"/>
+<pinref part="TOPRECHTS" gate="-10" pin="S"/>
+<junction x="121.92" y="73.66"/>
+<pinref part="TOPRECHTS" gate="-11" pin="S"/>
+<wire x1="121.92" y1="76.2" x2="121.92" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="73.66" x2="119.38" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="73.66" x2="119.38" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="68.58" x2="116.84" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="68.58" x2="91.44" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="-20.32" x2="116.84" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="116.84" y="68.58"/>
+<wire x1="116.84" y1="-10.16" x2="116.84" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="-10.16" x2="116.84" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="116.84" y="-10.16"/>
 </segment>
 </net>
 <net name="B6" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OC1B,PB6"/>
-<wire x1="93.98" y1="71.12" x2="91.44" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="DAUMENRECHTS" gate="1" pin="4"/>
-<wire x1="15.24" y1="-7.62" x2="15.24" y2="-15.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="DAUMENLINKS" gate="1" pin="7"/>
-<wire x1="152.4" y1="-5.08" x2="152.4" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="-20.32" x2="114.3" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="OC1B,PB6"/>
+<wire x1="114.3" y1="-12.7" x2="114.3" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="71.12" x2="91.44" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="-12.7" x2="17.78" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="-12.7" x2="17.78" y2="-20.32" width="0.1524" layer="91"/>
+<junction x="114.3" y="-12.7"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<wire x1="149.86" y1="63.5" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="TOPRECHTS" gate="-8" pin="S"/>
 <wire x1="149.86" y1="68.58" x2="149.86" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="TASTENLINKS" gate="-10" pin="S"/>
-<junction x="149.86" y="63.5"/>
 <pinref part="TASTENRECHTS" gate="-7" pin="S"/>
 <wire x1="149.86" y1="66.04" x2="149.86" y2="63.5" width="0.1524" layer="91"/>
 <junction x="149.86" y="66.04"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<wire x1="116.84" y1="58.42" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<wire x1="116.84" y1="55.88" x2="88.9" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="TXD1,INT3,PD3"/>
-<pinref part="TASTENLINKS" gate="-2" pin="S"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="RXD1,INT2,PD2"/>
-<pinref part="TASTENLINKS" gate="-4" pin="S"/>
+<pinref part="U$1" gate="G$1" pin="MISO,PB3"/>
+<wire x1="149.86" y1="63.5" x2="91.44" y2="63.5" width="0.1524" layer="91"/>
+<junction x="149.86" y="63.5"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="SCL,OCB0,INT0,PD0"/>
 <pinref part="TASTENLINKS" gate="-6" pin="S"/>
+<wire x1="15.24" y1="68.58" x2="40.64" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="TASTENLINKS" gate="-7" pin="S"/>
+<pinref part="U$1" gate="G$1" pin="SDA,OC2B,INT1,PD1"/>
+<wire x1="15.24" y1="66.04" x2="40.64" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND@1"/>
+<pinref part="SV1" gate="G$1" pin="1"/>
+<wire x1="91.44" y1="48.26" x2="101.6" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="101,1,58.42,93.98,TASTENRECHTS-5,S,,,,"/>
+<approved hash="101,1,86.36,93.98,TASTENRECHTS-11,S,,,,"/>
+<approved hash="101,1,2.54,134.62,TOPRECHTS-2,S,,,,"/>
+<approved hash="101,1,2.54,137.16,TOPRECHTS-1,S,,,,"/>
+<approved hash="101,1,27.94,106.68,TOPLINKS-9,S,,,,"/>
+<approved hash="101,1,27.94,111.76,TOPLINKS-12,S,,,,"/>
+<approved hash="101,1,27.94,116.84,TOPLINKS-13,S,,,,"/>
+<approved hash="101,1,91.44,99.06,TASTENLINKS-5,S,,,,"/>
+<approved hash="101,1,60.96,83.82,TASTENLINKS-8,S,,,,"/>
+<approved hash="101,1,58.42,88.9,TASTENLINKS-12,S,,,,"/>
+<approved hash="204,1,40.64,73.66,U$1,GND,,,,"/>
+<approved hash="204,1,91.44,73.66,U$1,VCC,,,,"/>
+<approved hash="202,1,91.44,45.72,U$1,AREF,,,,"/>
+<approved hash="115,1,12.5053,-19.387,DAUMENRECHTS,,,,,"/>
+<approved hash="115,1,111.955,-20.4785,DAUMENLINKS,,,,,"/>
+<approved hash="115,1,104.182,44.2553,SV1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>

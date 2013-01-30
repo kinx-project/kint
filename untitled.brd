@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
+<grid distance="1.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -522,7 +522,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="13.27" y="2.781" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="16.51" y="10.541" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="U$1" library="teensypp" package="TEENSY++" value="C-TEENSY++" x="48.26" y="44.45" rot="R90"/>
+<element name="U$1" library="teensypp" package="TEENSY++" value="C-TEENSY++" x="51.25" y="47.5" rot="R90"/>
 <element name="SV1" library="con-lstb" package="MA03-1" value="" x="87.63" y="21.59" smashed="yes">
 <attribute name="OC_NEWARK" value="unknown" x="87.63" y="21.59" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="87.63" y="21.59" size="1.778" layer="27" display="off"/>
@@ -551,6 +551,10 @@ design rules under a new name.</description>
 <signals>
 <signal name="GND">
 <contactref element="U$1" pad="GRND1"/>
+<contactref element="U$1" pad="GND"/>
+<contactref element="SV1" pad="1"/>
+<wire x1="58.87" y1="23.37" x2="85.09" y2="21.59" width="0" layer="19" extent="1-1"/>
+<wire x1="43.63" y1="48.77" x2="58.87" y2="23.37" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC">
 <contactref element="U$1" pad="+5V"/>
@@ -559,322 +563,142 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$13">
 </signal>
-<signal name="N$14">
-<contactref element="SV1" pad="1"/>
-<contactref element="U$1" pad="GND"/>
-<wire x1="57" y1="21" x2="56.25" y2="20.25" width="0.254" layer="16"/>
-<wire x1="84.75" y1="21" x2="57" y2="21" width="0.254" layer="16"/>
-<wire x1="56.25" y1="20.25" x2="55.88" y2="20.32" width="0.254" layer="16"/>
-<wire x1="84.75" y1="21" x2="85.09" y2="21.59" width="0.254" layer="16"/>
-</signal>
 <signal name="C0">
-<contactref element="U$1" pad="C0"/>
 <contactref element="DAUMENLINKS" pad="5"/>
 <contactref element="TASTENRECHTS" pad="P$2"/>
-<wire x1="15" y1="34.5" x2="12" y2="31.5" width="0.254" layer="1"/>
-<wire x1="15" y1="42" x2="15" y2="34.5" width="0.254" layer="1"/>
-<wire x1="16.5" y1="43.5" x2="15" y2="42" width="0.254" layer="1"/>
-<wire x1="18.75" y1="43.5" x2="16.5" y2="43.5" width="0.254" layer="1"/>
-<wire x1="18.75" y1="8.25" x2="18.75" y2="43.5" width="0.254" layer="1"/>
-<wire x1="12" y1="31.5" x2="11.65" y2="31.25" width="0.254" layer="1"/>
-<wire x1="18.75" y1="8.25" x2="19.05" y2="7.62" width="0.254" layer="1"/>
-<wire x1="54.75" y1="49.5" x2="55.5" y2="50.25" width="0.254" layer="16"/>
-<wire x1="24.75" y1="49.5" x2="54.75" y2="49.5" width="0.254" layer="16"/>
-<wire x1="18.75" y1="43.5" x2="24.75" y2="49.5" width="0.254" layer="1"/>
-<wire x1="55.5" y1="50.25" x2="55.88" y2="50.8" width="0.254" layer="16"/>
-<via x="24.75" y="49.5" extent="1-16" drill="0.6096"/>
+<contactref element="U$1" pad="C0"/>
+<wire x1="11.65" y1="31.25" x2="58.87" y2="53.85" width="0" layer="19" extent="1-1"/>
+<wire x1="19.05" y1="7.62" x2="11.65" y2="31.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C1">
 <contactref element="U$1" pad="C1"/>
 <contactref element="DAUMENLINKS" pad="6"/>
 <contactref element="TASTENRECHTS" pad="P$12"/>
-<wire x1="9.75" y1="43.5" x2="11.25" y2="43.5" width="0.254" layer="16"/>
-<wire x1="9" y1="44.25" x2="9.75" y2="43.5" width="0.254" layer="16"/>
-<wire x1="9" y1="54.75" x2="9" y2="44.25" width="0.254" layer="16"/>
-<wire x1="54.75" y1="54.75" x2="9" y2="54.75" width="0.254" layer="16"/>
-<wire x1="55.5" y1="54" x2="54.75" y2="54.75" width="0.254" layer="16"/>
-<wire x1="11.25" y1="43.5" x2="11.65" y2="43.75" width="0.254" layer="16"/>
-<wire x1="55.5" y1="54" x2="55.88" y2="53.34" width="0.254" layer="16"/>
-<wire x1="16.5" y1="42" x2="16.5" y2="8.25" width="0.254" layer="1"/>
-<wire x1="15" y1="43.5" x2="16.5" y2="42" width="0.254" layer="16"/>
-<wire x1="12" y1="43.5" x2="15" y2="43.5" width="0.254" layer="16"/>
-<wire x1="16.5" y1="8.25" x2="16.51" y2="7.62" width="0.254" layer="1"/>
-<wire x1="12" y1="43.5" x2="11.65" y2="43.75" width="0.254" layer="16"/>
-<via x="16.5" y="42" extent="1-16" drill="0.6096"/>
+<wire x1="11.65" y1="43.75" x2="58.87" y2="56.39" width="0" layer="19" extent="1-1"/>
+<wire x1="16.51" y1="7.62" x2="11.65" y2="43.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C3">
-<contactref element="U$1" pad="C3"/>
 <contactref element="TASTENRECHTS" pad="P$6"/>
-<wire x1="12.75" y1="37.5" x2="12" y2="36.75" width="0.254" layer="1"/>
-<wire x1="12.75" y1="55.5" x2="12.75" y2="37.5" width="0.254" layer="1"/>
-<wire x1="12" y1="56.25" x2="12.75" y2="55.5" width="0.254" layer="1"/>
-<wire x1="12.75" y1="57" x2="12" y2="56.25" width="0.254" layer="16"/>
-<wire x1="54" y1="57" x2="12.75" y2="57" width="0.254" layer="16"/>
-<wire x1="55.5" y1="58.5" x2="54" y2="57" width="0.254" layer="16"/>
-<wire x1="12" y1="36.75" x2="11.65" y2="36.25" width="0.254" layer="1"/>
-<wire x1="55.5" y1="58.5" x2="55.88" y2="58.42" width="0.254" layer="16"/>
-<via x="12" y="56.25" extent="1-16" drill="0.6096"/>
+<contactref element="U$1" pad="C3"/>
+<wire x1="11.65" y1="36.25" x2="58.87" y2="61.47" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C6">
-<contactref element="U$1" pad="C6"/>
 <contactref element="TOPRECHTS" pad="P$4"/>
 <contactref element="TOPRECHTS" pad="P$7"/>
 <contactref element="TOPRECHTS" pad="P$12"/>
 <contactref element="TOPLINKS" pad="P$4"/>
 <contactref element="TOPLINKS" pad="P$7"/>
 <contactref element="TOPLINKS" pad="P$11"/>
-<wire x1="9.75" y1="67.5" x2="9.75" y2="68.25" width="0.254" layer="16"/>
-<wire x1="9" y1="66.75" x2="9.75" y2="67.5" width="0.254" layer="16"/>
-<wire x1="9" y1="65.25" x2="9" y2="66.75" width="0.254" layer="16"/>
-<wire x1="11.25" y1="65.25" x2="9" y2="65.25" width="0.254" layer="16"/>
-<wire x1="9.75" y1="68.25" x2="10" y2="68.75" width="0.254" layer="16"/>
-<wire x1="11.25" y1="65.25" x2="11.65" y2="65" width="0.254" layer="16"/>
-<wire x1="13.5" y1="73.5" x2="12" y2="75" width="0.254" layer="16"/>
-<wire x1="13.5" y1="69" x2="13.5" y2="73.5" width="0.254" layer="16"/>
-<wire x1="10.5" y1="69" x2="13.5" y2="69" width="0.254" layer="16"/>
-<wire x1="12" y1="75" x2="11.65" y2="75" width="0.254" layer="16"/>
-<wire x1="10.5" y1="69" x2="10" y2="68.75" width="0.254" layer="16"/>
-<wire x1="90" y1="64.5" x2="89.25" y2="63.75" width="0.254" layer="1"/>
-<wire x1="90" y1="66.75" x2="90" y2="64.5" width="0.254" layer="1"/>
-<wire x1="88.5" y1="68.25" x2="90" y2="66.75" width="0.254" layer="1"/>
-<wire x1="89.25" y1="63.75" x2="88.75" y2="63.75" width="0.254" layer="1"/>
-<wire x1="88.5" y1="68.25" x2="88.75" y2="68.75" width="0.254" layer="1"/>
-<wire x1="90" y1="72.75" x2="87.75" y2="72.75" width="0.254" layer="1"/>
-<wire x1="90" y1="66.75" x2="90" y2="72.75" width="0.254" layer="1"/>
-<wire x1="87.75" y1="72.75" x2="87.1" y2="72.5" width="0.254" layer="1"/>
-<wire x1="58.5" y1="63.75" x2="56.25" y2="66" width="0.254" layer="16"/>
-<wire x1="88.75" y1="63.75" x2="58.5" y2="63.75" width="0.254" layer="16"/>
-<wire x1="56.25" y1="66" x2="55.88" y2="66.04" width="0.254" layer="16"/>
-<wire x1="15" y1="67.5" x2="13.5" y2="69" width="0.254" layer="16"/>
-<wire x1="54" y1="67.5" x2="15" y2="67.5" width="0.254" layer="16"/>
-<wire x1="55.5" y1="66" x2="54" y2="67.5" width="0.254" layer="16"/>
-<wire x1="55.5" y1="66" x2="55.88" y2="66.04" width="0.254" layer="16"/>
-</signal>
-<signal name="C7">
-<contactref element="U$1" pad="C7"/>
+<contactref element="U$1" pad="C6"/>
+<wire x1="88.75" y1="68.75" x2="87.1" y2="72.5" width="0" layer="19" extent="1-1"/>
+<wire x1="88.75" y1="63.75" x2="88.75" y2="68.75" width="0" layer="19" extent="1-1"/>
+<wire x1="58.87" y1="69.09" x2="87.1" y2="72.5" width="0" layer="19" extent="1-1"/>
+<wire x1="11.65" y1="65" x2="58.87" y2="69.09" width="0" layer="19" extent="1-1"/>
+<wire x1="10" y1="68.75" x2="11.65" y2="65" width="0" layer="19" extent="1-1"/>
+<wire x1="11.65" y1="75" x2="10" y2="68.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C2">
-<contactref element="U$1" pad="C2"/>
 <contactref element="TASTENRECHTS" pad="P$13"/>
-<wire x1="12.75" y1="47.25" x2="10.5" y2="45" width="0.254" layer="16"/>
-<wire x1="57" y1="47.25" x2="12.75" y2="47.25" width="0.254" layer="16"/>
-<wire x1="57.75" y1="48" x2="57" y2="47.25" width="0.254" layer="16"/>
-<wire x1="57.75" y1="55.5" x2="57.75" y2="48" width="0.254" layer="16"/>
-<wire x1="56.25" y1="55.5" x2="57.75" y2="55.5" width="0.254" layer="16"/>
-<wire x1="10.5" y1="45" x2="10" y2="45" width="0.254" layer="16"/>
-<wire x1="56.25" y1="55.5" x2="55.88" y2="55.88" width="0.254" layer="16"/>
+<contactref element="U$1" pad="C2"/>
+<wire x1="10" y1="45" x2="58.87" y2="58.93" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C5">
-<contactref element="U$1" pad="C5"/>
-<contactref element="TOPRECHTS" pad="P$3"/>
 <contactref element="TOPRECHTS" pad="P$6"/>
 <contactref element="TOPRECHTS" pad="P$13"/>
 <contactref element="TOPLINKS" pad="P$3"/>
 <contactref element="TOPLINKS" pad="P$6"/>
 <contactref element="TOPLINKS" pad="P$10"/>
-<wire x1="85.5" y1="66.75" x2="87" y2="65.25" width="0.254" layer="16"/>
-<wire x1="85.5" y1="69.75" x2="85.5" y2="66.75" width="0.254" layer="16"/>
-<wire x1="87" y1="69.75" x2="85.5" y2="69.75" width="0.254" layer="16"/>
-<wire x1="87" y1="65.25" x2="87.1" y2="65" width="0.254" layer="16"/>
-<wire x1="87" y1="69.75" x2="87.1" y2="70" width="0.254" layer="16"/>
-<wire x1="90.75" y1="72" x2="89.25" y2="73.5" width="0.254" layer="16"/>
-<wire x1="90.75" y1="69.75" x2="90.75" y2="72" width="0.254" layer="16"/>
-<wire x1="87.75" y1="69.75" x2="90.75" y2="69.75" width="0.254" layer="16"/>
-<wire x1="89.25" y1="73.5" x2="88.75" y2="73.75" width="0.254" layer="16"/>
-<wire x1="87.75" y1="69.75" x2="87.1" y2="70" width="0.254" layer="16"/>
-<wire x1="10.5" y1="65.25" x2="10.5" y2="63.75" width="0.254" layer="1"/>
-<wire x1="11.25" y1="66" x2="10.5" y2="65.25" width="0.254" layer="1"/>
-<wire x1="11.25" y1="67.5" x2="11.25" y2="66" width="0.254" layer="1"/>
-<wire x1="10.5" y1="63.75" x2="10" y2="63.75" width="0.254" layer="1"/>
-<wire x1="11.25" y1="67.5" x2="11.65" y2="67.5" width="0.254" layer="1"/>
-<wire x1="8.25" y1="74.25" x2="9.75" y2="75.75" width="0.254" layer="1"/>
-<wire x1="8.25" y1="65.25" x2="8.25" y2="74.25" width="0.254" layer="1"/>
-<wire x1="9.75" y1="63.75" x2="8.25" y2="65.25" width="0.254" layer="1"/>
-<wire x1="9.75" y1="75.75" x2="10" y2="76.25" width="0.254" layer="1"/>
-<wire x1="9.75" y1="63.75" x2="10" y2="63.75" width="0.254" layer="1"/>
-<wire x1="54.75" y1="64.5" x2="55.5" y2="63.75" width="0.254" layer="16"/>
-<wire x1="15" y1="64.5" x2="54.75" y2="64.5" width="0.254" layer="16"/>
-<wire x1="12" y1="67.5" x2="15" y2="64.5" width="0.254" layer="16"/>
-<wire x1="55.5" y1="63.75" x2="55.88" y2="63.5" width="0.254" layer="16"/>
-<wire x1="12" y1="67.5" x2="11.65" y2="67.5" width="0.254" layer="16"/>
-<wire x1="57.75" y1="73.5" x2="88.5" y2="73.5" width="0.254" layer="1"/>
-<wire x1="57.75" y1="65.25" x2="57.75" y2="73.5" width="0.254" layer="1"/>
-<wire x1="56.25" y1="63.75" x2="57.75" y2="65.25" width="0.254" layer="1"/>
-<wire x1="88.5" y1="73.5" x2="88.75" y2="73.75" width="0.254" layer="1"/>
-<wire x1="56.25" y1="63.75" x2="55.88" y2="63.5" width="0.254" layer="1"/>
+<contactref element="U$1" pad="C5"/>
+<contactref element="TOPRECHTS" pad="P$3"/>
+<wire x1="87.1" y1="70" x2="88.75" y2="73.75" width="0" layer="19" extent="1-1"/>
+<wire x1="87.1" y1="65" x2="87.1" y2="70" width="0" layer="19" extent="1-1"/>
+<wire x1="58.87" y1="66.55" x2="87.1" y2="65" width="0" layer="19" extent="1-1"/>
+<wire x1="11.65" y1="67.5" x2="58.87" y2="66.55" width="0" layer="19" extent="1-1"/>
+<wire x1="10" y1="63.75" x2="11.65" y2="67.5" width="0" layer="19" extent="1-1"/>
+<wire x1="10" y1="76.25" x2="11.65" y2="67.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="C4">
-<contactref element="U$1" pad="C4"/>
 <contactref element="TOPRECHTS" pad="P$9"/>
 <contactref element="TOPLINKS" pad="P$2"/>
-<wire x1="10.5" y1="72.75" x2="10.5" y2="71.25" width="0.254" layer="1"/>
-<wire x1="11.25" y1="73.5" x2="10.5" y2="72.75" width="0.254" layer="1"/>
-<wire x1="54" y1="73.5" x2="11.25" y2="73.5" width="0.254" layer="1"/>
-<wire x1="54" y1="63" x2="54" y2="73.5" width="0.254" layer="1"/>
-<wire x1="55.5" y1="61.5" x2="54" y2="63" width="0.254" layer="1"/>
-<wire x1="10.5" y1="71.25" x2="10" y2="71.25" width="0.254" layer="1"/>
-<wire x1="55.5" y1="61.5" x2="55.88" y2="60.96" width="0.254" layer="1"/>
-<wire x1="54" y1="75" x2="87.1" y2="75" width="0.254" layer="1"/>
-<wire x1="54" y1="73.5" x2="54" y2="75" width="0.254" layer="1"/>
-</signal>
-<signal name="D1">
-<contactref element="U$1" pad="D1"/>
-<contactref element="TASTENLINKS" pad="P$7"/>
-<wire x1="64.5" y1="36" x2="88.5" y2="36" width="0.254" layer="16"/>
-<wire x1="57" y1="28.5" x2="64.5" y2="36" width="0.254" layer="16"/>
-<wire x1="56.25" y1="28.5" x2="57" y2="28.5" width="0.254" layer="16"/>
-<wire x1="88.5" y1="36" x2="88.75" y2="36.25" width="0.254" layer="16"/>
-<wire x1="56.25" y1="28.5" x2="55.88" y2="27.94" width="0.254" layer="16"/>
+<contactref element="U$1" pad="C4"/>
+<wire x1="58.87" y1="64.01" x2="87.1" y2="75" width="0" layer="19" extent="1-1"/>
+<wire x1="10" y1="71.25" x2="58.87" y2="64.01" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D2">
 <contactref element="DAUMENRECHTS" pad="2"/>
+<contactref element="U$1" pad="D2"/>
+<contactref element="TASTENLINKS" pad="P$4"/>
+<wire x1="58.87" y1="33.53" x2="87.1" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="72.39" y1="7.62" x2="58.87" y2="33.53" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D3">
 <contactref element="DAUMENRECHTS" pad="8"/>
+<contactref element="U$1" pad="D3"/>
+<contactref element="TASTENLINKS" pad="P$2"/>
+<wire x1="58.87" y1="36.07" x2="87.1" y2="42.5" width="0" layer="19" extent="1-1"/>
+<wire x1="87.63" y1="7.62" x2="87.1" y2="42.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D4">
 <contactref element="U$1" pad="D4"/>
 <contactref element="DAUMENRECHTS" pad="1"/>
 <contactref element="TASTENLINKS" pad="P$3"/>
-<wire x1="62.25" y1="41.25" x2="88.75" y2="41.25" width="0.254" layer="16"/>
-<wire x1="57" y1="36" x2="62.25" y2="41.25" width="0.254" layer="16"/>
-<wire x1="56.25" y1="36" x2="57" y2="36" width="0.254" layer="16"/>
-<wire x1="56.25" y1="36" x2="55.88" y2="35.56" width="0.254" layer="16"/>
-<wire x1="57.75" y1="20.25" x2="69.75" y2="8.25" width="0.254" layer="1"/>
-<wire x1="57.75" y1="33.75" x2="57.75" y2="20.25" width="0.254" layer="1"/>
-<wire x1="56.25" y1="35.25" x2="57.75" y2="33.75" width="0.254" layer="1"/>
-<wire x1="69.75" y1="8.25" x2="69.85" y2="7.62" width="0.254" layer="1"/>
-<wire x1="56.25" y1="35.25" x2="55.88" y2="35.56" width="0.254" layer="1"/>
+<wire x1="58.87" y1="38.61" x2="88.75" y2="41.25" width="0" layer="19" extent="1-1"/>
+<wire x1="69.85" y1="7.62" x2="58.87" y2="38.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D5">
 <contactref element="DAUMENRECHTS" pad="3"/>
+<contactref element="U$1" pad="D5"/>
+<wire x1="74.93" y1="7.62" x2="58.87" y2="41.15" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D6">
-<contactref element="U$1" pad="D6"/>
 <contactref element="DAUMENLINKS" pad="3"/>
 <contactref element="TASTENRECHTS" pad="P$1"/>
-<wire x1="12.75" y1="27.75" x2="10.5" y2="30" width="0.254" layer="1"/>
-<wire x1="12.75" y1="6" x2="12.75" y2="27.75" width="0.254" layer="1"/>
-<wire x1="13.5" y1="5.25" x2="12.75" y2="6" width="0.254" layer="1"/>
-<wire x1="24" y1="5.25" x2="13.5" y2="5.25" width="0.254" layer="1"/>
-<wire x1="24" y1="7.5" x2="24" y2="5.25" width="0.254" layer="1"/>
-<wire x1="10.5" y1="30" x2="10" y2="30" width="0.254" layer="1"/>
-<wire x1="24" y1="7.5" x2="24.13" y2="7.62" width="0.254" layer="1"/>
-<wire x1="46.5" y1="31.5" x2="55.5" y2="40.5" width="0.254" layer="16"/>
-<wire x1="13.5" y1="31.5" x2="46.5" y2="31.5" width="0.254" layer="16"/>
-<wire x1="12" y1="30" x2="13.5" y2="31.5" width="0.254" layer="16"/>
-<wire x1="10" y1="30" x2="12" y2="30" width="0.254" layer="16"/>
-<wire x1="55.5" y1="40.5" x2="55.88" y2="40.64" width="0.254" layer="16"/>
+<contactref element="U$1" pad="D6"/>
+<wire x1="24.13" y1="7.62" x2="58.87" y2="43.69" width="0" layer="19" extent="1-1"/>
+<wire x1="10" y1="30" x2="24.13" y2="7.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D7">
-<contactref element="U$1" pad="D7"/>
 <contactref element="DAUMENLINKS" pad="4"/>
 <contactref element="TASTENRECHTS" pad="P$3"/>
-<wire x1="7.5" y1="30" x2="10" y2="32.5" width="0.254" layer="16"/>
-<wire x1="7.5" y1="5.25" x2="7.5" y2="30" width="0.254" layer="16"/>
-<wire x1="19.5" y1="5.25" x2="7.5" y2="5.25" width="0.254" layer="16"/>
-<wire x1="21.75" y1="7.5" x2="19.5" y2="5.25" width="0.254" layer="16"/>
-<wire x1="21.75" y1="7.5" x2="21.59" y2="7.62" width="0.254" layer="16"/>
-<wire x1="54.75" y1="44.25" x2="55.5" y2="43.5" width="0.254" layer="16"/>
-<wire x1="36.75" y1="44.25" x2="54.75" y2="44.25" width="0.254" layer="16"/>
-<wire x1="21.75" y1="29.25" x2="36.75" y2="44.25" width="0.254" layer="1"/>
-<wire x1="21.75" y1="8.25" x2="21.75" y2="29.25" width="0.254" layer="1"/>
-<wire x1="55.5" y1="43.5" x2="55.88" y2="43.18" width="0.254" layer="16"/>
-<wire x1="21.75" y1="8.25" x2="21.59" y2="7.62" width="0.254" layer="1"/>
-<via x="36.75" y="44.25" extent="1-16" drill="0.6096"/>
+<contactref element="U$1" pad="D7"/>
+<wire x1="10" y1="32.5" x2="58.87" y2="46.23" width="0" layer="19" extent="1-1"/>
+<wire x1="21.59" y1="7.62" x2="10" y2="32.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B0">
-<contactref element="U$1" pad="B0"/>
 <contactref element="TASTENLINKS" pad="P$1"/>
 <contactref element="TOPLINKS" pad="P$1"/>
 <contactref element="TASTENRECHTS" pad="P$10"/>
-<wire x1="12.75" y1="40.5" x2="12" y2="41.25" width="0.254" layer="16"/>
-<wire x1="38.25" y1="40.5" x2="12.75" y2="40.5" width="0.254" layer="16"/>
-<wire x1="40.5" y1="38.25" x2="38.25" y2="40.5" width="0.254" layer="16"/>
-<wire x1="12" y1="41.25" x2="11.65" y2="41.25" width="0.254" layer="16"/>
-<wire x1="40.5" y1="38.25" x2="40.64" y2="38.1" width="0.254" layer="16"/>
-<wire x1="90.75" y1="46.5" x2="88.5" y2="44.25" width="0.254" layer="1"/>
-<wire x1="90.75" y1="73.5" x2="90.75" y2="46.5" width="0.254" layer="1"/>
-<wire x1="88.5" y1="75.75" x2="90.75" y2="73.5" width="0.254" layer="1"/>
-<wire x1="88.5" y1="44.25" x2="88.75" y2="43.75" width="0.254" layer="1"/>
-<wire x1="88.5" y1="75.75" x2="88.75" y2="76.25" width="0.254" layer="1"/>
-<wire x1="45" y1="42" x2="41.25" y2="38.25" width="0.254" layer="16"/>
-<wire x1="61.5" y1="42" x2="45" y2="42" width="0.254" layer="16"/>
-<wire x1="63" y1="43.5" x2="61.5" y2="42" width="0.254" layer="16"/>
-<wire x1="88.5" y1="43.5" x2="63" y2="43.5" width="0.254" layer="16"/>
-<wire x1="41.25" y1="38.25" x2="40.64" y2="38.1" width="0.254" layer="16"/>
-<wire x1="88.5" y1="43.5" x2="88.75" y2="43.75" width="0.254" layer="16"/>
+<contactref element="U$1" pad="B0"/>
+<wire x1="88.75" y1="43.75" x2="88.75" y2="76.25" width="0" layer="19" extent="1-1"/>
+<wire x1="43.63" y1="41.15" x2="88.75" y2="43.75" width="0" layer="19" extent="1-1"/>
+<wire x1="11.65" y1="41.25" x2="43.63" y2="41.15" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B1">
-<contactref element="U$1" pad="B1"/>
 <contactref element="TASTENLINKS" pad="P$9"/>
 <contactref element="TOPLINKS" pad="P$8"/>
 <contactref element="TASTENRECHTS" pad="P$9"/>
-<wire x1="36.75" y1="39.75" x2="10.5" y2="39.75" width="0.254" layer="16"/>
-<wire x1="40.5" y1="36" x2="36.75" y2="39.75" width="0.254" layer="16"/>
-<wire x1="10.5" y1="39.75" x2="10" y2="40" width="0.254" layer="16"/>
-<wire x1="40.5" y1="36" x2="40.64" y2="35.56" width="0.254" layer="16"/>
-<wire x1="85.5" y1="33.75" x2="88.75" y2="33.75" width="0.254" layer="1"/>
-<wire x1="85.5" y1="66" x2="85.5" y2="33.75" width="0.254" layer="1"/>
-<wire x1="87" y1="67.5" x2="85.5" y2="66" width="0.254" layer="1"/>
-<wire x1="87" y1="67.5" x2="87.1" y2="67.5" width="0.254" layer="1"/>
-<wire x1="42" y1="36.75" x2="41.25" y2="36" width="0.254" layer="16"/>
-<wire x1="50.25" y1="36.75" x2="42" y2="36.75" width="0.254" layer="16"/>
-<wire x1="84" y1="36.75" x2="50.25" y2="36.75" width="0.254" layer="1"/>
-<wire x1="84" y1="31.5" x2="84" y2="36.75" width="0.254" layer="1"/>
-<wire x1="87.75" y1="27.75" x2="84" y2="31.5" width="0.254" layer="1"/>
-<wire x1="90" y1="27.75" x2="87.75" y2="27.75" width="0.254" layer="1"/>
-<wire x1="90" y1="33" x2="90" y2="27.75" width="0.254" layer="1"/>
-<wire x1="89.25" y1="33.75" x2="90" y2="33" width="0.254" layer="1"/>
-<wire x1="41.25" y1="36" x2="40.64" y2="35.56" width="0.254" layer="16"/>
-<wire x1="89.25" y1="33.75" x2="88.75" y2="33.75" width="0.254" layer="1"/>
-<via x="50.25" y="36.75" extent="1-16" drill="0.6096"/>
+<contactref element="U$1" pad="B1"/>
+<wire x1="88.75" y1="33.75" x2="87.1" y2="67.5" width="0" layer="19" extent="1-1"/>
+<wire x1="43.63" y1="38.61" x2="88.75" y2="33.75" width="0" layer="19" extent="1-1"/>
+<wire x1="10" y1="40" x2="43.63" y2="38.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B2">
-<contactref element="U$1" pad="B2"/>
 <contactref element="TASTENLINKS" pad="P$11"/>
 <contactref element="TOPLINKS" pad="P$5"/>
 <contactref element="TASTENRECHTS" pad="P$8"/>
-<wire x1="17.25" y1="33" x2="12" y2="38.25" width="0.254" layer="16"/>
-<wire x1="40.5" y1="33" x2="17.25" y2="33" width="0.254" layer="16"/>
-<wire x1="12" y1="38.25" x2="11.65" y2="38.75" width="0.254" layer="16"/>
-<wire x1="40.5" y1="33" x2="40.64" y2="33.02" width="0.254" layer="16"/>
-<wire x1="84.75" y1="31.5" x2="88.5" y2="31.5" width="0.254" layer="1"/>
-<wire x1="84.75" y1="69.75" x2="84.75" y2="42" width="0.254" layer="1"/>
-<wire x1="84.75" y1="42" x2="84.75" y2="31.5" width="0.254" layer="1"/>
-<wire x1="86.25" y1="71.25" x2="84.75" y2="69.75" width="0.254" layer="1"/>
-<wire x1="88.75" y1="71.25" x2="86.25" y2="71.25" width="0.254" layer="1"/>
-<wire x1="88.5" y1="31.5" x2="88.75" y2="31.25" width="0.254" layer="1"/>
-<wire x1="50.25" y1="42" x2="41.25" y2="33" width="0.254" layer="1"/>
-<wire x1="84.75" y1="42" x2="50.25" y2="42" width="0.254" layer="1"/>
-<wire x1="41.25" y1="33" x2="40.64" y2="33.02" width="0.254" layer="1"/>
+<contactref element="U$1" pad="B2"/>
+<wire x1="88.75" y1="31.25" x2="88.75" y2="71.25" width="0" layer="19" extent="1-1"/>
+<wire x1="43.63" y1="36.07" x2="88.75" y2="31.25" width="0" layer="19" extent="1-1"/>
+<wire x1="11.65" y1="38.75" x2="43.63" y2="36.07" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B4">
-<contactref element="U$1" pad="B4"/>
 <contactref element="TASTENLINKS" pad="P$13"/>
 <contactref element="TASTENRECHTS" pad="P$4"/>
 <contactref element="TOPRECHTS" pad="P$5"/>
-<wire x1="11.25" y1="32.25" x2="11.25" y2="33.75" width="0.254" layer="16"/>
-<wire x1="10.5" y1="31.5" x2="11.25" y2="32.25" width="0.254" layer="16"/>
-<wire x1="9.75" y1="31.5" x2="10.5" y2="31.5" width="0.254" layer="16"/>
-<wire x1="9" y1="30.75" x2="9.75" y2="31.5" width="0.254" layer="16"/>
-<wire x1="9" y1="28.5" x2="9" y2="30.75" width="0.254" layer="16"/>
-<wire x1="40.5" y1="28.5" x2="9" y2="28.5" width="0.254" layer="16"/>
-<wire x1="11.25" y1="33.75" x2="11.65" y2="33.75" width="0.254" layer="16"/>
-<wire x1="40.5" y1="28.5" x2="40.64" y2="27.94" width="0.254" layer="16"/>
-<wire x1="9" y1="67.5" x2="9.75" y2="66.75" width="0.254" layer="1"/>
-<wire x1="9" y1="69.75" x2="9" y2="67.5" width="0.254" layer="1"/>
-<wire x1="10.5" y1="69.75" x2="9" y2="69.75" width="0.254" layer="1"/>
-<wire x1="11.25" y1="69" x2="10.5" y2="69.75" width="0.254" layer="1"/>
-<wire x1="13.5" y1="69" x2="11.25" y2="69" width="0.254" layer="1"/>
-<wire x1="13.5" y1="35.25" x2="13.5" y2="69" width="0.254" layer="1"/>
-<wire x1="12" y1="33.75" x2="13.5" y2="35.25" width="0.254" layer="1"/>
-<wire x1="9.75" y1="66.75" x2="10" y2="66.25" width="0.254" layer="1"/>
-<wire x1="12" y1="33.75" x2="11.65" y2="33.75" width="0.254" layer="1"/>
-<wire x1="84" y1="24" x2="88.75" y2="28.75" width="0.254" layer="16"/>
-<wire x1="45" y1="24" x2="84" y2="24" width="0.254" layer="16"/>
-<wire x1="41.25" y1="27.75" x2="45" y2="24" width="0.254" layer="16"/>
-<wire x1="41.25" y1="27.75" x2="40.64" y2="27.94" width="0.254" layer="16"/>
+<contactref element="U$1" pad="B4"/>
+<wire x1="43.63" y1="30.99" x2="88.75" y2="28.75" width="0" layer="19" extent="1-1"/>
+<wire x1="11.65" y1="33.75" x2="43.63" y2="30.99" width="0" layer="19" extent="1-1"/>
+<wire x1="10" y1="66.25" x2="11.65" y2="33.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B5">
 <contactref element="U$1" pad="B5"/>
@@ -882,92 +706,36 @@ design rules under a new name.</description>
 <contactref element="DAUMENLINKS" pad="8"/>
 <contactref element="TOPRECHTS" pad="P$10"/>
 <contactref element="TOPRECHTS" pad="P$11"/>
-<wire x1="11.25" y1="72.75" x2="10.5" y2="73.5" width="0.254" layer="16"/>
-<wire x1="10.5" y1="73.5" x2="10" y2="73.75" width="0.254" layer="16"/>
-<wire x1="11.25" y1="72.75" x2="11.65" y2="72.5" width="0.254" layer="16"/>
-<wire x1="39.75" y1="24" x2="40.5" y2="24.75" width="0.254" layer="16"/>
-<wire x1="27.75" y1="24" x2="39.75" y2="24" width="0.254" layer="16"/>
-<wire x1="12" y1="8.25" x2="27.75" y2="24" width="0.254" layer="16"/>
-<wire x1="40.5" y1="24.75" x2="40.64" y2="25.4" width="0.254" layer="16"/>
-<wire x1="12" y1="8.25" x2="11.43" y2="7.62" width="0.254" layer="16"/>
-<wire x1="69" y1="18.75" x2="79.5" y2="8.25" width="0.254" layer="16"/>
-<wire x1="47.25" y1="18.75" x2="69" y2="18.75" width="0.254" layer="16"/>
-<wire x1="41.25" y1="24.75" x2="47.25" y2="18.75" width="0.254" layer="16"/>
-<wire x1="79.5" y1="8.25" x2="80.01" y2="7.62" width="0.254" layer="16"/>
-<wire x1="41.25" y1="24.75" x2="40.64" y2="25.4" width="0.254" layer="16"/>
-<wire x1="38.25" y1="45.75" x2="12" y2="72" width="0.254" layer="1"/>
-<wire x1="38.25" y1="27.75" x2="38.25" y2="45.75" width="0.254" layer="1"/>
-<wire x1="40.5" y1="25.5" x2="38.25" y2="27.75" width="0.254" layer="1"/>
-<wire x1="12" y1="72" x2="11.65" y2="72.5" width="0.254" layer="1"/>
-<wire x1="40.5" y1="25.5" x2="40.64" y2="25.4" width="0.254" layer="1"/>
+<wire x1="43.63" y1="28.45" x2="80.01" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="7.62" x2="43.63" y2="28.45" width="0" layer="19" extent="1-1"/>
+<wire x1="11.65" y1="72.5" x2="43.63" y2="28.45" width="0" layer="19" extent="1-1"/>
+<wire x1="10" y1="73.75" x2="11.65" y2="72.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="B6">
 <contactref element="U$1" pad="B6"/>
 <contactref element="DAUMENRECHTS" pad="4"/>
 <contactref element="DAUMENLINKS" pad="7"/>
-<wire x1="27.75" y1="9.75" x2="36" y2="18" width="0.254" layer="16"/>
-<wire x1="36" y1="18" x2="40.5" y2="22.5" width="0.254" layer="16"/>
-<wire x1="15.75" y1="9.75" x2="27.75" y2="9.75" width="0.254" layer="16"/>
-<wire x1="14.25" y1="8.25" x2="15.75" y2="9.75" width="0.254" layer="16"/>
-<wire x1="40.5" y1="22.5" x2="40.64" y2="22.86" width="0.254" layer="16"/>
-<wire x1="14.25" y1="8.25" x2="13.97" y2="7.62" width="0.254" layer="16"/>
-<wire x1="67.5" y1="18" x2="77.25" y2="8.25" width="0.254" layer="16"/>
-<wire x1="36" y1="18" x2="67.5" y2="18" width="0.254" layer="16"/>
-<wire x1="77.25" y1="8.25" x2="77.47" y2="7.62" width="0.254" layer="16"/>
-</signal>
-<signal name="N$16">
-<contactref element="U$1" pad="D3"/>
-<contactref element="TASTENLINKS" pad="P$2"/>
-<wire x1="62.25" y1="42" x2="87" y2="42" width="0.254" layer="16"/>
-<wire x1="57" y1="36.75" x2="62.25" y2="42" width="0.254" layer="16"/>
-<wire x1="54.75" y1="36.75" x2="57" y2="36.75" width="0.254" layer="16"/>
-<wire x1="54" y1="36" x2="54.75" y2="36.75" width="0.254" layer="16"/>
-<wire x1="54" y1="33" x2="54" y2="36" width="0.254" layer="16"/>
-<wire x1="55.5" y1="33" x2="54" y2="33" width="0.254" layer="16"/>
-<wire x1="87" y1="42" x2="87.1" y2="42.5" width="0.254" layer="16"/>
-<wire x1="55.5" y1="33" x2="55.88" y2="33.02" width="0.254" layer="16"/>
-</signal>
-<signal name="N$17">
-<contactref element="U$1" pad="D2"/>
-<contactref element="TASTENLINKS" pad="P$4"/>
-<wire x1="84.75" y1="37.5" x2="87" y2="39.75" width="0.254" layer="16"/>
-<wire x1="63" y1="37.5" x2="84.75" y2="37.5" width="0.254" layer="16"/>
-<wire x1="56.25" y1="30.75" x2="63" y2="37.5" width="0.254" layer="16"/>
-<wire x1="87" y1="39.75" x2="87.1" y2="40" width="0.254" layer="16"/>
-<wire x1="56.25" y1="30.75" x2="55.88" y2="30.48" width="0.254" layer="16"/>
+<wire x1="43.63" y1="25.91" x2="77.47" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="13.97" y1="7.62" x2="43.63" y2="25.91" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$18">
 <contactref element="U$1" pad="D0"/>
 <contactref element="TASTENLINKS" pad="P$6"/>
-<wire x1="86.25" y1="36.75" x2="87" y2="37.5" width="0.254" layer="16"/>
-<wire x1="64.5" y1="36.75" x2="86.25" y2="36.75" width="0.254" layer="16"/>
-<wire x1="57" y1="29.25" x2="64.5" y2="36.75" width="0.254" layer="16"/>
-<wire x1="54.75" y1="29.25" x2="57" y2="29.25" width="0.254" layer="16"/>
-<wire x1="54" y1="28.5" x2="54.75" y2="29.25" width="0.254" layer="16"/>
-<wire x1="54" y1="25.5" x2="54" y2="28.5" width="0.254" layer="16"/>
-<wire x1="55.5" y1="25.5" x2="54" y2="25.5" width="0.254" layer="16"/>
-<wire x1="87" y1="37.5" x2="87.1" y2="37.5" width="0.254" layer="16"/>
-<wire x1="55.5" y1="25.5" x2="55.88" y2="25.4" width="0.254" layer="16"/>
+<wire x1="58.87" y1="28.45" x2="87.1" y2="37.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="TOPRECHTS" pad="P$8"/>
 <contactref element="TASTENLINKS" pad="P$10"/>
 <contactref element="TASTENRECHTS" pad="P$7"/>
-<wire x1="8.25" y1="39" x2="9.75" y2="37.5" width="0.254" layer="16"/>
-<wire x1="8.25" y1="69.75" x2="8.25" y2="60" width="0.254" layer="16"/>
-<wire x1="8.25" y1="60" x2="8.25" y2="39" width="0.254" layer="16"/>
-<wire x1="11.25" y1="69.75" x2="8.25" y2="69.75" width="0.254" layer="16"/>
-<wire x1="9.75" y1="37.5" x2="10" y2="37.5" width="0.254" layer="16"/>
-<wire x1="11.25" y1="69.75" x2="11.65" y2="70" width="0.254" layer="16"/>
-<wire x1="89.25" y1="32.25" x2="87.75" y2="32.25" width="0.254" layer="16"/>
-<wire x1="90" y1="33" x2="89.25" y2="32.25" width="0.254" layer="16"/>
-<wire x1="90" y1="60" x2="90" y2="33" width="0.254" layer="16"/>
-<wire x1="59.25" y1="60" x2="90" y2="60" width="0.254" layer="16"/>
-<wire x1="57" y1="62.25" x2="59.25" y2="60" width="0.254" layer="16"/>
-<wire x1="13.5" y1="62.25" x2="57" y2="62.25" width="0.254" layer="16"/>
-<wire x1="11.25" y1="60" x2="13.5" y2="62.25" width="0.254" layer="16"/>
-<wire x1="8.25" y1="60" x2="11.25" y2="60" width="0.254" layer="16"/>
-<wire x1="87.75" y1="32.25" x2="87.1" y2="32.5" width="0.254" layer="16"/>
+<contactref element="U$1" pad="B3"/>
+<wire x1="43.63" y1="33.53" x2="87.1" y2="32.5" width="0" layer="19" extent="1-1"/>
+<wire x1="10" y1="37.5" x2="43.63" y2="33.53" width="0" layer="19" extent="1-1"/>
+<wire x1="11.65" y1="70" x2="10" y2="37.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$1">
+<contactref element="TASTENLINKS" pad="P$7"/>
+<contactref element="U$1" pad="D1"/>
+<wire x1="58.87" y1="30.99" x2="88.75" y2="36.25" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
