@@ -718,12 +718,12 @@ design rules under a new name.</description>
 <wire x1="43.63" y1="25.91" x2="77.47" y2="7.62" width="0" layer="19" extent="1-1"/>
 <wire x1="13.97" y1="7.62" x2="43.63" y2="25.91" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$18">
+<signal name="D0">
 <contactref element="U$1" pad="D0"/>
 <contactref element="TASTENLINKS" pad="P$6"/>
 <wire x1="58.87" y1="28.45" x2="87.1" y2="37.5" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$2">
+<signal name="B3">
 <contactref element="TOPRECHTS" pad="P$8"/>
 <contactref element="TASTENLINKS" pad="P$10"/>
 <contactref element="TASTENRECHTS" pad="P$7"/>
@@ -732,7 +732,7 @@ design rules under a new name.</description>
 <wire x1="10" y1="37.5" x2="43.63" y2="33.53" width="0" layer="19" extent="1-1"/>
 <wire x1="11.65" y1="70" x2="10" y2="37.5" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$1">
+<signal name="D1">
 <contactref element="TASTENLINKS" pad="P$7"/>
 <contactref element="U$1" pad="D1"/>
 <wire x1="58.87" y1="30.99" x2="88.75" y2="36.25" width="0" layer="19" extent="1-1"/>

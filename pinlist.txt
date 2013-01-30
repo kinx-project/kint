@@ -1,6 +1,6 @@
 Pinlist
 
-Exported from untitled.sch at 1/30/13 5:08 PM
+Exported from untitled.sch at 1/30/13 5:16 PM
 
 EAGLE Version 6.4.0 Copyright (c) 1988-2013 CadSoft
 
@@ -37,11 +37,11 @@ TASTENLINKS P$1      S          pas      B0
          P$3      S          pas      D4
          P$4      S          pas      D2
          P$5      S          pas               *** unconnected ***
-         P$6      S          pas      N$18
-         P$7      S          pas      N$1
+         P$6      S          pas      D0
+         P$7      S          pas      D1
          P$8      S          pas               *** unconnected ***
          P$9      S          pas      B1
-         P$10     S          pas      N$2
+         P$10     S          pas      B3
          P$11     S          pas      B2
          P$12     S          pas               *** unconnected ***
          P$13     S          pas      B4
@@ -52,7 +52,7 @@ TASTENRECHTS P$1      S          pas      D6
          P$4      S          pas      B4
          P$5      S          pas               *** unconnected ***
          P$6      S          pas      C3
-         P$7      S          pas      N$2
+         P$7      S          pas      B3
          P$8      S          pas      B2
          P$9      S          pas      B1
          P$10     S          pas      B0
@@ -81,7 +81,7 @@ TOPRECHTS P$1      S          pas               *** unconnected ***
          P$5      S          pas      B4
          P$6      S          pas      C5
          P$7      S          pas      C6
-         P$8      S          pas      N$2
+         P$8      S          pas      B3
          P$9      S          pas      C4
          P$10     S          pas      B5
          P$11     S          pas      B5
@@ -91,7 +91,7 @@ TOPRECHTS P$1      S          pas               *** unconnected ***
 U$1      B0       SS,PB0     io       B0
          B1       SCLK,PB1   io       B1
          B2       MOSI,PB2   io       B2
-         B3       MISO,PB3   io       N$2
+         B3       MISO,PB3   io       B3
          B4       OC2A,PB4   io       B4
          B5       OC1A,PB5   io       B5
          B6       OC1B,PB6   io       B6
@@ -104,8 +104,8 @@ U$1      B0       SS,PB0     io       B0
          C5       OC3B,PC5   io       C5
          C6       OC3A,PC6   io       C6
          C7       IPC3,PC7   io                *** unconnected ***
-         D0       SCL,OCB0,INT0,PD0 io       N$18
-         D1       SDA,OC2B,INT1,PD1 io       N$1
+         D0       SCL,OCB0,INT0,PD0 io       D0
+         D1       SDA,OC2B,INT1,PD1 io       D1
          D2       RXD1,INT2,PD2 io       D2
          D3       TXD1,INT3,PD3 io       D3
          D4       ICP1,PD4   io       D4

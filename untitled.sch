@@ -912,7 +912,7 @@ W = angled&lt;p&gt;
 <junction x="114.3" y="-12.7"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="B3" class="0">
 <segment>
 <pinref part="TOPRECHTS" gate="-8" pin="S"/>
 <wire x1="149.86" y1="68.58" x2="149.86" y2="66.04" width="0.1524" layer="91"/>
@@ -925,14 +925,14 @@ W = angled&lt;p&gt;
 <junction x="149.86" y="63.5"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="D0" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="SCL,OCB0,INT0,PD0"/>
 <pinref part="TASTENLINKS" gate="-6" pin="S"/>
 <wire x1="15.24" y1="68.58" x2="40.64" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="D1" class="0">
 <segment>
 <pinref part="TASTENLINKS" gate="-7" pin="S"/>
 <pinref part="U$1" gate="G$1" pin="SDA,OC2B,INT1,PD1"/>
