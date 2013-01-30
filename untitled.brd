@@ -506,29 +506,47 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="DAUMENRECHTS" library="con-lstb" package="MA10-1" value="" x="81.28" y="7.62">
+<element name="DAUMENRECHTS" library="con-lstb" package="MA10-1" value="" x="81.28" y="7.62" smashed="yes">
 <attribute name="OC_NEWARK" value="unknown" x="81.28" y="7.62" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="81.28" y="7.62" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="81.28" y="7.62" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="81.28" y="7.62" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="71.08" y="3.021" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="82.55" y="4.699" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="DAUMENLINKS" library="con-lstb" package="MA10-1" value="" x="17.78" y="7.62" rot="R180">
+<element name="DAUMENLINKS" library="con-lstb" package="MA10-1" value="" x="17.78" y="7.62" smashed="yes" rot="R180">
 <attribute name="OC_NEWARK" value="unknown" x="17.78" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="17.78" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="17.78" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="17.78" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="13.27" y="2.781" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="16.51" y="10.541" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="U$1" library="teensypp" package="TEENSY++" value="C-TEENSY++" x="48.26" y="44.45" rot="R90"/>
-<element name="SV1" library="con-lstb" package="MA03-1" value="" x="87.63" y="21.59">
+<element name="SV1" library="con-lstb" package="MA03-1" value="" x="87.63" y="21.59" smashed="yes">
 <attribute name="OC_NEWARK" value="unknown" x="87.63" y="21.59" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="87.63" y="21.59" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="87.63" y="21.59" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="87.63" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="83.82" y="18.241" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="83.82" y="18.669" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="TASTENRECHTS" library="con-molex-39-53" package="39-53-2135" value="39-53-2355" x="10" y="37.5" rot="R90"/>
-<element name="TOPRECHTS" library="con-molex-39-53" package="39-53-2135" value="39-53-2355" x="10" y="68.75" rot="R90"/>
-<element name="TOPLINKS" library="con-molex-39-53" package="39-53-2135" value="39-53-2355" x="88.75" y="68.75" rot="R270"/>
-<element name="TASTENLINKS" library="con-molex-39-53" package="39-53-2135" value="39-53-2355" x="88.75" y="36.25" rot="R270"/>
+<element name="TASTENRECHTS" library="con-molex-39-53" package="39-53-2135" value="39-53-2355" x="10" y="37.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="3.5792" y="27.4676" size="1.778" layer="25" rot="R90"/>
+<attribute name="VALUE" x="6.19" y="27.34" size="1.778" layer="27" rot="R90"/>
+</element>
+<element name="TOPRECHTS" library="con-molex-39-53" package="39-53-2135" value="39-53-2355" x="10" y="68.75" smashed="yes" rot="R90">
+<attribute name="NAME" x="3.5792" y="58.7176" size="1.778" layer="25" rot="R90"/>
+<attribute name="VALUE" x="6.19" y="58.59" size="1.778" layer="27" rot="R90"/>
+</element>
+<element name="TOPLINKS" library="con-molex-39-53" package="39-53-2135" value="39-53-2355" x="88.75" y="68.75" smashed="yes" rot="R270">
+<attribute name="NAME" x="95.1708" y="78.7824" size="1.778" layer="25" rot="R270"/>
+<attribute name="VALUE" x="92.56" y="78.91" size="1.778" layer="27" rot="R270"/>
+</element>
+<element name="TASTENLINKS" library="con-molex-39-53" package="39-53-2135" value="39-53-2355" x="88.75" y="36.25" smashed="yes" rot="R270">
+<attribute name="NAME" x="95.1708" y="46.2824" size="1.778" layer="25" rot="R270"/>
+<attribute name="VALUE" x="92.56" y="46.41" size="1.778" layer="27" rot="R270"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
