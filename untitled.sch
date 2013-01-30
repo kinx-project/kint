@@ -1,41 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,12 +53,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
@@ -356,19 +356,6 @@ W = angled&lt;p&gt;
 <pad name="B5" x="-19.05" y="7.62" drill="0.8128" shape="long" rot="R90"/>
 <pad name="B6" x="-21.59" y="7.62" drill="0.8128" shape="long" rot="R90"/>
 <pad name="+5V" x="-24.13" y="7.62" drill="0.8128" shape="long" rot="R90"/>
-<pad name="A4" x="8.89" y="2.54" drill="0.8" shape="square"/>
-<pad name="A5" x="11.43" y="2.54" drill="0.8" shape="square"/>
-<pad name="A6" x="13.97" y="2.54" drill="0.8" shape="square"/>
-<pad name="A7" x="16.51" y="2.54" drill="0.8" shape="square"/>
-<pad name="A3" x="16.51" y="0" drill="0.8" shape="square"/>
-<pad name="A2" x="13.97" y="0" drill="0.8" shape="square"/>
-<pad name="A1" x="11.43" y="0" drill="0.8" shape="square"/>
-<pad name="A0" x="8.89" y="0" drill="0.8" shape="square"/>
-<pad name="RST" x="24.13" y="2.54" drill="0.8" shape="square"/>
-<pad name="GND2" x="24.13" y="0" drill="0.8" shape="square"/>
-<pad name="5V" x="24.13" y="-2.54" drill="0.8" shape="square"/>
-<pad name="E4" x="-9.144" y="0.9144" drill="0.635" diameter="1.0668" rot="R180"/>
-<pad name="E5" x="-9.144" y="-0.4064" drill="0.635" diameter="1.0668" rot="R180"/>
 <text x="-22.225" y="-4.445" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 <text x="-25.908" y="-8.255" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
 </package>
@@ -421,19 +408,6 @@ W = angled&lt;p&gt;
 <pin name="ADC5,PF5" x="25.4" y="-15.24" length="middle" rot="R180"/>
 <pin name="ADC6,PF6" x="25.4" y="-17.78" length="middle" rot="R180"/>
 <pin name="ADC7,PF7" x="25.4" y="-20.32" length="middle" rot="R180"/>
-<pin name="PA0" x="25.4" y="-25.4" length="middle" rot="R180"/>
-<pin name="PA1" x="25.4" y="-27.94" length="middle" rot="R180"/>
-<pin name="PA2" x="25.4" y="-30.48" length="middle" rot="R180"/>
-<pin name="PA3" x="25.4" y="-33.02" length="middle" rot="R180"/>
-<pin name="PA4" x="25.4" y="-35.56" length="middle" rot="R180"/>
-<pin name="PA5" x="25.4" y="-38.1" length="middle" rot="R180"/>
-<pin name="PA6" x="25.4" y="-40.64" length="middle" rot="R180"/>
-<pin name="PA7" x="25.4" y="-43.18" length="middle" rot="R180"/>
-<pin name="_RST" x="-25.4" y="-25.4" length="middle" direction="in"/>
-<pin name="GND@2" x="-25.4" y="-27.94" length="middle" direction="pwr"/>
-<pin name="VCC@1" x="-25.4" y="-30.48" length="middle" direction="pwr"/>
-<pin name="INT4,TOSC1,PE4" x="-25.4" y="-35.56" length="middle"/>
-<pin name="INT5,TOSC2,PE5" x="-25.4" y="-38.1" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -457,10 +431,7 @@ W = angled&lt;p&gt;
 <connect gate="G$1" pin="AREF" pad="REF"/>
 <connect gate="G$1" pin="GND" pad="GRND1"/>
 <connect gate="G$1" pin="GND@1" pad="GND"/>
-<connect gate="G$1" pin="GND@2" pad="GND2"/>
 <connect gate="G$1" pin="ICP1,PD4" pad="D4"/>
-<connect gate="G$1" pin="INT4,TOSC1,PE4" pad="E4"/>
-<connect gate="G$1" pin="INT5,TOSC2,PE5" pad="E5"/>
 <connect gate="G$1" pin="IPC3,PC7" pad="C7"/>
 <connect gate="G$1" pin="LED,T1,PD6" pad="D6"/>
 <connect gate="G$1" pin="MISO,PB3" pad="B3"/>
@@ -472,14 +443,6 @@ W = angled&lt;p&gt;
 <connect gate="G$1" pin="OC3A,PC6" pad="C6"/>
 <connect gate="G$1" pin="OC3B,PC5" pad="C5"/>
 <connect gate="G$1" pin="OC3C,PC4" pad="C4"/>
-<connect gate="G$1" pin="PA0" pad="A0"/>
-<connect gate="G$1" pin="PA1" pad="A1"/>
-<connect gate="G$1" pin="PA2" pad="A2"/>
-<connect gate="G$1" pin="PA3" pad="A3"/>
-<connect gate="G$1" pin="PA4" pad="A4"/>
-<connect gate="G$1" pin="PA5" pad="A5"/>
-<connect gate="G$1" pin="PA6" pad="A6"/>
-<connect gate="G$1" pin="PA7" pad="A7"/>
 <connect gate="G$1" pin="PC0" pad="C0"/>
 <connect gate="G$1" pin="PC1" pad="C1"/>
 <connect gate="G$1" pin="PC2" pad="C2"/>
@@ -493,10 +456,8 @@ W = angled&lt;p&gt;
 <connect gate="G$1" pin="T0,PD7" pad="D7"/>
 <connect gate="G$1" pin="T3,PC3" pad="C3"/>
 <connect gate="G$1" pin="TXD1,INT3,PD3" pad="D3"/>
-<connect gate="G$1" pin="VCC" pad="5V"/>
-<connect gate="G$1" pin="VCC@1" pad="+5V"/>
+<connect gate="G$1" pin="VCC" pad="+5V"/>
 <connect gate="G$1" pin="XCK1,PD5" pad="D5"/>
-<connect gate="G$1" pin="_RST" pad="RST"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -650,7 +611,9 @@ W = angled&lt;p&gt;
 <instance part="TASTENRECHTS" gate="-11" x="88.9" y="93.98"/>
 <instance part="TASTENRECHTS" gate="-12" x="38.1" y="40.64" rot="R180"/>
 <instance part="TASTENRECHTS" gate="-13" x="38.1" y="38.1" rot="R180"/>
-<instance part="TASTENRECHTS" gate="-1" x="40.64" y="53.34" rot="R180"/>
+<instance part="TASTENRECHTS" gate="-1" x="40.64" y="53.34" smashed="yes" rot="R180">
+<attribute name="NAME" x="35.56" y="54.102" size="1.524" layer="95" rot="R180"/>
+</instance>
 <instance part="TOPRECHTS" gate="-2" x="5.08" y="134.62"/>
 <instance part="TOPRECHTS" gate="-3" x="-20.32" y="30.48" rot="R180"/>
 <instance part="TOPRECHTS" gate="-4" x="-45.72" y="27.94" rot="R180"/>
@@ -676,7 +639,9 @@ W = angled&lt;p&gt;
 <instance part="TOPLINKS" gate="-11" x="-45.72" y="40.64" rot="R180"/>
 <instance part="TOPLINKS" gate="-12" x="30.48" y="111.76"/>
 <instance part="TOPLINKS" gate="-13" x="30.48" y="116.84"/>
-<instance part="TOPLINKS" gate="-1" x="228.6" y="60.96"/>
+<instance part="TOPLINKS" gate="-1" x="228.6" y="58.42" smashed="yes">
+<attribute name="NAME" x="233.68" y="57.658" size="1.524" layer="95"/>
+</instance>
 <instance part="TASTENLINKS" gate="-2" x="38.1" y="60.96" rot="R180"/>
 <instance part="TASTENLINKS" gate="-3" x="38.1" y="58.42" rot="R180"/>
 <instance part="TASTENLINKS" gate="-4" x="38.1" y="63.5" rot="R180"/>
@@ -689,7 +654,9 @@ W = angled&lt;p&gt;
 <instance part="TASTENLINKS" gate="-11" x="180.34" y="60.96"/>
 <instance part="TASTENLINKS" gate="-12" x="60.96" y="88.9"/>
 <instance part="TASTENLINKS" gate="-13" x="124.46" y="66.04"/>
-<instance part="TASTENLINKS" gate="-1" x="228.6" y="55.88"/>
+<instance part="TASTENLINKS" gate="-1" x="228.6" y="55.88" smashed="yes">
+<attribute name="NAME" x="233.68" y="55.118" size="1.524" layer="95"/>
+</instance>
 </instances>
 <busses>
 <bus name="C[0..7]">
@@ -907,11 +874,10 @@ W = angled&lt;p&gt;
 <pinref part="TASTENLINKS" gate="-1" pin="S"/>
 <junction x="228.6" y="55.88"/>
 <pinref part="TOPLINKS" gate="-1" pin="S"/>
-<wire x1="228.6" y1="60.96" x2="228.6" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="58.42" x2="228.6" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="53.34" x2="228.6" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="55.88" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="TASTENRECHTS" gate="-10" pin="S"/>
-<junction x="228.6" y="53.34"/>
 </segment>
 </net>
 <net name="B1" class="0">
