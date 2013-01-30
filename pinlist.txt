@@ -1,0 +1,131 @@
+Pinlist
+
+Exported from untitled.sch at 1/30/13 5:08 PM
+
+EAGLE Version 6.4.0 Copyright (c) 1988-2013 CadSoft
+
+Part     Pad      Pin        Dir      Net
+
+DAUMENLINKS 1        1          pas               *** unconnected ***
+         2        2          pas               *** unconnected ***
+         3        3          pas      D6
+         4        4          pas      D7
+         5        5          pas      C0
+         6        6          pas      C1
+         7        7          pas      B6
+         8        8          pas      B5
+         9        9          pas               *** unconnected ***
+         10       10         pas               *** unconnected ***
+
+DAUMENRECHTS 1        1          pas      D4
+         2        2          pas      D2
+         3        3          pas      D5
+         4        4          pas      B6
+         5        5          pas      B5
+         6        6          pas               *** unconnected ***
+         7        7          pas               *** unconnected ***
+         8        8          pas      D3
+         9        9          pas               *** unconnected ***
+         10       10         pas               *** unconnected ***
+
+SV1      1        1          pas      GND
+         2        2          pas               *** unconnected ***
+         3        3          pas               *** unconnected ***
+
+TASTENLINKS P$1      S          pas      B0
+         P$2      S          pas      D3
+         P$3      S          pas      D4
+         P$4      S          pas      D2
+         P$5      S          pas               *** unconnected ***
+         P$6      S          pas      N$18
+         P$7      S          pas      N$1
+         P$8      S          pas               *** unconnected ***
+         P$9      S          pas      B1
+         P$10     S          pas      N$2
+         P$11     S          pas      B2
+         P$12     S          pas               *** unconnected ***
+         P$13     S          pas      B4
+
+TASTENRECHTS P$1      S          pas      D6
+         P$2      S          pas      C0
+         P$3      S          pas      D7
+         P$4      S          pas      B4
+         P$5      S          pas               *** unconnected ***
+         P$6      S          pas      C3
+         P$7      S          pas      N$2
+         P$8      S          pas      B2
+         P$9      S          pas      B1
+         P$10     S          pas      B0
+         P$11     S          pas               *** unconnected ***
+         P$12     S          pas      C1
+         P$13     S          pas      C2
+
+TOPLINKS P$1      S          pas      B0
+         P$2      S          pas      C4
+         P$3      S          pas      C5
+         P$4      S          pas      C6
+         P$5      S          pas      B2
+         P$6      S          pas      C5
+         P$7      S          pas      C6
+         P$8      S          pas      B1
+         P$9      S          pas               *** unconnected ***
+         P$10     S          pas      C5
+         P$11     S          pas      C6
+         P$12     S          pas               *** unconnected ***
+         P$13     S          pas               *** unconnected ***
+
+TOPRECHTS P$1      S          pas               *** unconnected ***
+         P$2      S          pas               *** unconnected ***
+         P$3      S          pas      C5
+         P$4      S          pas      C6
+         P$5      S          pas      B4
+         P$6      S          pas      C5
+         P$7      S          pas      C6
+         P$8      S          pas      N$2
+         P$9      S          pas      C4
+         P$10     S          pas      B5
+         P$11     S          pas      B5
+         P$12     S          pas      C6
+         P$13     S          pas      C5
+
+U$1      B0       SS,PB0     io       B0
+         B1       SCLK,PB1   io       B1
+         B2       MOSI,PB2   io       B2
+         B3       MISO,PB3   io       N$2
+         B4       OC2A,PB4   io       B4
+         B5       OC1A,PB5   io       B5
+         B6       OC1B,PB6   io       B6
+         B7       OC1C,OC0A,PB7 io                *** unconnected ***
+         C0       PC0        io       C0
+         C1       PC1        io       C1
+         C2       PC2        io       C2
+         C3       T3,PC3     io       C3
+         C4       OC3C,PC4   io       C4
+         C5       OC3B,PC5   io       C5
+         C6       OC3A,PC6   io       C6
+         C7       IPC3,PC7   io                *** unconnected ***
+         D0       SCL,OCB0,INT0,PD0 io       N$18
+         D1       SDA,OC2B,INT1,PD1 io       N$1
+         D2       RXD1,INT2,PD2 io       D2
+         D3       TXD1,INT3,PD3 io       D3
+         D4       ICP1,PD4   io       D4
+         D5       XCK1,PD5   io       D5
+         D6       LED,T1,PD6 io       D6
+         D7       T0,PD7     io       D7
+         E0       PE0        io                *** unconnected ***
+         E1       PE1        io                *** unconnected ***
+         E6       AIN0,INT6,PE6 io                *** unconnected ***
+         E7       AIN1,INT7,PE7 io                *** unconnected ***
+         F0       ADC0,PF0   io                *** unconnected ***
+         F1       ADC1,PF1   io                *** unconnected ***
+         F2       ADC2,PF2   io                *** unconnected ***
+         F3       ADC3,PF3   io                *** unconnected ***
+         F4       ADC4,PF4   io                *** unconnected ***
+         F5       ADC5,PF5   io                *** unconnected ***
+         F6       ADC6,PF6   io                *** unconnected ***
+         F7       ADC7,PF7   io                *** unconnected ***
+         +5V      VCC        pwr      VCC
+         GND      GND        pwr      GND
+         REF      AREF       in                *** unconnected ***
+         GRND1    GND        pwr      GND
+
