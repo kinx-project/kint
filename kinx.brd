@@ -1082,7 +1082,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="88.5" y1="38.48" x2="88.42" y2="38.56" width="0.4064" layer="1"/>
 <wire x1="115" y1="36" x2="89" y2="36" width="0.4064" layer="1"/>
 </signal>
-<signal name="ROW_9">
+<signal name="ROW_6">
 <contactref element="THUMB_RIGHT_SPC" pad="6"/>
 <wire x1="100.77" y1="10.27" x2="100.77" y2="7" width="0.4064" layer="1"/>
 <contactref element="RGHT_13_DOWN" pad="P$1"/>
@@ -1194,7 +1194,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="40.16" y1="38.56" x2="40.16" y2="34.16" width="0.4064" layer="16"/>
 <wire x1="40.16" y1="34.16" x2="39" y2="33" width="0.4064" layer="16"/>
 </signal>
-<signal name="ROW_6">
+<signal name="ROW_9">
 <contactref element="THUMB_RIGHT_SPC" pad="3"/>
 <wire x1="101" y1="31" x2="101.75" y2="31.75" width="0.4064" layer="1"/>
 <wire x1="101" y1="19" x2="93" y2="11" width="0.4064" layer="1"/>

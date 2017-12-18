@@ -5038,7 +5038,7 @@ Source: www.kingbright.com</description>
 <label x="15.24" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="ROW_9" class="0">
+<net name="ROW_6" class="0">
 <segment>
 <wire x1="35.56" y1="86.36" x2="35.56" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="-5.08" x2="111.76" y2="-5.08" width="0.1524" layer="91"/>
@@ -5126,7 +5126,7 @@ Source: www.kingbright.com</description>
 <label x="15.24" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="ROW_6" class="0">
+<net name="ROW_9" class="0">
 <segment>
 <pinref part="THUMB_RIGHT_SPC" gate="1" pin="3"/>
 <wire x1="104.14" y1="-17.78" x2="104.14" y2="-20.32" width="0.1524" layer="91"/>
