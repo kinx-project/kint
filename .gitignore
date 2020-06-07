@@ -1,3 +1,5 @@
 *.?#?
 *.lck
 *.png
+*.kicad_pcb-bak
+*.sch-bak
