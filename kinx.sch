@@ -133,10 +133,6 @@ Wire Wire Line
 Text Label 6000 4000 0    70   ~ 0
 3V3
 Wire Wire Line
-	1800 3400 1100 3400
-Wire Wire Line
-	1100 3400 1100 3900
-Wire Wire Line
 	1100 3900 1100 4300
 Wire Wire Line
 	1100 4300 1100 4700
@@ -152,8 +148,7 @@ Wire Wire Line
 	1300 3900 1100 3900
 Connection ~ 1100 4700
 Connection ~ 1100 4300
-Connection ~ 1100 3900
-Text Label 1800 3400 0    70   ~ 0
+Text Label 1100 3800 1    70   ~ 0
 3V3
 Wire Wire Line
 	5200 7000 5200 4800
@@ -200,24 +195,6 @@ Text Label 4900 3600 0    70   ~ 0
 ROW_MIN
 Text Label 8350 3200 2    70   ~ 0
 COL0
-Wire Wire Line
-	6200 3900 2100 3900
-Wire Wire Line
-	6200 4100 2100 4100
-Wire Wire Line
-	2100 4100 2100 4300
-Wire Wire Line
-	6200 4200 2200 4200
-Wire Wire Line
-	2200 4200 2200 4700
-Wire Wire Line
-	2200 4700 2100 4700
-Wire Wire Line
-	6200 4300 2300 4300
-Wire Wire Line
-	2300 4300 2300 5100
-Wire Wire Line
-	2300 5100 2100 5100
 $Comp
 L kinx-eagle-import:MA10-1 THUMB_LEFT_BAK1
 U 1 1 2978C288
@@ -342,12 +319,12 @@ $EndComp
 $Comp
 L kinx-eagle-import:MOUNT-PAD-ROUND4.1 H1
 U 1 1 54E7B095
-P 1150 2950
-F 0 "H1" H 1260 2973 59  0000 L BNN
-F 1 "MOUNT-PAD-ROUND4.1" H 1260 2853 59  0000 L BNN
-F 2 "kinx:4,1-PAD" H 1150 2950 50  0001 C CNN
-F 3 "" H 1150 2950 50  0001 C CNN
-	1    1150 2950
+P 7000 950
+F 0 "H1" H 7110 973 59  0000 L BNN
+F 1 "MOUNT-PAD-ROUND4.1" H 7110 853 59  0000 L BNN
+F 2 "kinx:4,1-PAD" H 7000 950 50  0001 C CNN
+F 3 "" H 7000 950 50  0001 C CNN
+	1    7000 950 
 	1    0    0    -1  
 $EndComp
 Text Label 4050 5550 2    50   ~ 0
@@ -453,16 +430,14 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0102
 U 1 1 5EF5CDE2
-P 900 2950
-F 0 "#PWR0102" H 900 2700 50  0001 C CNN
-F 1 "GND" V 905 2822 50  0000 R CNN
-F 2 "" H 900 2950 50  0001 C CNN
-F 3 "" H 900 2950 50  0001 C CNN
-	1    900  2950
+P 6800 950
+F 0 "#PWR0102" H 6800 700 50  0001 C CNN
+F 1 "GND" V 6805 822 50  0000 R CNN
+F 2 "" H 6800 950 50  0001 C CNN
+F 3 "" H 6800 950 50  0001 C CNN
+	1    6800 950 
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	900  2950 1050 2950
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5EF6C7B8
@@ -691,4 +666,73 @@ Wire Wire Line
 	4900 3400 6200 3400
 Wire Wire Line
 	4900 3500 6200 3500
+Wire Wire Line
+	6800 950  6900 950 
+Wire Wire Line
+	1100 3900 1100 3800
+Connection ~ 1100 3900
+Text Label 4900 4300 0    50   ~ 0
+LED_CAPS_LOCK
+Wire Wire Line
+	4900 4300 6200 4300
+Text Label 4900 4200 0    50   ~ 0
+LED_NUM_LOCK
+Wire Wire Line
+	4900 4200 6200 4200
+Text Label 4900 4100 0    50   ~ 0
+LED_SCROLL_LOCK
+Wire Wire Line
+	4900 4100 6200 4100
+Text Label 4900 3900 0    50   ~ 0
+LED_KEYPAD
+Wire Wire Line
+	4900 3900 6200 3900
+Text Label 2850 3900 2    50   ~ 0
+LED_KEYPAD
+Text Label 2850 4300 2    50   ~ 0
+LED_SCROLL_LOCK
+Wire Wire Line
+	2850 4300 2100 4300
+Wire Wire Line
+	2850 3900 2100 3900
+Text Label 2850 4700 2    50   ~ 0
+LED_NUM_LOCK
+Wire Wire Line
+	2850 4700 2100 4700
+Text Label 2850 5100 2    50   ~ 0
+LED_CAPS_LOCK
+Wire Wire Line
+	2850 5100 2100 5100
+Wire Notes Line
+	9650 900  9650 2450
+Wire Notes Line
+	9650 2450 11150 2450
+Wire Notes Line
+	11150 2450 11150 900 
+Wire Notes Line
+	11150 900  9650 900 
+Wire Notes Line
+	9650 4150 9650 5800
+Wire Notes Line
+	9650 5800 11150 5800
+Wire Notes Line
+	11150 5800 11150 4150
+Wire Notes Line
+	11150 4150 9650 4150
+Wire Notes Line
+	3050 4100 3050 5850
+Wire Notes Line
+	3050 5850 4400 5850
+Wire Notes Line
+	4400 5850 4400 4100
+Wire Notes Line
+	4400 4100 3050 4100
+Wire Notes Line
+	3050 2600 3050 800 
+Wire Notes Line
+	3050 800  4400 800 
+Wire Notes Line
+	4400 800  4400 2600
+Wire Notes Line
+	4400 2600 3050 2600
 $EndSCHEMATC
