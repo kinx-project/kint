@@ -94,21 +94,11 @@ ROW_7
 Connection ~ 5500 3000
 Text Label 4900 3000 0    70   ~ 0
 ROW_7
-Wire Wire Line
-	8600 3100 7800 3100
-Text Label 8500 3100 2    70   ~ 0
+Text Label 8350 3100 2    70   ~ 0
 COL1
-Wire Wire Line
-	3700 3500 6200 3500
-Text Label 3700 3700 1    70   ~ 0
+Text Label 4900 3500 0    70   ~ 0
 COL2
-Wire Wire Line
-	6200 3300 3900 3300
-Wire Wire Line
-	3900 3300 3900 3000
-Wire Wire Line
-	3900 3000 3700 3000
-Text Label 3800 3000 1    70   ~ 0
+Text Label 4900 3300 0    70   ~ 0
 COL4
 Wire Wire Line
 	4900 6600 4900 7000
@@ -116,11 +106,9 @@ Wire Wire Line
 	8900 7000 8900 6600
 Wire Wire Line
 	4900 6600 8900 6600
-Wire Wire Line
-	9100 3800 9100 3900
 Text Label 4900 6600 0    70   ~ 0
 COL5
-Text Label 8700 3800 2    70   ~ 0
+Text Label 8350 3800 2    70   ~ 0
 COL5
 Wire Wire Line
 	8800 7000 8800 6700
@@ -130,9 +118,7 @@ Wire Wire Line
 	5000 6700 5000 7000
 Text Label 5000 6700 0    70   ~ 0
 COL6
-Wire Wire Line
-	6200 3400 3700 3400
-Text Label 3800 3400 1    70   ~ 0
+Text Label 4900 3400 0    70   ~ 0
 COL3
 Wire Wire Line
 	1600 3900 1700 3900
@@ -212,11 +198,8 @@ Wire Wire Line
 	4900 3600 6200 3600
 Text Label 4900 3600 0    70   ~ 0
 ROW_MIN
-Wire Wire Line
-	7800 3200 9100 3200
-Text Label 8700 3200 2    70   ~ 0
+Text Label 8350 3200 2    70   ~ 0
 COL0
-Connection ~ 9100 3200
 Wire Wire Line
 	6200 3900 2100 3900
 Wire Wire Line
@@ -267,182 +250,6 @@ F 2 "kinx:TEENSY_3.5_3.6" H 7000 3100 50  0001 C CNN
 F 3 "" H 7000 3100 50  0001 C CNN
 	1    7000 3100
 	1    0    0    -1  
-$EndComp
-$Comp
-L kinx-eagle-import:39-53-2355 TOP_RIGHT1
-U 12 1 0B5C9645
-P 6550 600
-F 0 "TOP_RIGHT1" H 6750 570 51  0000 L BNN
-F 1 "39-53-2355" H 6620 655 59  0001 L BNN
-F 2 "kinx:39-53-2135" H 6550 600 50  0001 C CNN
-F 3 "" H 6550 600 50  0001 C CNN
-	12   6550 600 
-	0    1    1    0   
-$EndComp
-$Comp
-L kinx-eagle-import:39-53-2355 TOP_LEFT1
-U 1 1 AC51388C
-P 8950 600
-F 0 "TOP_LEFT1" H 9150 570 51  0000 L BNN
-F 1 "39-53-2355" H 9020 655 59  0001 L BNN
-F 2 "kinx:39-53-2135" H 8950 600 50  0001 C CNN
-F 3 "" H 8950 600 50  0001 C CNN
-	1    8950 600 
-	0    1    1    0   
-$EndComp
-$Comp
-L kinx-eagle-import:39-53-2355 TOP_LEFT1
-U 2 1 AC513880
-P 6650 600
-F 0 "TOP_LEFT1" H 6850 570 51  0000 L BNN
-F 1 "39-53-2355" H 6720 655 59  0001 L BNN
-F 2 "kinx:39-53-2135" H 6650 600 50  0001 C CNN
-F 3 "" H 6650 600 50  0001 C CNN
-	2    6650 600 
-	0    1    1    0   
-$EndComp
-$Comp
-L kinx-eagle-import:39-53-2355 TOP_LEFT1
-U 3 1 AC513884
-P 7800 600
-F 0 "TOP_LEFT1" H 8000 570 51  0000 L BNN
-F 1 "39-53-2355" H 7870 655 59  0001 L BNN
-F 2 "kinx:39-53-2135" H 7800 600 50  0001 C CNN
-F 3 "" H 7800 600 50  0001 C CNN
-	3    7800 600 
-	0    -1   1    0   
-$EndComp
-$Comp
-L kinx-eagle-import:39-53-2355 TOP_LEFT1
-U 4 1 AC513898
-P 8700 2800
-F 0 "TOP_LEFT1" H 8900 2770 51  0000 L BNN
-F 1 "39-53-2355" H 8770 2855 59  0001 L BNN
-F 2 "kinx:39-53-2135" H 8700 2800 50  0001 C CNN
-F 3 "" H 8700 2800 50  0001 C CNN
-	4    8700 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L kinx-eagle-import:39-53-2355 TOP_LEFT1
-U 5 1 AC51389C
-P 6750 600
-F 0 "TOP_LEFT1" H 6950 570 51  0000 L BNN
-F 1 "39-53-2355" H 6820 655 59  0001 L BNN
-F 2 "kinx:39-53-2135" H 6750 600 50  0001 C CNN
-F 3 "" H 6750 600 50  0001 C CNN
-	5    6750 600 
-	0    1    1    0   
-$EndComp
-$Comp
-L kinx-eagle-import:39-53-2355 TOP_LEFT1
-U 6 1 AC513890
-P 7700 600
-F 0 "TOP_LEFT1" H 7900 570 51  0000 L BNN
-F 1 "39-53-2355" H 7770 655 59  0001 L BNN
-F 2 "kinx:39-53-2135" H 7700 600 50  0001 C CNN
-F 3 "" H 7700 600 50  0001 C CNN
-	6    7700 600 
-	0    -1   1    0   
-$EndComp
-$Comp
-L kinx-eagle-import:39-53-2355 TOP_LEFT1
-U 7 1 AC513894
-P 9200 3200
-F 0 "TOP_LEFT1" H 9400 3170 51  0000 L BNN
-F 1 "39-53-2355" H 9270 3255 59  0001 L BNN
-F 2 "kinx:39-53-2135" H 9200 3200 50  0001 C CNN
-F 3 "" H 9200 3200 50  0001 C CNN
-	7    9200 3200
-	1    0    0    -1  
-$EndComp
-$Comp
-L kinx-eagle-import:39-53-2355 TOP_LEFT1
-U 8 1 AC5138A8
-P 1800 2300
-F 0 "TOP_LEFT1" H 2000 2270 51  0000 L BNN
-F 1 "39-53-2355" H 1870 2355 59  0000 L BNN
-F 2 "kinx:39-53-2135" H 1800 2300 50  0001 C CNN
-F 3 "" H 1800 2300 50  0001 C CNN
-	8    1800 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L kinx-eagle-import:39-53-2355 TOP_LEFT1
-U 9 1 AC5138AC
-P 6850 600
-F 0 "TOP_LEFT1" H 7050 570 51  0000 L BNN
-F 1 "39-53-2355" H 6920 655 59  0001 L BNN
-F 2 "kinx:39-53-2135" H 6850 600 50  0001 C CNN
-F 3 "" H 6850 600 50  0001 C CNN
-	9    6850 600 
-	0    1    1    0   
-$EndComp
-$Comp
-L kinx-eagle-import:39-53-2355 TOP_LEFT1
-U 10 1 AC5138A0
-P 7600 600
-F 0 "TOP_LEFT1" H 7800 570 51  0000 L BNN
-F 1 "39-53-2355" H 7670 655 59  0001 L BNN
-F 2 "kinx:39-53-2135" H 7600 600 50  0001 C CNN
-F 3 "" H 7600 600 50  0001 C CNN
-	10   7600 600 
-	0    -1   1    0   
-$EndComp
-$Comp
-L kinx-eagle-import:39-53-2355 TOP_LEFT1
-U 11 1 AC5138A4
-P 1800 2050
-F 0 "TOP_LEFT1" H 2000 2020 51  0000 L BNN
-F 1 "39-53-2355" H 1870 2105 59  0000 L BNN
-F 2 "kinx:39-53-2135" H 1800 2050 50  0001 C CNN
-F 3 "" H 1800 2050 50  0001 C CNN
-	11   1800 2050
-	1    0    0    -1  
-$EndComp
-$Comp
-L kinx-eagle-import:39-53-2355 TOP_LEFT1
-U 12 1 AC5138B8
-P 1800 1800
-F 0 "TOP_LEFT1" H 2000 1770 51  0000 L BNN
-F 1 "39-53-2355" H 1870 1855 59  0000 L BNN
-F 2 "kinx:39-53-2135" H 1800 1800 50  0001 C CNN
-F 3 "" H 1800 1800 50  0001 C CNN
-	12   1800 1800
-	1    0    0    -1  
-$EndComp
-$Comp
-L kinx-eagle-import:39-53-2355 TOP_LEFT1
-U 13 1 AC5138BC
-P 3700 3700
-F 0 "TOP_LEFT1" H 3900 3670 51  0000 L BNN
-F 1 "39-53-2355" H 3770 3755 59  0001 L BNN
-F 2 "kinx:39-53-2135" H 3700 3700 50  0001 C CNN
-F 3 "" H 3700 3700 50  0001 C CNN
-	13   3700 3700
-	-1   0    0    1   
-$EndComp
-$Comp
-L kinx-eagle-import:39-53-2355 LEFT_13_LT1
-U 6 1 15B6F39C
-P 3800 5850
-F 0 "LEFT_13_LT1" H 4000 5820 51  0000 L BNN
-F 1 "Molex 39-53-2355" H 3870 5905 59  0001 L BNN
-F 2 "kinx:39-53-2135" H 3800 5850 50  0001 C CNN
-F 3 "" H 3800 5850 50  0001 C CNN
-	6    3800 5850
-	-1   0    0    1   
-$EndComp
-$Comp
-L kinx-eagle-import:39-53-2355 LEFT_13_LT1
-U 7 1 15B6F398
-P 3800 5750
-F 0 "LEFT_13_LT1" H 4000 5720 51  0000 L BNN
-F 1 "Molex 39-53-2355" H 3870 5805 59  0001 L BNN
-F 2 "kinx:39-53-2135" H 3800 5750 50  0001 C CNN
-F 3 "" H 3800 5750 50  0001 C CNN
-	7    3800 5750
-	-1   0    0    1   
 $EndComp
 $Comp
 L kinx-eagle-import:LEDSML1206 LED1
@@ -543,14 +350,6 @@ F 3 "" H 1150 2950 50  0001 C CNN
 	1    1150 2950
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	500  450  2850 450 
-Wire Notes Line
-	2850 450  2850 2300
-Wire Notes Line
-	2850 2300 500  2300
-Wire Notes Line
-	500  2300 500  450 
 Text Label 4050 5550 2    50   ~ 0
 ROW_8
 Text Label 4050 5650 2    50   ~ 0
@@ -575,39 +374,8 @@ Text Label 10150 5000 0    50   ~ 0
 ROW_1
 Text Label 10150 5100 0    50   ~ 0
 ROW_EQL
-Text Label 8450 500  2    50   ~ 0
-ROW_F2
-Wire Wire Line
-	7800 500  7700 500 
-Connection ~ 7800 500 
-Wire Wire Line
-	7700 500  7600 500 
-Connection ~ 7700 500 
-Text Label 7200 500  2    50   ~ 0
-ROW_F1
-Wire Wire Line
-	7200 500  6850 500 
-Wire Wire Line
-	6850 500  6750 500 
-Connection ~ 6850 500 
-Wire Wire Line
-	6750 500  6650 500 
-Connection ~ 6750 500 
-Wire Wire Line
-	6650 500  6550 500 
-Connection ~ 6650 500 
-Connection ~ 6550 500 
-Text Label 9350 500  2    50   ~ 0
-ROW_ESC
-Wire Wire Line
-	9350 500  8950 500 
-Wire Wire Line
-	8950 500  8850 500 
-Connection ~ 8950 500 
 Text Label 8900 6150 3    50   ~ 0
 COL5
-Wire Wire Line
-	7800 3800 9100 3800
 Wire Wire Line
 	8900 6150 8900 6600
 Connection ~ 8900 6600
@@ -622,9 +390,9 @@ Wire Wire Line
 	6000 2900 6200 2900
 NoConn ~ 3650 5250
 NoConn ~ 3650 4650
-NoConn ~ 1700 1800
-NoConn ~ 1700 2050
-NoConn ~ 1700 2300
+NoConn ~ 10400 2200
+NoConn ~ 10400 2300
+NoConn ~ 10400 1900
 NoConn ~ 3500 2300
 NoConn ~ 3500 2400
 NoConn ~ 7800 2600
@@ -760,8 +528,6 @@ COL0
 Wire Wire Line
 	10150 4400 10400 4400
 Wire Wire Line
-	9100 3200 9100 3400
-Wire Wire Line
 	10150 4500 10400 4500
 Wire Wire Line
 	10150 4700 10400 4700
@@ -813,26 +579,18 @@ Text Label 4050 5350 2    50   ~ 0
 COL4
 Wire Wire Line
 	4050 5350 3650 5350
-Wire Wire Line
-	3700 2800 3700 3000
 Text Label 4050 5050 2    50   ~ 0
 COL3
 Wire Wire Line
 	4050 5050 3650 5050
-Wire Wire Line
-	3700 3200 3700 3400
 Text Label 4050 4950 2    50   ~ 0
 COL2
 Wire Wire Line
 	4050 4950 3650 4950
-Wire Wire Line
-	3700 3500 3700 3700
 Text Label 4050 4850 2    50   ~ 0
 COL1
 Wire Wire Line
 	4050 4850 3650 4850
-Wire Wire Line
-	8600 2800 8600 3100
 Text Label 4050 4750 2    50   ~ 0
 COL0
 Wire Wire Line
@@ -845,8 +603,6 @@ Text Label 3900 2000 2    50   ~ 0
 COL4
 Text Label 3900 1900 2    50   ~ 0
 ROW_F1
-Wire Wire Line
-	6350 500  6550 500 
 Text Label 3900 1800 2    50   ~ 0
 ROW_F2
 Text Label 3900 1700 2    50   ~ 0
@@ -861,8 +617,6 @@ Text Label 3900 1400 2    50   ~ 0
 COL5
 Text Label 3900 1300 2    50   ~ 0
 ROW_F2
-Wire Wire Line
-	7800 500  8450 500 
 Text Label 3900 1200 2    50   ~ 0
 ROW_F1
 Wire Wire Line
@@ -885,4 +639,56 @@ Wire Wire Line
 	3500 2100 3900 2100
 Wire Wire Line
 	3500 2200 3900 2200
+Text Label 10000 1100 0    50   ~ 0
+COL2
+Text Label 10000 1200 0    50   ~ 0
+ROW_ESC
+Wire Wire Line
+	10000 1200 10400 1200
+Wire Wire Line
+	10000 1100 10400 1100
+Text Label 10000 1300 0    50   ~ 0
+ROW_F1
+Wire Wire Line
+	10000 1300 10400 1300
+Text Label 10000 1400 0    50   ~ 0
+ROW_F2
+Wire Wire Line
+	10000 1400 10400 1400
+Text Label 10000 1500 0    50   ~ 0
+COL1
+Wire Wire Line
+	10000 1500 10400 1500
+Text Label 10000 1600 0    50   ~ 0
+ROW_F1
+Wire Wire Line
+	10000 1600 10400 1600
+Text Label 10000 1700 0    50   ~ 0
+ROW_F2
+Wire Wire Line
+	10000 1700 10400 1700
+Text Label 10000 1800 0    50   ~ 0
+COL0
+Wire Wire Line
+	10000 1800 10400 1800
+Text Label 10000 2000 0    50   ~ 0
+ROW_F1
+Wire Wire Line
+	10000 2000 10400 2000
+Text Label 10000 2100 0    50   ~ 0
+ROW_F2
+Wire Wire Line
+	10000 2100 10400 2100
+Wire Wire Line
+	8350 3100 7800 3100
+Wire Wire Line
+	7800 3200 8350 3200
+Wire Wire Line
+	8350 3800 7800 3800
+Wire Wire Line
+	4900 3300 6200 3300
+Wire Wire Line
+	4900 3400 6200 3400
+Wire Wire Line
+	4900 3500 6200 3500
 $EndSCHEMATC

@@ -42,43 +42,6 @@ X Pin_9 9 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# kinx-eagle-import_39-53-2355
-#
-DEF kinx-eagle-import_39-53-2355 ~ 0 40 Y Y 13 L N
-F0 "" 200 -30 51 H V L BNN
-F1 "kinx-eagle-import_39-53-2355" 70 55 59 H V L BNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 1 0 0 50 0 0 0 N
-P 2 2 0 0 50 0 0 0 N
-P 2 3 0 0 50 0 0 0 N
-P 2 4 0 0 50 0 0 0 N
-P 2 5 0 0 50 0 0 0 N
-P 2 6 0 0 50 0 0 0 N
-P 2 7 0 0 50 0 0 0 N
-P 2 8 0 0 50 0 0 0 N
-P 2 9 0 0 50 0 0 0 N
-P 2 10 0 0 50 0 0 0 N
-P 2 11 0 0 50 0 0 0 N
-P 2 12 0 0 50 0 0 0 N
-P 2 13 0 0 150 0 100 0 N
-X S P$2 -100 0 100 R 0 0 1 0 P
-X S P$3 -100 0 100 R 0 0 2 0 P
-X S P$4 -100 0 100 R 0 0 3 0 P
-X S P$5 -100 0 100 R 0 0 4 0 P
-X S P$6 -100 0 100 R 0 0 5 0 P
-X S P$7 -100 0 100 R 0 0 6 0 P
-X S P$8 -100 0 100 R 0 0 7 0 P
-X S P$9 -100 0 100 R 0 0 8 0 P
-X S P$10 -100 0 100 R 0 0 9 0 P
-X S P$11 -100 0 100 R 0 0 10 0 P
-X S P$12 -100 0 100 R 0 0 11 0 P
-X S P$13 -100 0 100 R 0 0 12 0 P
-X S P$1 0 0 100 R 0 0 13 0 P
-ENDDRAW
-ENDDEF
-#
 # kinx-eagle-import_LEDSML1206
 #
 DEF kinx-eagle-import_LEDSML1206 LED 0 40 Y Y 1 L N
