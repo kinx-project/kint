@@ -141,17 +141,17 @@ F 3 "" H 3400 6800 50  0001 C CNN
 	1    3400 6800
 	0    1    1    0   
 $EndComp
-Text Label 2000 3950 2    50   ~ 0
-ROW_8
-Text Label 2000 4050 2    50   ~ 0
-ROW_6
-Text Label 2000 3850 2    50   ~ 0
-ROW_7
 Text Label 2000 2950 2    50   ~ 0
-ROW_9
+ROW_8
 Text Label 2000 2850 2    50   ~ 0
+ROW_6
+Text Label 2000 3050 2    50   ~ 0
+ROW_7
+Text Label 2000 3950 2    50   ~ 0
+ROW_9
+Text Label 2000 4050 2    50   ~ 0
 ROW_0
-Text Label 2000 3550 2    50   ~ 0
+Text Label 2000 3350 2    50   ~ 0
 ROW_MIN
 Text Label 9750 2950 0    50   ~ 0
 ROW_5
@@ -165,10 +165,10 @@ Text Label 9750 3450 0    50   ~ 0
 ROW_1
 Text Label 9750 3550 0    50   ~ 0
 ROW_EQL
-Text Label 4450 2000 0    50   ~ 0
+Text Label 4450 2400 0    50   ~ 0
 COL_6
-NoConn ~ 1600 3650
-NoConn ~ 1600 3050
+NoConn ~ 1600 3250
+NoConn ~ 1600 3850
 NoConn ~ 10100 2050
 NoConn ~ 10100 2150
 NoConn ~ 10100 1750
@@ -294,14 +294,12 @@ Wire Wire Line
 Wire Wire Line
 	2000 3950 1600 3950
 Wire Wire Line
-	1600 3850 2000 3850
-Wire Wire Line
 	2000 2950 1600 2950
 Wire Wire Line
 	2000 2850 1600 2850
 Wire Wire Line
 	2000 3550 1600 3550
-Text Label 2000 3750 2    50   ~ 0
+Text Label 2000 3150 2    50   ~ 0
 COL_4
 Wire Wire Line
 	2000 3750 1600 3750
@@ -309,16 +307,12 @@ Text Label 2000 3450 2    50   ~ 0
 COL_3
 Wire Wire Line
 	2000 3450 1600 3450
-Text Label 2000 3350 2    50   ~ 0
+Text Label 2000 3550 2    50   ~ 0
 COL_2
 Wire Wire Line
 	2000 3350 1600 3350
-Text Label 2000 3250 2    50   ~ 0
+Text Label 2000 3650 2    50   ~ 0
 COL_1
-Wire Wire Line
-	2000 3250 1600 3250
-Text Label 2000 3150 2    50   ~ 0
-COL_0
 Wire Wire Line
 	2000 3150 1600 3150
 Text Label 9700 950  0    50   ~ 10
@@ -439,11 +433,11 @@ Wire Wire Line
 	9750 5150 10100 5150
 Wire Wire Line
 	10100 5450 9750 5450
-Text Label 7200 2800 2    50   ~ 0
+Text Label 7200 2600 2    50   ~ 0
 ROW_ESC
-Text Label 7200 2000 2    50   ~ 0
+Text Label 7200 2200 2    50   ~ 0
 ROW_F1
-Text Label 7200 2100 2    50   ~ 0
+Text Label 7200 2000 2    50   ~ 0
 ROW_F2
 Text Label 7200 2400 2    50   ~ 0
 COL_5
@@ -463,15 +457,15 @@ Wire Wire Line
 	4450 3300 5200 3300
 Wire Wire Line
 	5200 3400 4450 3400
-Text Label 4450 2800 0    50   ~ 0
-ROW_EQL
-Text Label 4450 2900 0    50   ~ 0
-ROW_1
 Text Label 4450 2600 0    50   ~ 0
+ROW_EQL
+Text Label 4450 2700 0    50   ~ 0
+ROW_1
+Text Label 4450 2800 0    50   ~ 0
 ROW_2
-Text Label 4450 2500 0    50   ~ 0
+Text Label 4450 2900 0    50   ~ 0
 ROW_3
-Text Label 4450 2400 0    50   ~ 0
+Text Label 4450 2500 0    50   ~ 0
 ROW_4
 Text Label 7200 2700 2    50   ~ 0
 ROW_5
@@ -479,25 +473,25 @@ Text Label 5900 4900 1    50   ~ 0
 3V3
 Wire Wire Line
 	4450 3000 5200 3000
-Text Label 4450 2700 0    50   ~ 0
+Text Label 4450 2000 0    50   ~ 0
 ROW_MIN
 Wire Wire Line
 	4450 2700 5200 2700
-Text Label 7200 2600 2    50   ~ 0
+Text Label 7200 2800 2    50   ~ 0
 COL_2
 Text Label 7200 2300 2    50   ~ 0
 COL_3
-Text Label 7200 2200 2    50   ~ 0
+Text Label 7200 2100 2    50   ~ 0
 COL_4
-Text Label 4450 2300 0    50   ~ 0
+Text Label 4450 1800 0    50   ~ 0
 ROW_0
-Text Label 4450 2200 0    50   ~ 0
+Text Label 4450 1900 0    50   ~ 0
 ROW_9
 Text Label 4450 2100 0    50   ~ 0
 ROW_7
-Text Label 4450 1900 0    50   ~ 0
+Text Label 4450 2300 0    50   ~ 0
 ROW_6
-Text Label 4450 1800 0    50   ~ 0
+Text Label 4450 2200 0    50   ~ 0
 ROW_8
 Wire Wire Line
 	4450 1800 5200 1800
@@ -551,15 +545,15 @@ Text Notes 10600 3650 0    50   ~ 0
 COL_1
 Text Notes 9700 2650 0    50   ~ 0
 HumbleHacker\nMatrix wiring
-Text Notes 1050 3150 2    50   ~ 0
+Text Notes 1050 3750 2    50   ~ 0
 COL_0
-Text Notes 1050 3250 2    50   ~ 0
+Text Notes 1050 3650 2    50   ~ 0
 COL_1
-Text Notes 1050 3350 2    50   ~ 0
+Text Notes 1050 3550 2    50   ~ 0
 COL_2
 Text Notes 1050 3450 2    50   ~ 0
 COL_3
-Text Notes 1050 3750 2    50   ~ 0
+Text Notes 1050 3150 2    50   ~ 0
 COL_4
 Text Notes 10600 3550 0    50   ~ 0
 ROW_EQL
@@ -573,17 +567,17 @@ Text Notes 10600 3050 0    50   ~ 0
 ROW_4
 Text Notes 10600 2950 0    50   ~ 0
 ROW_5
-Text Notes 1050 4050 2    50   ~ 0
-ROW_6
-Text Notes 1050 3950 2    50   ~ 0
-ROW_8
-Text Notes 1050 3850 2    50   ~ 0
-ROW_7
-Text Notes 1050 3550 2    50   ~ 0
-ROW_MIN
-Text Notes 1050 2950 2    50   ~ 0
-ROW_9
 Text Notes 1050 2850 2    50   ~ 0
+ROW_6
+Text Notes 1050 2950 2    50   ~ 0
+ROW_8
+Text Notes 1050 3050 2    50   ~ 0
+ROW_7
+Text Notes 1050 3350 2    50   ~ 0
+ROW_MIN
+Text Notes 1050 3950 2    50   ~ 0
+ROW_9
+Text Notes 1050 4050 2    50   ~ 0
 ROW_0
 Text Notes 10600 1050 0    50   ~ 0
 ROW_ESC
@@ -861,4 +855,8 @@ Wire Wire Line
 	2000 2150 1600 2150
 Wire Wire Line
 	2000 2050 1600 2050
+Text Label 2000 3750 2    50   ~ 0
+COL_0
+Wire Wire Line
+	1600 3050 2000 3050
 $EndSCHEMATC
