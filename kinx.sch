@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "kinT keyboard controller"
-Date "2020-06-07"
+Date "2020-06-09"
 Rev ""
 Comp "Michael Stapelberg"
 Comment1 "https://github.com/kinx-project/kint#kint36"
@@ -279,8 +279,8 @@ $Comp
 L Connector_Generic:Conn_01x13 J2
 U 1 1 5EE32D86
 P 10600 5000
-F 0 "J2" H 10680 5042 50  0000 L CNN
-F 1 "LEFT_13_LT" H 10680 4951 50  0000 L CNN
+F 0 "J2" H 10550 5750 50  0000 L CNN
+F 1 "LEFT_13_LT" V 10750 4750 50  0000 L CNN
 F 2 "kinx:39-53-2135" H 10600 5000 50  0001 C CNN
 F 3 "~" H 10600 5000 50  0001 C CNN
 	1    10600 5000
@@ -290,19 +290,19 @@ $Comp
 L Connector_Generic:Conn_01x13 J7
 U 1 1 5EE41ACA
 P 3450 5050
-F 0 "J7" H 3368 4225 50  0000 C CNN
-F 1 "RIGHT_13_DOWN" H 3368 4316 50  0000 C CNN
+F 0 "J7" H 3450 5900 50  0000 C CNN
+F 1 "RIGHT_13_DOWN" V 3650 5050 50  0000 C CNN
 F 2 "kinx:39-53-2135" H 3450 5050 50  0001 C CNN
 F 3 "~" H 3450 5050 50  0001 C CNN
 	1    3450 5050
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x13 J3
 U 1 1 5EE47D77
 P 10600 1700
-F 0 "J3" H 10680 1742 50  0000 L CNN
-F 1 "TOP_LEFT" H 10680 1651 50  0000 L CNN
+F 0 "J3" H 10550 2450 50  0000 L CNN
+F 1 "TOP_LEFT" V 10750 1500 50  0000 L CNN
 F 2 "kinx:39-53-2135" H 10600 1700 50  0001 C CNN
 F 3 "~" H 10600 1700 50  0001 C CNN
 	1    10600 1700
@@ -312,12 +312,12 @@ $Comp
 L Connector_Generic:Conn_01x13 J4
 U 1 1 5EE4A449
 P 3300 1800
-F 0 "J4" H 3218 975 50  0000 C CNN
-F 1 "TOP_RIGHT" H 3218 1066 50  0000 C CNN
+F 0 "J4" H 3300 2700 50  0000 C CNN
+F 1 "TOP_RIGHT" V 3450 1800 50  0000 C CNN
 F 2 "kinx:39-53-2135" H 3300 1800 50  0001 C CNN
 F 3 "~" H 3300 1800 50  0001 C CNN
 	1    3300 1800
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 Text Label 10050 4400 0    50   ~ 0
 COL_0
@@ -407,8 +407,8 @@ Wire Wire Line
 	3500 2100 3900 2100
 Wire Wire Line
 	3500 2200 3900 2200
-Text Label 10000 1100 0    50   ~ 0
-COL_2
+Text Label 10000 1100 0    50   ~ 10
+COL_0
 Text Label 10000 1200 0    50   ~ 0
 ROW_ESC
 Wire Wire Line
@@ -423,8 +423,8 @@ Text Label 10000 1400 0    50   ~ 0
 ROW_F2
 Wire Wire Line
 	10000 1400 10400 1400
-Text Label 10000 1500 0    50   ~ 0
-COL_1
+Text Label 10000 1500 0    50   ~ 10
+COL_2
 Wire Wire Line
 	10000 1500 10400 1500
 Text Label 10000 1600 0    50   ~ 0
@@ -435,8 +435,8 @@ Text Label 10000 1700 0    50   ~ 0
 ROW_F2
 Wire Wire Line
 	10000 1700 10400 1700
-Text Label 10000 1800 0    50   ~ 0
-COL_0
+Text Label 10000 1800 0    50   ~ 10
+COL_1
 Wire Wire Line
 	10000 1800 10400 1800
 Text Label 10000 2000 0    50   ~ 0
@@ -508,10 +508,10 @@ Wire Notes Line
 	4400 800  4400 2600
 Wire Notes Line
 	4400 2600 3050 2600
-Text Label 5800 5700 3    50   ~ 0
+Text Label 5800 5700 3    50   ~ 10
+ROW_4
+Text Label 5600 5700 3    50   ~ 10
 ROW_5
-Text Label 5600 5700 3    50   ~ 0
-ROW_3
 $Comp
 L Connector_Generic:Conn_01x10 J5
 U 1 1 2978C288
@@ -523,14 +523,14 @@ F 3 "" H 5400 6250 50  0001 C CNN
 	1    5400 6250
 	0    1    1    0   
 $EndComp
-Text Label 5100 5700 3    50   ~ 0
-ROW_2
+Text Label 5100 5700 3    50   ~ 10
+ROW_3
 Text Label 5400 5700 3    50   ~ 0
 COL_5
 Text Label 5500 5700 3    50   ~ 0
 COL_6
-Text Label 8700 5750 3    50   ~ 0
-ROW_6
+Text Label 8700 5750 3    50   ~ 10
+ROW_9
 Wire Wire Line
 	8700 5750 8700 6050
 Text Label 8800 5750 3    50   ~ 0
@@ -549,12 +549,12 @@ Text Label 8500 5750 3    50   ~ 0
 ROW_7
 Wire Wire Line
 	8500 5750 8500 6050
-Text Label 8400 5750 3    50   ~ 0
-ROW_9
+Text Label 8400 5750 3    50   ~ 10
+ROW_6
 Wire Wire Line
 	8400 5750 8400 6050
-Text Label 5700 5700 3    50   ~ 0
-ROW_4
+Text Label 5700 5700 3    50   ~ 10
+ROW_2
 Wire Wire Line
 	5800 5700 5800 6050
 Wire Wire Line
@@ -681,7 +681,7 @@ Wire Wire Line
 	6200 3400 5450 3400
 Wire Wire Line
 	5450 3500 6200 3500
-Text Notes 3300 6650 0    50   ~ 0
+Text Notes 3300 7150 0    50   ~ 0
 TODO: the two thumb connectors need to be swapped around to reflect what is on the board
 Wire Wire Line
 	10050 5600 10400 5600
@@ -705,4 +705,130 @@ Wire Wire Line
 	10050 4500 10400 4500
 Wire Wire Line
 	10050 4400 10400 4400
+Text Notes 10850 4400 0    50   ~ 0
+COL_0
+Text Notes 10850 5600 0    50   ~ 0
+COL_4
+Text Notes 10850 5500 0    50   ~ 0
+COL_3
+Text Notes 10850 5400 0    50   ~ 0
+COL_2
+Text Notes 10850 5200 0    50   ~ 0
+COL_1
+Text Notes 9650 4100 0    50   ~ 0
+HumbleHacker Matrix wiring
+Text Notes 3200 4750 2    50   ~ 0
+COL_0
+Text Notes 3200 4850 2    50   ~ 0
+COL_1
+Text Notes 3200 4950 2    50   ~ 0
+COL_2
+Text Notes 3200 5050 2    50   ~ 0
+COL_3
+Text Notes 3200 5350 2    50   ~ 0
+COL_4
+Text Notes 3050 1400 2    50   ~ 0
+COL_5
+Text Notes 3050 1500 2    50   ~ 0
+COL_5
+Text Notes 3050 1700 2    50   ~ 0
+COL_3
+Text Notes 3050 2000 2    50   ~ 0
+COL_4
+Text Notes 10850 5100 0    50   ~ 0
+ROW_EQL
+Text Notes 10850 5000 0    50   ~ 0
+ROW_1
+Text Notes 10850 4900 0    50   ~ 0
+ROW_2
+Text Notes 10850 4700 0    50   ~ 0
+ROW_3
+Text Notes 10850 4600 0    50   ~ 0
+ROW_4
+Text Notes 10850 4500 0    50   ~ 0
+ROW_5
+Text Notes 3200 5650 2    50   ~ 0
+ROW_6
+Text Notes 3200 5550 2    50   ~ 0
+ROW_8
+Text Notes 3200 5450 2    50   ~ 0
+ROW_7
+Text Notes 3200 5150 2    50   ~ 0
+ROW_MIN
+Text Notes 3200 4550 2    50   ~ 0
+ROW_9
+Text Notes 3200 4450 2    50   ~ 0
+ROW_0
+Text Notes 3050 1200 2    50   ~ 0
+ROW_F1
+Text Notes 3050 1900 2    50   ~ 0
+ROW_F1
+Text Notes 3050 2200 2    50   ~ 0
+ROW_F1
+Text Notes 3050 1300 2    50   ~ 0
+ROW_F2
+Text Notes 3050 1800 2    50   ~ 0
+ROW_F2
+Text Notes 3050 2100 2    50   ~ 0
+ROW_F2
+Text Notes 3050 1600 2    50   ~ 0
+ROW_ESC
+Text Notes 10850 1200 0    50   ~ 0
+ROW_ESC
+Text Notes 10850 1300 0    50   ~ 0
+ROW_F1
+Text Notes 10850 1600 0    50   ~ 0
+ROW_F1
+Text Notes 10850 2000 0    50   ~ 0
+ROW_F1
+Text Notes 10850 1400 0    50   ~ 0
+ROW_F2
+Text Notes 10850 1700 0    50   ~ 0
+ROW_F2
+Text Notes 10850 2100 0    50   ~ 0
+ROW_F2
+Text Notes 10850 1800 0    50   ~ 0
+COL_0
+Text Notes 10850 850  0    50   ~ 0
+Original
+Text Notes 9650 850  0    50   ~ 0
+HumbleHacker Matrix wiring
+Text Notes 10850 4100 0    50   ~ 0
+Original
+Text Notes 10850 1500 0    50   ~ 0
+COL_1
+Text Notes 10850 1100 0    50   ~ 0
+COL_2
+Text Notes 4400 4100 2    50   ~ 0
+HumbleHacker Matrix wiring
+Text Notes 3200 4100 2    50   ~ 0
+Original
+Text Notes 3050 750  2    50   ~ 0
+Original
+Text Notes 4400 750  2    50   ~ 0
+HumbleHacker Matrix wiring
+Text Notes 5100 6550 3    50   ~ 0
+ROW_2
+Text Notes 5400 6550 3    50   ~ 0
+COL_5
+Text Notes 5500 6550 3    50   ~ 0
+COL_6
+Text Notes 5600 6550 3    50   ~ 0
+ROW_3
+Text Notes 5700 6550 3    50   ~ 0
+ROW_4
+Text Notes 5800 6550 3    50   ~ 0
+ROW_5
+Text Notes 8900 6550 3    50   ~ 0
+COL_5
+Text Notes 8800 6550 3    50   ~ 0
+COL_6
+Text Notes 8700 6550 3    50   ~ 0
+ROW_6
+Text Notes 8600 6550 3    50   ~ 0
+ROW_8
+Text Notes 8500 6550 3    50   ~ 0
+ROW_7
+Text Notes 8400 6550 3    50   ~ 0
+ROW_9
 $EndSCHEMATC
