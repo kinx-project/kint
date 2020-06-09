@@ -7,8 +7,8 @@ Sheet 1 1
 Title "kinT keyboard controller"
 Date "2020-06-07"
 Rev ""
-Comp ""
-Comment1 ""
+Comp "Michael Stapelberg"
+Comment1 "https://github.com/kinx-project/kint#kint36"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -40,11 +40,11 @@ Connection ~ 1100 4300
 Text Label 1100 3800 1    70   ~ 0
 3V3
 $Comp
-L Connector_Generic:Conn_01x10 THUMB_RIGHT_SPC
+L Connector_Generic:Conn_01x10 J6
 U 1 1 1A47134F
 P 8600 6250
-F 0 "THUMB_RIGHT_SPC" V 8800 5850 59  0000 L BNN
-F 1 "MA10-1" H 8400 6800 59  0000 L BNN
+F 0 "J6" V 8650 6750 59  0000 L BNN
+F 1 "THUMB_RIGHT_SPC" V 8750 5800 59  0000 L BNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 8600 6250 50  0001 C CNN
 F 3 "" H 8600 6250 50  0001 C CNN
 	1    8600 6250
@@ -535,11 +535,11 @@ ROW_5
 Text Label 5600 5700 3    50   ~ 0
 ROW_3
 $Comp
-L Connector_Generic:Conn_01x10 THUMB_LEFT_BAK
+L Connector_Generic:Conn_01x10 J5
 U 1 1 2978C288
 P 5400 6250
-F 0 "THUMB_LEFT_BAK" V 5550 5850 59  0000 L BNN
-F 1 "MA10-1" H 5200 5550 59  0000 L BNN
+F 0 "J5" V 5450 5500 59  0000 L BNN
+F 1 "THUMB_LEFT_BAK" V 5550 5800 59  0000 L BNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 5400 6250 50  0001 C CNN
 F 3 "" H 5400 6250 50  0001 C CNN
 	1    5400 6250
@@ -703,4 +703,6 @@ Wire Wire Line
 	6200 3400 5450 3400
 Wire Wire Line
 	5450 3500 6200 3500
+Text Notes 3300 6650 0    50   ~ 0
+TODO: the two thumb connectors need to be swapped around to reflect what is on the board
 $EndSCHEMATC
