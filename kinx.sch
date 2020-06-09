@@ -13,34 +13,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	4900 2700 5600 2700
-Wire Wire Line
-	5600 2700 5600 6500
-Wire Wire Line
-	5600 6500 8600 6500
-Wire Wire Line
-	8600 6500 8600 7000
-Wire Wire Line
-	5600 2700 6200 2700
-Text Label 5600 6500 0    70   ~ 0
-ROW_8
-Connection ~ 5600 2700
 Text Label 4900 2700 0    70   ~ 0
 ROW_8
-Wire Wire Line
-	5700 2800 5700 6400
-Wire Wire Line
-	5700 6400 8700 6400
-Wire Wire Line
-	8700 6400 8700 7000
-Wire Wire Line
-	5700 2800 4900 2800
-Wire Wire Line
-	5700 2800 6200 2800
-Text Label 5700 6400 0    70   ~ 0
-ROW_6
-Connection ~ 5700 2800
 Text Label 4900 2800 0    70   ~ 0
 ROW_6
 Text Label 8350 4400 2    70   ~ 0
@@ -49,49 +23,10 @@ Text Label 8350 4600 2    70   ~ 0
 ROW_F2
 Text Label 8350 4500 2    70   ~ 0
 ROW_F1
-Wire Wire Line
-	4600 6500 4600 7000
-Wire Wire Line
-	5000 6500 4600 6500
-Wire Wire Line
-	5000 6500 5000 4600
-Wire Wire Line
-	5000 4600 4900 4600
-Wire Wire Line
-	6200 4600 5000 4600
-Text Label 4600 6500 0    70   ~ 0
-ROW_2
-Connection ~ 5000 4600
 Text Label 4900 4600 0    70   ~ 0
 ROW_2
-Wire Wire Line
-	8400 6900 8400 7000
-Wire Wire Line
-	8400 6900 5400 6900
-Wire Wire Line
-	5400 6900 5400 3100
-Wire Wire Line
-	5400 3100 4900 3100
-Wire Wire Line
-	5400 3100 6200 3100
-Text Label 5400 6900 0    70   ~ 0
-ROW_9
-Connection ~ 5400 3100
 Text Label 4900 3100 0    70   ~ 0
 ROW_9
-Wire Wire Line
-	8500 7000 8500 6800
-Wire Wire Line
-	5500 3000 4900 3000
-Wire Wire Line
-	8500 6800 5500 6800
-Wire Wire Line
-	5500 6800 5500 3000
-Wire Wire Line
-	5500 3000 6200 3000
-Text Label 5500 6800 0    70   ~ 0
-ROW_7
-Connection ~ 5500 3000
 Text Label 4900 3000 0    70   ~ 0
 ROW_7
 Text Label 8350 3100 2    70   ~ 0
@@ -100,24 +35,8 @@ Text Label 4900 3500 0    70   ~ 0
 COL2
 Text Label 4900 3300 0    70   ~ 0
 COL4
-Wire Wire Line
-	4900 6600 4900 7000
-Wire Wire Line
-	8900 7000 8900 6600
-Wire Wire Line
-	4900 6600 8900 6600
-Text Label 4900 6600 0    70   ~ 0
-COL5
 Text Label 8350 3800 2    70   ~ 0
 COL5
-Wire Wire Line
-	8800 7000 8800 6700
-Wire Wire Line
-	8800 6700 5000 6700
-Wire Wire Line
-	5000 6700 5000 7000
-Text Label 5000 6700 0    70   ~ 0
-COL6
 Text Label 4900 3400 0    70   ~ 0
 COL3
 Wire Wire Line
@@ -150,31 +69,10 @@ Connection ~ 1100 4700
 Connection ~ 1100 4300
 Text Label 1100 3800 1    70   ~ 0
 3V3
-Wire Wire Line
-	5200 7000 5200 4800
-Wire Wire Line
-	5200 4800 4900 4800
-Wire Wire Line
-	6200 4800 5200 4800
-Connection ~ 5200 4800
 Text Label 4900 4800 0    70   ~ 0
 ROW_4
-Wire Wire Line
-	5300 4900 5300 7000
-Wire Wire Line
-	4900 4900 5300 4900
-Wire Wire Line
-	5300 4900 6200 4900
-Connection ~ 5300 4900
 Text Label 4900 4900 0    70   ~ 0
 ROW_5
-Wire Wire Line
-	5100 7000 5100 4700
-Wire Wire Line
-	5100 4700 4900 4700
-Wire Wire Line
-	5100 4700 6200 4700
-Connection ~ 5100 4700
 Text Label 4900 4700 0    70   ~ 0
 ROW_3
 Wire Wire Line
@@ -196,26 +94,15 @@ ROW_MIN
 Text Label 8350 3200 2    70   ~ 0
 COL0
 $Comp
-L kinx-eagle-import:MA10-1 THUMB_LEFT_BAK1
-U 1 1 2978C288
-P 4900 7300
-F 0 "THUMB_LEFT_BAK1" H 4850 7930 59  0000 L BNN
-F 1 "MA10-1" H 4850 6700 59  0000 L BNN
-F 2 "kinx:MA10-1" H 4900 7300 50  0001 C CNN
-F 3 "" H 4900 7300 50  0001 C CNN
-	1    4900 7300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L kinx-eagle-import:MA10-1 THUMB_RIGHT_SPC1
+L Connector_Generic:Conn_01x10 THUMB_RIGHT_SPC
 U 1 1 1A47134F
-P 8600 7300
-F 0 "THUMB_RIGHT_SPC1" H 8550 7930 59  0000 L BNN
-F 1 "MA10-1" H 8550 6700 59  0000 L BNN
-F 2 "kinx:MA10-1" H 8600 7300 50  0001 C CNN
-F 3 "" H 8600 7300 50  0001 C CNN
-	1    8600 7300
-	0    1    -1   0   
+P 8600 6250
+F 0 "THUMB_RIGHT_SPC" V 8800 5850 59  0000 L BNN
+F 1 "MA10-1" H 8400 6800 59  0000 L BNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 8600 6250 50  0001 C CNN
+F 3 "" H 8600 6250 50  0001 C CNN
+	1    8600 6250
+	0    -1   1    0   
 $EndComp
 $Comp
 L kinx-eagle-import:TEENSY_3.5_3.6 U1
@@ -351,16 +238,6 @@ Text Label 10150 5000 0    50   ~ 0
 ROW_1
 Text Label 10150 5100 0    50   ~ 0
 ROW_EQL
-Text Label 8900 6150 3    50   ~ 0
-COL5
-Wire Wire Line
-	8900 6150 8900 6600
-Connection ~ 8900 6600
-Text Label 8800 6350 1    50   ~ 0
-COL6
-Wire Wire Line
-	8800 6350 8800 6700
-Connection ~ 8800 6700
 Text Label 6000 2900 0    50   ~ 0
 COL6
 Wire Wire Line
@@ -401,14 +278,14 @@ NoConn ~ 7400 1900
 NoConn ~ 7500 1900
 NoConn ~ 6200 3700
 NoConn ~ 6200 3800
-NoConn ~ 9100 7000
-NoConn ~ 9000 7000
-NoConn ~ 8300 7000
-NoConn ~ 8200 7000
-NoConn ~ 4800 7000
-NoConn ~ 4700 7000
-NoConn ~ 4500 7000
-NoConn ~ 4400 7000
+NoConn ~ 9100 6050
+NoConn ~ 9000 6050
+NoConn ~ 8300 6050
+NoConn ~ 8200 6050
+NoConn ~ 5300 6050
+NoConn ~ 5200 6050
+NoConn ~ 5000 6050
+NoConn ~ 4900 6050
 NoConn ~ 6800 5600
 NoConn ~ 6900 5600
 NoConn ~ 7000 5600
@@ -735,4 +612,95 @@ Wire Notes Line
 	4400 800  4400 2600
 Wire Notes Line
 	4400 2600 3050 2600
+Wire Wire Line
+	4900 2800 6200 2800
+Wire Wire Line
+	4900 2700 6200 2700
+Wire Wire Line
+	4900 4600 6200 4600
+Wire Wire Line
+	4900 3100 6200 3100
+Wire Wire Line
+	4900 3000 6200 3000
+Text Label 5800 5700 3    50   ~ 0
+ROW_5
+Wire Wire Line
+	4900 4900 6200 4900
+Wire Wire Line
+	4900 4800 6200 4800
+Text Label 5600 5700 3    50   ~ 0
+ROW_3
+Wire Wire Line
+	4900 4700 6200 4700
+$Comp
+L Connector_Generic:Conn_01x10 THUMB_LEFT_BAK
+U 1 1 2978C288
+P 5400 6250
+F 0 "THUMB_LEFT_BAK" V 5550 5850 59  0000 L BNN
+F 1 "MA10-1" H 5200 5550 59  0000 L BNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 5400 6250 50  0001 C CNN
+F 3 "" H 5400 6250 50  0001 C CNN
+	1    5400 6250
+	0    1    1    0   
+$EndComp
+Text Label 5100 5700 3    50   ~ 0
+ROW_2
+Text Label 5400 5700 3    50   ~ 0
+COL5
+Text Label 5500 5700 3    50   ~ 0
+COL6
+Text Label 8700 5750 3    50   ~ 0
+ROW_6
+Wire Wire Line
+	8700 5750 8700 6050
+Text Label 8800 5750 3    50   ~ 0
+COL6
+Wire Wire Line
+	8800 6050 8800 5750
+Text Label 8900 5750 3    50   ~ 0
+COL5
+Wire Wire Line
+	8900 5750 8900 6050
+Text Label 8600 5750 3    50   ~ 0
+ROW_8
+Wire Wire Line
+	8600 5750 8600 6050
+Text Label 8500 5750 3    50   ~ 0
+ROW_7
+Wire Wire Line
+	8500 5750 8500 6050
+Text Label 8400 5750 3    50   ~ 0
+ROW_9
+Wire Wire Line
+	8400 5750 8400 6050
+Text Label 5700 5700 3    50   ~ 0
+ROW_4
+Wire Wire Line
+	5800 5700 5800 6050
+Wire Wire Line
+	5700 6050 5700 5700
+Wire Wire Line
+	5600 5700 5600 6050
+Wire Wire Line
+	5500 6050 5500 5700
+Wire Wire Line
+	5400 5700 5400 6050
+Wire Wire Line
+	5100 6050 5100 5700
+Wire Notes Line
+	7950 6500 7950 5650
+Wire Notes Line
+	7950 5650 9250 5650
+Wire Notes Line
+	9250 5650 9250 6500
+Wire Notes Line
+	9250 6500 7950 6500
+Wire Notes Line
+	4600 6500 6000 6500
+Wire Notes Line
+	6000 6500 6000 5650
+Wire Notes Line
+	6000 5650 4600 5650
+Wire Notes Line
+	4600 5650 4600 6500
 $EndSCHEMATC
