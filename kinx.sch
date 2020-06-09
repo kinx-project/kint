@@ -172,17 +172,17 @@ Text Label 4050 4450 2    50   ~ 0
 ROW_0
 Text Label 4050 5150 2    50   ~ 0
 ROW_MIN
-Text Label 10150 4500 0    50   ~ 0
+Text Label 10050 4500 0    50   ~ 0
 ROW_5
-Text Label 10150 4600 0    50   ~ 0
+Text Label 10050 4600 0    50   ~ 0
 ROW_4
-Text Label 10150 4700 0    50   ~ 0
+Text Label 10050 4700 0    50   ~ 0
 ROW_3
-Text Label 10150 4900 0    50   ~ 0
+Text Label 10050 4900 0    50   ~ 0
 ROW_2
-Text Label 10150 5000 0    50   ~ 0
+Text Label 10050 5000 0    50   ~ 0
 ROW_1
-Text Label 10150 5100 0    50   ~ 0
+Text Label 10050 5100 0    50   ~ 0
 ROW_EQL
 Text Label 5450 2900 0    50   ~ 0
 COL_6
@@ -319,40 +319,18 @@ F 3 "~" H 3300 1800 50  0001 C CNN
 	1    3300 1800
 	-1   0    0    1   
 $EndComp
-Text Label 10150 4400 0    50   ~ 0
+Text Label 10050 4400 0    50   ~ 0
 COL_0
-Wire Wire Line
-	10150 4400 10400 4400
-Wire Wire Line
-	10150 4500 10400 4500
-Wire Wire Line
-	10150 4700 10400 4700
-Wire Wire Line
-	10400 4600 10150 4600
-Wire Wire Line
-	10150 5100 10400 5100
-Wire Wire Line
-	10400 5000 10150 5000
-Wire Wire Line
-	10150 4900 10400 4900
 NoConn ~ 10400 4800
 NoConn ~ 10400 5300
-Text Label 10150 5200 0    50   ~ 0
+Text Label 10050 5200 0    50   ~ 0
 COL_1
-Wire Wire Line
-	10150 5200 10400 5200
-Text Label 10150 5400 0    50   ~ 0
+Text Label 10050 5400 0    50   ~ 0
 COL_2
-Wire Wire Line
-	10150 5400 10400 5400
-Text Label 10150 5500 0    50   ~ 0
+Text Label 10050 5500 0    50   ~ 0
 COL_3
-Wire Wire Line
-	10150 5500 10400 5500
-Text Label 10150 5600 0    50   ~ 0
+Text Label 10050 5600 0    50   ~ 0
 COL_4
-Wire Wire Line
-	10150 5600 10400 5600
 Wire Wire Line
 	4050 5650 3650 5650
 Wire Wire Line
@@ -705,4 +683,26 @@ Wire Wire Line
 	5450 3500 6200 3500
 Text Notes 3300 6650 0    50   ~ 0
 TODO: the two thumb connectors need to be swapped around to reflect what is on the board
+Wire Wire Line
+	10050 5600 10400 5600
+Wire Wire Line
+	10050 5500 10400 5500
+Wire Wire Line
+	10050 5400 10400 5400
+Wire Wire Line
+	10050 5200 10400 5200
+Wire Wire Line
+	10050 5100 10400 5100
+Wire Wire Line
+	10050 5000 10400 5000
+Wire Wire Line
+	10050 4900 10400 4900
+Wire Wire Line
+	10050 4700 10400 4700
+Wire Wire Line
+	10050 4600 10400 4600
+Wire Wire Line
+	10050 4500 10400 4500
+Wire Wire Line
+	10050 4400 10400 4400
 $EndSCHEMATC
