@@ -117,20 +117,19 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# kinx-eagle-import_MOUNT-PAD-ROUND4.1
+# Mechanical_MountingHole_Pad
 #
-DEF kinx-eagle-import_MOUNT-PAD-ROUND4.1 H 0 40 Y Y 1 L N
-F0 "H" 110 23 59 H V L BNN
-F1 "kinx-eagle-import_MOUNT-PAD-ROUND4.1" 110 -97 59 H V L BNN
+DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
+F0 "H" 0 250 50 H V C CNN
+F1 "Mechanical_MountingHole_Pad" 0 175 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*Pad*
+$ENDFPLIST
 DRAW
-A 0 0 81 71 829 1 0 40 N 80 10 10 80
-A 0 0 81 971 1729 1 0 40 N -10 80 -80 10
-A 0 0 81 -1729 -971 1 0 40 N -80 -10 -10 -80
-A 0 0 81 -829 -71 1 0 40 N 10 -80 80 -10
-C 0 0 60 1 0 2 N
-X MOUNT B4,1 -100 0 100 R 0 0 1 0 P
+C 0 50 50 0 1 50 N
+X 1 1 0 -100 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

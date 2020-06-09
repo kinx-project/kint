@@ -1,4 +1,4 @@
-update=2020-06-09T21:07:12 CEST
+update=2020-06-09T22:07:38 CEST
 version=1
 last_client=kicad
 [general]
@@ -54,12 +54,12 @@ OthersTextSizeH=1
 OthersTextSizeThickness=0.15
 OthersTextItalic=0
 OthersTextUpright=1
-SolderMaskClearance=0.05
-SolderMaskMinWidth=0
+SolderMaskClearance=0.0508
+SolderMaskMinWidth=0.101
 SolderPasteClearance=0
 SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
-Name=Top
+Name=F.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.In1.Cu]
@@ -183,13 +183,13 @@ Name=In30.Cu
 Type=0
 Enabled=0
 [pcbnew/Layer.B.Cu]
-Name=Bottom
+Name=B.Cu
 Type=0
 Enabled=1
 [pcbnew/Layer.B.Adhes]
-Enabled=1
+Enabled=0
 [pcbnew/Layer.F.Adhes]
-Enabled=1
+Enabled=0
 [pcbnew/Layer.B.Paste]
 Enabled=1
 [pcbnew/Layer.F.Paste]
