@@ -862,16 +862,193 @@ Wire Notes Line
 	4400 3650 7400 3650
 Text Notes 4450 3600 0    50   ~ 0
 Teensy++
-Text Label 4450 3500 0    50   ~ 0
+Text Label 4700 3500 2    50   ~ 0
 ROW_4
-Wire Wire Line
-	5200 3500 4450 3500
-Text Label 7200 3500 2    50   ~ 0
+Text Label 7250 3500 0    50   ~ 0
 ROW_5
-Wire Wire Line
-	6800 3500 7200 3500
-Text Label 7200 3600 2    50   ~ 0
+Text Label 7250 3600 0    50   ~ 0
 COL_2
+$Comp
+L Device:R R6
+U 1 1 5F84684B
+P 7050 3500
+F 0 "R6" V 6950 3450 50  0000 C CNN
+F 1 "0" V 6950 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6980 3500 50  0001 C CNN
+F 3 "~" H 7050 3500 50  0001 C CNN
+	1    7050 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5F846E79
+P 7050 3600
+F 0 "R7" V 6950 3650 50  0000 C CNN
+F 1 "0" V 6950 3500 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6980 3600 50  0001 C CNN
+F 3 "~" H 7050 3600 50  0001 C CNN
+	1    7050 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5F8474E9
+P 4950 3500
+F 0 "R5" V 4850 3550 50  0000 C CNN
+F 1 "0" V 4850 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4880 3500 50  0001 C CNN
+F 3 "~" H 4950 3500 50  0001 C CNN
+	1    4950 3500
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
-	6800 3600 7200 3600
+	6900 3500 6800 3500
+Wire Wire Line
+	7250 3500 7200 3500
+Wire Wire Line
+	6900 3600 6800 3600
+Wire Wire Line
+	7200 3600 7250 3600
+Wire Wire Line
+	5100 3500 5200 3500
+Wire Wire Line
+	4700 3500 4800 3500
+$Comp
+L Connector_Generic:Conn_01x13 J1
+U 1 1 5F89CD6C
+P 1400 7000
+F 0 "J1" H 1350 7700 59  0000 L BNN
+F 1 "THUMB_RIGHT_SPC_KB600" V 1550 6550 59  0000 L BNN
+F 2 "kinx:39-53-2135" H 1400 7000 50  0001 C CNN
+F 3 "" H 1400 7000 50  0001 C CNN
+	1    1400 7000
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 1600 7500
+NoConn ~ 1600 7400
+NoConn ~ 1600 6700
+NoConn ~ 1600 6600
+Text Label 1900 7100 2    50   ~ 10
+ROW_9
+Wire Wire Line
+	1900 7100 1600 7100
+Text Label 1900 7200 2    50   ~ 0
+COL_6
+Wire Wire Line
+	1600 7200 1900 7200
+Text Label 1900 7300 2    50   ~ 0
+COL_5
+Wire Wire Line
+	1900 7300 1600 7300
+Text Label 1900 7000 2    50   ~ 0
+ROW_8
+Wire Wire Line
+	1900 7000 1600 7000
+Text Label 1900 6900 2    50   ~ 0
+ROW_7
+Wire Wire Line
+	1900 6900 1600 6900
+Text Label 1900 6800 2    50   ~ 10
+ROW_6
+Wire Wire Line
+	1900 6800 1600 6800
+Text Notes 1050 7300 2    50   ~ 0
+COL_5
+Text Notes 1050 7200 2    50   ~ 0
+COL_6
+Text Notes 1050 7100 2    50   ~ 0
+ROW_6
+Text Notes 1050 7000 2    50   ~ 0
+ROW_8
+Text Notes 1050 6900 2    50   ~ 0
+ROW_7
+Text Notes 1050 6800 2    50   ~ 0
+ROW_9
+Text Notes 1100 6250 2    50   ~ 0
+Original\nMatrix wiring
+Text Notes 2000 6250 2    50   ~ 0
+HumbleHacker\nMatrix wiring
+Wire Notes Line
+	550  6050 2100 6050
+Wire Notes Line
+	550  7700 2100 7700
+Wire Notes Line
+	2100 6050 2100 7700
+Wire Notes Line
+	1150 6050 1150 7700
+Wire Notes Line
+	550  6050 550  7700
+Text Notes 550  4350 0    50   ~ 0
+Pin header for the KB500 series
+Text Notes 550  6000 0    50   ~ 0
+Molex FPC connector for the KB600 series
+Text Notes 9600 4350 0    50   ~ 0
+Pin header for the KB500 series
+NoConn ~ 8350 5250
+NoConn ~ 8350 5350
+NoConn ~ 8350 5550
+NoConn ~ 8350 5850
+Text Label 8000 4750 0    50   ~ 10
+ROW_4
+Text Label 8000 4950 0    50   ~ 10
+ROW_5
+$Comp
+L Connector_Generic:Conn_01x13 J8
+U 1 1 5F8EDD52
+P 8550 5350
+F 0 "J8" H 8500 4600 59  0000 L BNN
+F 1 "THUMB_LEFT_BAK_KB600" V 8700 4900 59  0000 L BNN
+F 2 "kinx:39-53-2135" H 8550 5350 50  0001 C CNN
+F 3 "" H 8550 5350 50  0001 C CNN
+	1    8550 5350
+	1    0    0    1   
+$EndComp
+Text Label 8000 5450 0    50   ~ 10
+ROW_3
+Text Label 8000 5150 0    50   ~ 0
+COL_5
+Text Label 8000 5050 0    50   ~ 0
+COL_6
+Text Label 8000 4850 0    50   ~ 10
+ROW_2
+Wire Wire Line
+	8000 4750 8350 4750
+Wire Wire Line
+	8350 4850 8000 4850
+Wire Wire Line
+	8000 4950 8350 4950
+Wire Wire Line
+	8350 5050 8000 5050
+Wire Wire Line
+	8000 5150 8350 5150
+Wire Wire Line
+	8350 5450 8000 5450
+Text Notes 8850 5450 0    50   ~ 0
+ROW_2
+Text Notes 8850 5150 0    50   ~ 0
+COL_5
+Text Notes 8850 5050 0    50   ~ 0
+COL_6
+Text Notes 8850 4950 0    50   ~ 0
+ROW_3
+Text Notes 8850 4850 0    50   ~ 0
+ROW_4
+Text Notes 8850 4750 0    50   ~ 0
+ROW_5
+Text Notes 7950 4600 0    50   ~ 0
+HumbleHacker\nMatrix wiring
+Text Notes 8850 4600 0    50   ~ 0
+Original\nMatrix wiring
+Wire Notes Line
+	7850 6050 9400 6050
+Wire Notes Line
+	7850 4400 9400 4400
+Text Notes 7850 4350 0    50   ~ 0
+Molex FPC connector for the KB600 series
+Wire Notes Line
+	9400 4400 9400 6050
+Wire Notes Line
+	8800 4400 8800 6050
+Wire Notes Line
+	7850 4400 7850 6050
 $EndSCHEMATC
