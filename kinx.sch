@@ -183,15 +183,6 @@ NoConn ~ 6800 3400
 NoConn ~ 6800 3800
 NoConn ~ 6800 3900
 NoConn ~ 6800 4000
-NoConn ~ 5500 1000
-NoConn ~ 5600 1000
-NoConn ~ 5700 1000
-NoConn ~ 5800 1000
-NoConn ~ 5900 1000
-NoConn ~ 6200 1000
-NoConn ~ 6300 1000
-NoConn ~ 6400 1000
-NoConn ~ 6500 1000
 NoConn ~ 1600 5650
 NoConn ~ 1600 5550
 NoConn ~ 1600 4850
@@ -827,14 +818,11 @@ Wire Wire Line
 	4450 2900 5200 2900
 Wire Wire Line
 	5200 2800 4450 2800
-NoConn ~ 5200 3500
 NoConn ~ 5200 3600
 NoConn ~ 5200 3700
 NoConn ~ 5200 3800
 NoConn ~ 5200 3900
 NoConn ~ 5200 4000
-NoConn ~ 6800 3500
-NoConn ~ 6800 3600
 NoConn ~ 6800 3700
 Wire Wire Line
 	5900 4900 5900 4700
@@ -870,4 +858,20 @@ F 3 "" H 3400 7250 50  0001 C CNN
 	1    3400 7250
 	0    1    1    0   
 $EndComp
+Wire Notes Line
+	4400 3650 7400 3650
+Text Notes 4450 3600 0    50   ~ 0
+Teensy++
+Text Label 4450 3500 0    50   ~ 0
+ROW_4
+Wire Wire Line
+	5200 3500 4450 3500
+Text Label 7200 3500 2    50   ~ 0
+ROW_5
+Wire Wire Line
+	6800 3500 7200 3500
+Text Label 7200 3600 2    50   ~ 0
+COL_2
+Wire Wire Line
+	6800 3600 7200 3600
 $EndSCHEMATC
