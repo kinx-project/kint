@@ -1,4 +1,4 @@
-18182255946056613
+18182255964279613
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -80055,23 +80055,23 @@ kinx
 R1206
 <b>RESISTOR</b><p>
 chip
-0
+
 0
 2
 2
 kinx
 SML1206
 <b>SML10XXKH-TR (HIGH INTENSITY) LED</b><p>
-0
-0
-0
+<table>
+<tr><td>SML10R3KH-TR</td><td>ULTRA RED</td></tr>
+<tr><td>SML10E3KH-TR</td><td>SUPER REDSUPER BLUE</td></tr>
 <tr><td>SML10O3KH-TR</td><td>SUPER ORANGE</td></tr>
 <tr><td>SML10PY3KH-TR</td><td>PURE YELLOW</td></tr>
 <tr><td>SML10OY3KH-TR</td><td>ULTRA YELLOW</td></tr>
 <tr><td>SML10AG3KH-TR</td><td>AQUA GREEN</td></tr>
-0
-0
-0
+<tr><td>SML10BG3KH-TR</td><td>BLUE GREEN</td></tr>
+<tr><td>SML10PB1KH-TR</td><td>SUPER BLUE</td></tr>
+<tr><td>SML10CW1KH-TR</td><td>WHITE</td></tr>
 </table>
 
 Source: http://www.ledtronics.com/ds/smd-1206/dstr0094.PDF
