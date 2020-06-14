@@ -360,11 +360,11 @@ Wire Wire Line
 Connection ~ 4800 6300
 Text Label 4450 3000 0    50   ~ 0
 LED_CAPS_LOCK
-Text Label 4450 3300 0    50   ~ 0
-LED_NUM_LOCK
-Text Label 4450 3200 0    50   ~ 0
-LED_SCROLL_LOCK
 Text Label 4450 3400 0    50   ~ 0
+LED_NUM_LOCK
+Text Label 4450 3300 0    50   ~ 0
+LED_SCROLL_LOCK
+Text Label 4450 3200 0    50   ~ 0
 LED_KEYPAD
 Text Label 6550 6300 2    50   ~ 0
 LED_KEYPAD
@@ -435,9 +435,9 @@ Wire Wire Line
 	10100 5450 9750 5450
 Text Label 7200 2600 2    50   ~ 0
 ROW_ESC
-Text Label 7200 2200 2    50   ~ 0
-ROW_F1
 Text Label 7200 2000 2    50   ~ 0
+ROW_F1
+Text Label 7200 2200 2    50   ~ 0
 ROW_F2
 Text Label 7200 2400 2    50   ~ 0
 COL_5
@@ -613,17 +613,17 @@ Text Notes 1100 750  2    50   ~ 0
 Original\nMatrix wiring
 Text Notes 2000 750  2    50   ~ 0
 HumbleHacker\nMatrix wiring
-Text Notes 10600 5500 0    50   ~ 0
+Text Notes 10600 5450 0    50   ~ 0
 ROW_2
-Text Notes 10600 5200 0    50   ~ 0
+Text Notes 10600 5150 0    50   ~ 0
 COL_5
-Text Notes 10600 5100 0    50   ~ 0
+Text Notes 10600 5050 0    50   ~ 0
 COL_6
-Text Notes 10600 5000 0    50   ~ 0
+Text Notes 10600 4950 0    50   ~ 0
 ROW_3
-Text Notes 10600 4900 0    50   ~ 0
+Text Notes 10600 4850 0    50   ~ 0
 ROW_4
-Text Notes 10600 4800 0    50   ~ 0
+Text Notes 10600 4750 0    50   ~ 0
 ROW_5
 Text Notes 1050 5450 2    50   ~ 0
 COL_5
