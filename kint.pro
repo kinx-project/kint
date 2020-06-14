@@ -238,7 +238,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [schematic_editor]
 version=1
-PageLayoutDescrFile=kinxpagelayout.kicad_wks
+PageLayoutDescrFile=kintpagelayout.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
