@@ -926,43 +926,37 @@ F 3 "" H 1400 7000 50  0001 C CNN
 $EndComp
 NoConn ~ 1600 7500
 NoConn ~ 1600 7400
-NoConn ~ 1600 6700
-NoConn ~ 1600 6600
-Text Label 1900 7100 2    50   ~ 10
+Text Label 1900 6900 2    50   ~ 10
 ROW_9
 Wire Wire Line
 	1900 7100 1600 7100
-Text Label 1900 7200 2    50   ~ 0
-COL_6
-Wire Wire Line
-	1600 7200 1900 7200
-Text Label 1900 7300 2    50   ~ 0
-COL_5
-Wire Wire Line
-	1900 7300 1600 7300
 Text Label 1900 7000 2    50   ~ 0
+COL_6
+Text Label 1900 7100 2    50   ~ 0
+COL_5
+Text Label 1900 6800 2    50   ~ 0
 ROW_8
 Wire Wire Line
 	1900 7000 1600 7000
-Text Label 1900 6900 2    50   ~ 0
+Text Label 1900 6700 2    50   ~ 0
 ROW_7
 Wire Wire Line
 	1900 6900 1600 6900
-Text Label 1900 6800 2    50   ~ 10
+Text Label 1900 6600 2    50   ~ 10
 ROW_6
 Wire Wire Line
 	1900 6800 1600 6800
-Text Notes 1050 7300 2    50   ~ 0
-COL_5
-Text Notes 1050 7200 2    50   ~ 0
-COL_6
 Text Notes 1050 7100 2    50   ~ 0
-ROW_6
+COL_5
 Text Notes 1050 7000 2    50   ~ 0
-ROW_8
+COL_6
 Text Notes 1050 6900 2    50   ~ 0
-ROW_7
+ROW_6
 Text Notes 1050 6800 2    50   ~ 0
+ROW_8
+Text Notes 1050 6700 2    50   ~ 0
+ROW_7
+Text Notes 1050 6600 2    50   ~ 0
 ROW_9
 Text Notes 1100 6250 2    50   ~ 0
 Original\nMatrix wiring
@@ -1051,4 +1045,18 @@ Wire Notes Line
 	8800 4400 8800 6050
 Wire Notes Line
 	7850 4400 7850 6050
+Wire Wire Line
+	1900 6600 1600 6600
+Wire Wire Line
+	1900 6700 1600 6700
+NoConn ~ 1600 6400
+NoConn ~ 1600 6500
+NoConn ~ 1600 7200
+NoConn ~ 1600 7300
+NoConn ~ 1600 7600
+NoConn ~ 8350 5650
+NoConn ~ 8350 5750
+NoConn ~ 8350 5950
+Wire Wire Line
+	1600 3650 2000 3650
 $EndSCHEMATC
