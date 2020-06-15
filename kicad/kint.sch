@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "kinT keyboard controller"
-Date "2020-06-14"
+Date "2020-06-15"
 Rev ""
 Comp "Michael Stapelberg"
 Comment1 "https://github.com/kinx-project/kint"
