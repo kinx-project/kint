@@ -853,7 +853,7 @@ U 1 1 5F8196A9
 P 3400 7250
 F 0 "H2" H 3510 7273 59  0001 L BNN
 F 1 "mounting pad" V 3550 6950 59  0000 L BNN
-F 2 "MountingHole:MountingHole_5mm" H 3400 7250 50  0001 C CNN
+F 2 "MountingHole:MountingHole_6mm" H 3400 7250 50  0001 C CNN
 F 3 "" H 3400 7250 50  0001 C CNN
 	1    3400 7250
 	0    1    1    0   
