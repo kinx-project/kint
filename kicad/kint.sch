@@ -868,39 +868,6 @@ Text Label 7250 3500 0    50   ~ 0
 ROW_5
 Text Label 7250 3600 0    50   ~ 0
 COL_2
-$Comp
-L Device:R R6
-U 1 1 5F84684B
-P 7050 3500
-F 0 "R6" V 6950 3450 50  0000 C CNN
-F 1 "0" V 6950 3600 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6980 3500 50  0001 C CNN
-F 3 "~" H 7050 3500 50  0001 C CNN
-	1    7050 3500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R7
-U 1 1 5F846E79
-P 7050 3600
-F 0 "R7" V 6950 3650 50  0000 C CNN
-F 1 "0" V 6950 3500 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6980 3600 50  0001 C CNN
-F 3 "~" H 7050 3600 50  0001 C CNN
-	1    7050 3600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R5
-U 1 1 5F8474E9
-P 4950 3500
-F 0 "R5" V 4850 3550 50  0000 C CNN
-F 1 "0" V 4850 3400 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4880 3500 50  0001 C CNN
-F 3 "~" H 4950 3500 50  0001 C CNN
-	1    4950 3500
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	6900 3500 6800 3500
 Wire Wire Line
@@ -1059,4 +1026,37 @@ NoConn ~ 8350 5750
 NoConn ~ 8350 5950
 Wire Wire Line
 	1600 3650 2000 3650
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 5EF307C3
+P 4950 3500
+F 0 "JP1" H 4950 3400 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 4950 3614 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4950 3500 50  0001 C CNN
+F 3 "~" H 4950 3500 50  0001 C CNN
+	1    4950 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP2
+U 1 1 5EF30EBD
+P 7050 3500
+F 0 "JP2" H 7050 3600 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 7050 3614 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 7050 3500 50  0001 C CNN
+F 3 "~" H 7050 3500 50  0001 C CNN
+	1    7050 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP3
+U 1 1 5EF31622
+P 7050 3600
+F 0 "JP3" H 7050 3500 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 7050 3714 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 7050 3600 50  0001 C CNN
+F 3 "~" H 7050 3600 50  0001 C CNN
+	1    7050 3600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
