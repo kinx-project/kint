@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 86)
+    (drawings 89)
     (tracks 523)
     (zones 0)
     (modules 24)
@@ -389,7 +389,7 @@
       ))
   )
 
-  (module kinx:TEENSY_3.5_3.6 (layer B.Cu) (tedit 5EF1A862) (tstamp 5EE6932C)
+  (module kinx:TEENSY_3.5_3.6 (layer B.Cu) (tedit 5EF1A862) (tstamp 5EF3251D)
     (at 143.51 101.8236 180)
     (path /F9562130)
     (fp_text reference U1 (at -25.908 -8.255 270) (layer B.SilkS) hide
@@ -5588,6 +5588,15 @@
       (net 83 "Net-(J8-Pad1)") (solder_mask_margin 0.0635))
   )
 
+  (gr_text x (at 145.923 95.631 90) (layer F.SilkS) (tstamp 5EF3292A)
+    (effects (font (size 1.25 1.25) (thickness 0.15)))
+  )
+  (gr_text x (at 143.383 95.631 90) (layer F.SilkS) (tstamp 5EF32928)
+    (effects (font (size 1.25 1.25) (thickness 0.15)))
+  )
+  (gr_text x (at 151.003 107.95 90) (layer F.SilkS)
+    (effects (font (size 1.25 1.25) (thickness 0.15)))
+  )
   (gr_text C (at 166.37 142.494 90) (layer F.SilkS) (tstamp 5EF3128D)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
@@ -6265,7 +6274,7 @@
   (segment (start 128.7476 106.426) (end 125.73 109.4436) (width 0.25) (layer F.Cu) (net 88))
   (segment (start 135.165 106.426) (end 128.7476 106.426) (width 0.25) (layer F.Cu) (net 88))
 
-  (zone (net 32) (net_name GND) (layer F.Cu) (tstamp 5EF31E51) (hatch edge 0.508)
+  (zone (net 32) (net_name GND) (layer F.Cu) (tstamp 5EF32100) (hatch edge 0.508)
     (priority 6)
     (connect_pads (clearance 0.000001))
     (min_thickness 0.2032)
@@ -7841,7 +7850,7 @@
       )
     )
   )
-  (zone (net 32) (net_name GND) (layer B.Cu) (tstamp 5EF31E4E) (hatch edge 0.508)
+  (zone (net 32) (net_name GND) (layer B.Cu) (tstamp 5EF320FD) (hatch edge 0.508)
     (priority 6)
     (connect_pads (clearance 0.000001))
     (min_thickness 0.2032)
@@ -9184,7 +9193,7 @@
       )
     )
   )
-  (zone (net 0) (net_name "") (layer B.SilkS) (tstamp 5EF31E4B) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layer B.SilkS) (tstamp 5EF320FA) (hatch edge 0.508)
     (connect_pads (clearance 0.2))
     (min_thickness 0.254)
     (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
