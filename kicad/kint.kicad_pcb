@@ -10,6 +10,10 @@
   )
 
   (page A4)
+  (title_block
+    (date 2020-06-23)
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
