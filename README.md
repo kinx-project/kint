@@ -1,5 +1,6 @@
-[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/) [![Buy PCB: Oshpark](https://img.shields.io/badge/Buy%20PCB-Oshpark-purple.svg)](TODO) [![Buy Parts: Oshpark](https://img.shields.io/badge/Buy%20Parts-Octopart-3a6a99)](https://octopart.com/bom-tool/4AnOAR3f)
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/) [![Buy PCB: Oshpark](https://img.shields.io/badge/Buy%20PCB-Oshpark-purple.svg)](https://oshpark.com/shared_projects/YSZAuKc0) [![Buy Parts: Oshpark](https://img.shields.io/badge/Buy%20Parts-Octopart-3a6a99)](https://octopart.com/bom-tool/4AnOAR3f)
 
+<img src="https://github.com/kinx-project/kint/raw/master/replaced-controller-v2020-06-30.jpg" width="267" height="200" align="right">
 
 The kinT keyboard controller is a replacement for your Kinesis Advantage or
 Advantage 2 ergonomic keyboards.
@@ -9,6 +10,56 @@ You can use it for example…
 * to build or modify your own keyboard
 * to [work around bugs in the standard controller](https://michael.stapelberg.ch/posts/2013-03-21-kinesis_custom_controller/)
 * because you prefer to run open source software such as the [QMK firmware](https://docs.qmk.fm/), even on your keyboard
+
+See also:
+
+* [My blog post introducing the kinT keyboard controller](https://michael.stapelberg.ch/posts/2020-07-09-kint-kinesis-keyboard-controller/)
+* [My twitch stream recording introducing the kinT keyboard controller](https://youtu.be/I0kwQbnhlfk)
+
+## Quick overview
+
+<table border="0" width="100%">
+<tr>
+<td width="33%">
+<img src="https://github.com/kinx-project/kint/raw/master/pcb-3d-render-front-v2020-06-30.png">
+3D render (front, LEDs)
+</td>
+<td width="33%">
+<img src="https://github.com/kinx-project/kint/raw/master/pcb-3d-render-back-v2020-06-30.png">
+3D render (back, components)
+</td>
+<td width="33%">
+<a href="https://github.com/kinx-project/kint/blob/master/schematic-v2020-06-30.pdf"><img
+src="https://github.com/kinx-project/kint/raw/master/thumbnail-schematic-v2020-06-30.jpg"></a>
+schematic
+</td>
+</tr>
+</table>
+
+## Building your own kinT keyboard controller
+
+1. Follow [“Buying the board and components (Bill of
+   materials)”](https://github.com/kinx-project/kint#buying-the-board-and-components-bill-of-materials). When
+   ordering from OSH Park (board) and Digi-Key (components), you’ll get the
+   minimum quantity of 3 boards for 72 USD (24 USD per board), and one set of
+   components for 49 USD.
+
+   * If you have any special requirements regarding which Teensy microcontroller
+     to use, this is the step where you would replace the Teensy 3.6 with your
+     choice.
+
+1. Wait for the components to arrive. When ordering from big shops like Digi-Key
+   or Mouser, this typically takes 2 days to many places in the world.
+
+1. Wait for the boards to arrive. This takes 6 days in the best case when
+   ordering from OSH Park with their Super Swift Service option. In general, the
+   longer you are willing to wait, the cheaper it is going to get.
+
+1. Follow [the soldering
+   guide](https://github.com/kinx-project/kint#soldering). This will take about
+   an hour.
+
+1. [Install the firmware](https://github.com/kinx-project/kint#installing-the-firmware)
 
 ## Why use the kinT instead of the older replacement board?
 
@@ -74,19 +125,23 @@ TODO: add power consumption as a column. relevant for using the keyboard with a 
 
 | teensy         | LEDs | Cost   | USB | clock speed | MCU         | QMK           |
 |----------------|------|--------|-----|-------------|-------------|---------------|
-| teensy++ 2.0   | yes  | $24.00 | 1.1 | 16 MHz AVR  | AT90USB1286 | TODO: kint2pp |
+| teensy++ 2.0   | yes  | $24.00 | 1.1 | 16 MHz AVR  | AT90USB1286 | [branch](https://github.com/kinx-project/qmk_firmware/commits/kint2pp) |
 | ~~teensy 3.0~~ | no   |        | 1.1 | 48 MHz M4   | MK20DX128   | untested      |
 | ~~teensy 3.1~~ | no   |        | 1.1 |             | MK20DX256   | untested      |
-| teensy LC      | no   | $11.65 | 1.1 | 48 MHz M0+  |             | untested      |
-| teensy 3.2     | no   | $19.80 | 1.1 | 72 MHz M4   |             |               |
-| teensy 3.5     | yes  | $24.25 | 1.1 | 120 MHz M4F | MK64FX      |               |
-| teensy 3.6     | yes  | $29.25 | 1.1 | 180 MHz M4F | MK66FX      | yes           |
-| teensy 4.0     | no   | $19.95 | 2.0 | 600 MHz M7  | MIMXRT1062  | in progress   |
-| teensy 4.1     | yes  | $26.85 | 2.0 | 600 MHz M7  | MIMXRT1062  | in progress   |
+| teensy LC      | no   | $11.65 | 1.1 | 48 MHz M0+  |             | [untested](https://github.com/kinx-project/kint/issues/1) |
+| teensy 3.2     | no   | $19.80 | 1.1 | 72 MHz M4   |             | [issue](https://github.com/kinx-project/kint/issues/2) |
+| teensy 3.5     | yes  | $24.25 | 1.1 | 120 MHz M4F | MK64FX      | [issue](https://github.com/kinx-project/kint/issues/3) |
+| teensy 3.6     | yes  | $29.25 | 1.1 | 180 MHz M4F | MK66FX      | [branch](https://github.com/kinx-project/qmk_firmware/commits/kint36) |
+| teensy 4.0     | no   | $19.95 | 2.0 | 600 MHz M7  | MIMXRT1062  | [in progress](https://github.com/kinx-project/kint/issues/4) |
+| teensy 4.1     | yes  | $26.85 | 2.0 | 600 MHz M7  | MIMXRT1062  | [in progress](https://github.com/kinx-project/kint/issues/5) |
 
 ## Buying the board and components (Bill of materials)
 
-* TODO: oshpark project link
+To buy the board, you can [order the kinT controller from OSH
+Park](https://oshpark.com/shared_projects/YSZAuKc0), or upload the
+[kint.kicad_pcb
+file](https://github.com/kinx-project/kint/blob/master/kicad/kint.kicad_pcb) to
+the manufacturing service you prefer.
 
 To buy the components, check out the [kinT BOM in the Octopart BOM
 tool](https://octopart.com/bom-tool/4AnOAR3f), from where you can conveniently
@@ -121,6 +176,11 @@ be found for 50-60 EUR or USD.
 
 If you’re new to soldering, check out [this excellent soldering reference card
 from adafruit](https://twitter.com/zekjur/status/952596267884056576).
+
+You can also [watch me solder a kinT keyboard controller on live
+stream](https://youtu.be/I0kwQbnhlfk?t=5880) (from 1:38:00 to 3:33:53). The
+process can be done in under an hour if you’re not talking to a live audience at
+the same time :-). I want to add an edited and higher-quality video, too.
 
 ### Soldering instructions for the Teensy 3.x or 4.x
 
@@ -162,3 +222,18 @@ above](#soldering-instructions-for-the-teensy-3x-or-4x), but:
 
 2. Close the solder jumpers JP1, JP2, JP3. These will remap pin 7, pin 15 and
    pin 16 onto pins that can be used with the Teensy++ 2.0.
+
+## Installing the firmware
+
+We have pre-built firmware (QMK default keymap and settings) available for the following variants:
+
+* [kinesis_kint2pp_default.hex](https://github.com/kinx-project/kint/blob/master/default-firmware/kinesis_kint2pp_default.hex) (Teensy++ 2.0)
+* [kinesis_kint36_default.hex](https://github.com/kinx-project/kint/blob/master/default-firmware/kinesis_kint36_default.hex) (Teensy 3.6)
+
+You can install these .hex files with the [Teensy
+Loader](https://www.pjrc.com/teensy/loader.html).
+
+To build your own firmware, see [QMK: Get
+Started](https://docs.qmk.fm/#/?id=get-started) and refer to the [full Teensy
+compatibility chart](#reference-full-teensy-compatibility-chart) above to find
+the QMK branch to work with.
