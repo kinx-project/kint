@@ -125,7 +125,7 @@ TODO: add power consumption as a column. relevant for using the keyboard with a 
 
 | teensy         | LEDs | Cost   | USB | clock speed | MCU         | QMK           |
 |----------------|------|--------|-----|-------------|-------------|---------------|
-| teensy++ 2.0   | yes  | $24.00 | 1.1 | 16 MHz AVR  | AT90USB1286 | [branch](https://github.com/kinx-project/qmk_firmware/commits/kint2pp), [PR](https://github.com/qmk/qmk_firmware/pull/9687) |
+| teensy++ 2.0   | yes  | $24.00 | 1.1 | 16 MHz AVR  | AT90USB1286 | since [5cbac94](https://github.com/qmk/qmk_firmware/commit/5cbac94d08257a6149c5717d7f25efab7af9c0fa) |
 | ~~teensy 3.0~~ | no   |        | 1.1 | 48 MHz M4   | MK20DX128   | untested      |
 | ~~teensy 3.1~~ | no   |        | 1.1 |             | MK20DX256   | untested      |
 | teensy LC      | no   | $11.65 | 1.1 | 48 MHz M0+  |             | [untested](https://github.com/kinx-project/kint/issues/1) |
