@@ -67,6 +67,12 @@ schematic
   Kinesis Advantage 2 (KB600) keyboards. They differ in how the thumb pads are
   connected. See the soldering instructions below.
 
+   * NOTE: If this is the *only* feature you’re interested in, and you already
+     have a custom keyboard controller for your older Kinesis, [check out the
+     u6w5 adapter
+     board](https://github.com/kinx-project/adapter-use-kb600-with-kb500-controller)
+     I made!
+
 * The kinT is made for the newer Teensy 3.x and 4.x series, which will remain
   widely available for years to come, whereas [the future of the Teensy++ 2.0 is
   not as certain](https://www.pjrc.com/store/teensypp.html).
