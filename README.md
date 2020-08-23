@@ -124,6 +124,11 @@ Which Teensy should you buy for your build? Here are a few considerations:
 
   > […] discontinue Teensy 2.0 […] is a decision we'll consider in mid 2019.
 
+* If you are an advanced user of the QMK firmware, note that despite QMK working
+  on the Teensy 3.6, [some features are not yet
+  ported/working](https://github.com/kinx-project/kint/issues/10). As QMK was
+  originally made for AVR micro controllers, you will likely find best overall
+  QMK feature availability with the older Teensy++ 2.0.
 
 ### Reference: full Teensy compatibility chart
 
