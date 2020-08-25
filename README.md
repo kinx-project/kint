@@ -142,7 +142,7 @@ TODO: add power consumption as a column. relevant for using the keyboard with a 
 | teensy LC      | no   | $11.65 | 1.1 | 48 MHz M0+  |             | [untested](https://github.com/kinx-project/kint/issues/1) |
 | teensy 3.2     | no   | $19.80 | 1.1 | 72 MHz M4   |             | [issue](https://github.com/kinx-project/kint/issues/2) |
 | teensy 3.5     | yes  | $24.25 | 1.1 | 120 MHz M4F | MK64FX      | [issue](https://github.com/kinx-project/kint/issues/3) |
-| teensy 3.6     | yes  | $29.25 | 1.1 | 180 MHz M4F | MK66FX      | [branch](https://github.com/kinx-project/qmk_firmware/commits/kint36) |
+| teensy 3.6     | yes  | $29.25 | 1.1 | 180 MHz M4F | MK66FX      | [branch](https://github.com/kinx-project/qmk_firmware/commits/kint36), [Pull Request](https://github.com/qmk/qmk_firmware/pull/10171) |
 | teensy 4.0     | no   | $19.95 | 2.0 | 600 MHz M7  | MIMXRT1062  | [in progress](https://github.com/kinx-project/kint/issues/4) |
 | teensy 4.1     | yes  | $26.85 | 2.0 | 600 MHz M7  | MIMXRT1062  | [in progress](https://github.com/kinx-project/kint/issues/5) |
 
