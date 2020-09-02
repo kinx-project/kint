@@ -207,9 +207,10 @@ the same time :-). I want to add an edited and higher-quality video, too.
      Hand Solder SMD](http://www.davidhaillant.com/smd-soldering/), which
      explains what I call the “One pad at a time” method.
 
-1. Turn the board around and place 3 rows of pin headers (top, bottom, vertical)
-   in the Teensy holes. The vertical pin header is required for powering the
-   LEDs. Do not solder these yet!
+1. Turn the board around and place (but don’t solder) **3 rows of pin headers**
+   (top, bottom, vertical) in the Teensy holes.
+
+   * The vertical pin header is required for powering the LEDs.
 
 1. Place your Teensy 3.x or 4.x on top of the pin header and solder all its pins.
 
