@@ -201,7 +201,11 @@ the same time :-). I want to add an edited and higher-quality video, too.
 1. Solder resistors R1, R2, R3, R4 and the four LEDs onto the board.
 
    * LEDs are directional parts! Their marker marks the cathode, which is
-     labeled as C on the kinT.
+     labeled as C on the kinT. For details about the marker, refer to the LED
+     datasheet, e.g. the [Kingbright APT3216QBC/D data
+     sheet](https://www.kingbrightusa.com/images/catalog/SPEC/APT3216QBC-D.pdf)
+     if you are using the LED from the [Bill of Materials
+     (BOM)](#buying-the-board-and-components-bill-of-materials).
 
    * If you’re new to SMD (Surface Mount Devices) soldering, check out [How to
      Hand Solder SMD](http://www.davidhaillant.com/smd-soldering/), which
