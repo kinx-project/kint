@@ -253,3 +253,49 @@ To build your own firmware, see [QMK: Get
 Started](https://docs.qmk.fm/#/?id=get-started) and refer to the [full Teensy
 compatibility chart](#reference-full-teensy-compatibility-chart) above to find
 the QMK branch to work with.
+
+## Debugging / Troubleshooting
+
+### General technique: highlight connections in KiCad
+
+1. Install [KiCad](https://kicad-pcb.org/) (free and open source)
+1. Clone https://github.com/kinx-project/kint/ and open `kicad/kint.pro` in KiCad
+1. Select `Tools` → `Edit PCB`
+1. Select `View` → `Flip Board View`, because the front side of kinT contains the LEDs, the back side contains the connectors.
+1. Select `Highlight Net`, the second icon from the top in the right icon bar
+1. Click on the pin of interest. In the bottom left, you’ll see the Net Name (e.g. `COL_3`), and KiCad will highlight all connected traces.
+
+### Issue: LEDs not working
+
+See also [Example issue #13](https://github.com/kinx-project/kint/issues/13) for
+a full debugging walk-through.
+
+* Check the orientation of your LEDs, as they are directional parts.
+
+   * The marker printed on the kinT board marks the LED cathode, which is
+     labeled as C on the kinT. For details about the marker, refer to the LED
+     datasheet, e.g. the [Kingbright APT3216QBC/D data
+     sheet](https://www.kingbrightusa.com/images/catalog/SPEC/APT3216QBC-D.pdf)
+     if you are using the LED from the [Bill of Materials
+     (BOM)](#buying-the-board-and-components-bill-of-materials).
+
+* Test your LEDs with a multimeter:
+   * switch your multimeter to diode test mode
+   * place the black probe (`COM`) on e.g. Teensy pin 12 (`LED_CAPS_LOCK`)
+   * place the red probe on the anode (A) of your LED
+   * the LED should light up now, or it might be defective:
+   ![IMG_0755](https://user-images.githubusercontent.com/55506/91949423-6811c780-ed00-11ea-8393-5f79e4586825.JPG)
+
+* Measure that the LED pins behave as expected, e.g. Teensy pin 12 for `LED_CAPS_LOCK`:
+   * you should measure 3.3V when the LED is turned off
+   * you should measure 0V when the LED is turned on
+   ![schematic_000](https://user-images.githubusercontent.com/55506/91944490-7232c680-ecfe-11ea-90e4-071a66173f0d.jpg)
+
+* Check that you soldered in the vertical pin header, which supplies 3.3V to the LEDs:
+
+   ![IMG_0759](https://user-images.githubusercontent.com/55506/91976333-0f065b80-ed21-11ea-81dc-477edfb2e9f0.jpg)
+
+### Issue: Keys not working
+
+See also [Example issue #16](https://github.com/kinx-project/kint/issues/16) for
+a full debugging walk-through.
