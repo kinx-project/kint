@@ -74,8 +74,9 @@ schematic
      I made!
 
 * The kinT is made for the newer Teensy 3.x and 4.x series, which will remain
-  widely available for years to come, whereas [the future of the Teensy++ 2.0 is
-  not as certain](https://www.pjrc.com/store/teensypp.html).
+  widely available for years to come, whereas [Teensy++ 2.0 is only guaranteed
+  until August 2021 and expected to be discontinued in
+  2022](https://www.pjrc.com/store/teensypp.html).
 
 * The kinT is a smaller PCB (4.25 x 3.39 inches, or 108.0 x 86.1 mm), which makes it:
 
