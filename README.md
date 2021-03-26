@@ -164,7 +164,7 @@ For your convenience, this is the full BOM (links go to Octopart):
 | Part Number                                                                               | Count | Cost   | Description               | Note                                               |
 |-------------------------------------------------------------------------------------------|-------|--------|---------------------------|----------------------------------------------------|
 | [Teensy 3.6](https://octopart.com/dev-14057-sparkfun-76356774?r=sp)                       | 1     | $32.5  |                           | [your choice!](#compatibility-which-teensy-to-use) |
-| [Würth 61301011121](https://octopart.com/61301011121-w%C3%BCrth+elektronik-18818159?r=sp) | 7     | $0.89  | 10 position 2.54mm header | 5 for Teensy<br>2 for KB500<br>0 for KB600         |
+| [Würth 61301011121](https://octopart.com/61301011121-w%C3%BCrth+elektronik-18818159?r=sp) | 8     | $0.89  | 10 position 2.54mm header | 6 for Teensy<br>2 for KB500<br>0 for KB600         |
 | [Molex 39-53-2135](https://octopart.com/39-53-2135-molex-7670149?r=sp)                    | 6     | $1.24  | 13 position FPC connector | 4 for KB500<br>6 for KB600                         |
 | [Kingbright APT3216QBC/D](https://octopart.com/apt3216qbc%2Fd-kingbright-5355642?r=sp)    | 4     | $0.47  | 1206 SMD LED              | blue 470nm<br>chose your color!                    |
 | [Vishay CRCW120610K0FKEAC](https://octopart.com/crcw120610k0fkeac-vishay-20811529)        | 4     | $0.10  | 1206 10K resistor         | value determines LED brightness                    |
