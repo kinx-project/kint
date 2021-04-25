@@ -21,16 +21,16 @@ See also:
 <table border="0" width="100%">
 <tr>
 <td width="33%">
-<img src="https://github.com/kinx-project/kint/raw/master/pcb-3d-render-front-v2020-06-30.png">
+<img src="https://github.com/kinx-project/kint/raw/master/pcb-3d-render-front-v2021-04-25.png">
 3D render (front, LEDs)
 </td>
 <td width="33%">
-<img src="https://github.com/kinx-project/kint/raw/master/pcb-3d-render-back-v2020-06-30.png">
+<img src="https://github.com/kinx-project/kint/raw/master/pcb-3d-render-back-v2021-04-25.png">
 3D render (back, components)
 </td>
 <td width="33%">
-<a href="https://github.com/kinx-project/kint/blob/master/schematic-v2020-06-30.pdf"><img
-src="https://github.com/kinx-project/kint/raw/master/thumbnail-schematic-v2020-06-30.jpg"></a>
+<a href="https://github.com/kinx-project/kint/blob/master/schematic-v2021-04-25.pdf"><img
+src="https://github.com/kinx-project/kint/raw/master/thumbnail-schematic-v2021-04-25.jpg"></a>
 schematic
 </td>
 </tr>
