@@ -149,11 +149,14 @@ TODO: add power consumption as a column. relevant for using the keyboard with a 
 
 ## Buying the board and components (Bill of materials)
 
-To buy the board, you can [order the kinT controller from OSH
-Park](https://oshpark.com/shared_projects/YSZAuKc0), or upload the
-[kint.kicad_pcb
-file](https://github.com/kinx-project/kint/blob/master/kicad/kint.kicad_pcb) to
-the manufacturing service you prefer.
+To buy the board, you can:
+
+* [order the kinT controller from OSH Park](https://oshpark.com/shared_projects/YSZAuKc0)
+* [order the kinT controller from Aisler](https://aisler.net/p/NLNHRLZN)
+* [order the kinT controller from JLCPCB](https://github.com/kinx-project/kint/tree/master/gerbers/jlcpcb)
+* or upload the [kint.kicad_pcb
+  file](https://github.com/kinx-project/kint/blob/master/kicad/kint.kicad_pcb)
+  to the manufacturing service you prefer.
 
 To buy the components, check out the [kinT BOM in the Octopart BOM
 tool](https://octopart.com/bom-tool/4AnOAR3f), from where you can conveniently
