@@ -135,17 +135,20 @@ Which Teensy should you buy for your build? Here are a few considerations:
 
 TODO: add power consumption as a column. relevant for using the keyboard with a laptop on the go
 
-| teensy         | LEDs | Cost   | USB | clock speed | MCU         | QMK           |
-|----------------|------|--------|-----|-------------|-------------|---------------|
-| teensy++ 2.0   | yes  | $24.00 | 1.1 | 16 MHz AVR  | AT90USB1286 | since [5cbac94](https://github.com/qmk/qmk_firmware/commit/5cbac94d08257a6149c5717d7f25efab7af9c0fa) |
-| ~~teensy 3.0~~ | no   |        | 1.1 | 48 MHz M4   | MK20DX128   | untested      |
-| ~~teensy 3.1~~ | no   |        | 1.1 |             | MK20DX256   | untested      |
-| teensy LC      | no   | $11.65 | 1.1 | 48 MHz M0+  |             | [untested](https://github.com/kinx-project/kint/issues/1) |
-| teensy 3.2     | no   | $19.80 | 1.1 | 72 MHz M4   |             | [issue](https://github.com/kinx-project/kint/issues/2) |
-| teensy 3.5     | yes  | $24.25 | 1.1 | 120 MHz M4F | MK64FX      | [issue](https://github.com/kinx-project/kint/issues/3) |
-| teensy 3.6     | yes  | $29.25 | 1.1 | 180 MHz M4F | MK66FX      | since [9d3b11d](https://github.com/qmk/qmk_firmware/commit/9d3b11d4856f478e2c91788cf77a52e62ec85d19)
-| teensy 4.0     | no   | $19.95 | 2.0 | 600 MHz M7  | MIMXRT1062  | [in progress](https://github.com/kinx-project/kint/issues/4) |
-| teensy 4.1     | yes  | $26.85 | 2.0 | 600 MHz M7  | MIMXRT1062  | [in progress](https://github.com/kinx-project/kint/issues/5) |
+| teensy         | LEDs | Cost   | input latency | clock speed | MCU         | QMK                                                                                                  |
+|----------------|------|--------|---------------|-------------|-------------|------------------------------------------------------------------------------------------------------|
+| teensy++ 2.0   | yes  | $24.00 | 3.27ms        | 16 MHz AVR  | AT90USB1286 | since [5cbac94](https://github.com/qmk/qmk_firmware/commit/5cbac94d08257a6149c5717d7f25efab7af9c0fa) |
+| ~~teensy 3.0~~ | no   |        |               | 48 MHz M4   | MK20DX128   | untested                                                                                             |
+| ~~teensy 3.1~~ | no   |        |               |             | MK20DX256   | untested                                                                                             |
+| teensy LC      | no   | $11.65 | ?             | 48 MHz M0+  |             | [untested](https://github.com/kinx-project/kint/issues/1)                                            |
+| teensy 3.2     | no   | $19.80 | ?             | 72 MHz M4   |             | [issue](https://github.com/kinx-project/kint/issues/2)                                               |
+| teensy 3.5     | yes  | $24.25 | ?             | 120 MHz M4F | MK64FX      | [issue](https://github.com/kinx-project/kint/issues/3)                                               |
+| teensy 3.6     | yes  | $29.25 | 1.97ms        | 180 MHz M4F | MK66FX      | since [9d3b11d](https://github.com/qmk/qmk_firmware/commit/9d3b11d4856f478e2c91788cf77a52e62ec85d19) |
+| teensy 4.0     | no   | $19.95 | 0.9ms         | 600 MHz M7  | MIMXRT1062  | [in progress](https://github.com/kinx-project/kint/issues/4)                                         |
+| teensy 4.1     | yes  | $26.85 | 0.9ms         | 600 MHz M7  | MIMXRT1062  | [in progress](https://github.com/kinx-project/kint/issues/5)                                         |
+
+See [this blog post for more details on keyboard input
+latency](https://michael.stapelberg.ch/posts/2021-05-08-keyboard-input-latency-qmk-kinesis/).
 
 ## Buying the board and components (Bill of materials)
 
