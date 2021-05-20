@@ -225,8 +225,8 @@ the same time :-). I want to add an edited and higher-quality video, too.
 
 1. Place your Teensy 3.x or 4.x on top of the pin header and solder all its pins.
 
-   * If you’re using a Teensy++ 2.0, you must not connect some pins! [See the
-     instructions below](#soldering-instructions-for-the-teensy-20).
+   * If you’re using a Teensy++ 2.0, you may want to remove some pins before
+     soldering! [See the instructions below](#soldering-instructions-for-the-teensy-20).
 
 1. Turn the board around and solder all the pin header pins.
 
@@ -238,13 +238,25 @@ the same time :-). I want to add an edited and higher-quality video, too.
 Follow the [instructions for the Teensy 3.x or 4.x
 above](#soldering-instructions-for-the-teensy-3x-or-4x), but:
 
-1. Do not connect pin 7, pin 15 and pin 16. These are marked with an x on the kinT.
+1. Disconnect pin 7, pin 15 and pin 16. There are two ways to do this:
 
-   * An easy way to do this is to remove the corresponding pins from your pin
-     header with pliers.
+   * Using a small knife such as a hobby knife, cut the traces between the pads
+     of jumpers JP4, JP5, and JP6. If you haven't cut traces like this before,
+     SparkFun has a [brief illustrated tutorial][jumpertut] about working with
+     jumpers that may be helpful.
+
+   * If you don't want to slice traces, you can also remove the corresponding
+     pins from your pin header with pliers, so that the pads don't connect to
+     the Teensy.
 
 2. Close the solder jumpers JP1, JP2, JP3. These will remap pin 7, pin 15 and
    pin 16 onto pins that can be used with the Teensy++ 2.0.
+
+If you are using socket headers so that the Teensy is removable and you cut the
+jumpers in the first step, you can later upgrade to a Teensy 3.x or 4.x by
+desoldering JP1, JP2, and JP3, and reclosing the jumpers JP4, JP5, and JP6.
+
+[jumpertut]: https://learn.sparkfun.com/tutorials/how-to-work-with-jumper-pads-and-pcb-traces/what-is-a-jumper
 
 ## Installing the firmware
 

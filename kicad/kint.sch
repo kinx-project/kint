@@ -474,8 +474,6 @@ Text Label 7200 2500 2    50   ~ 0
 COL_0
 Wire Wire Line
 	7200 2300 6800 2300
-Text Label 7200 2900 2    50   ~ 0
-COL_1
 Wire Wire Line
 	7200 2200 6800 2200
 Wire Wire Line
@@ -492,10 +490,6 @@ Text Label 4450 2800 0    50   ~ 0
 ROW_2
 Text Label 4450 2900 0    50   ~ 0
 ROW_3
-Text Label 4450 2500 0    50   ~ 0
-ROW_4
-Text Label 7200 2700 2    50   ~ 0
-ROW_5
 Text Label 5900 4900 1    50   ~ 0
 3V3
 Wire Wire Line
@@ -504,8 +498,6 @@ Text Label 4450 2000 0    50   ~ 0
 ROW_MIN
 Wire Wire Line
 	4450 2700 5200 2700
-Text Label 7200 2800 2    50   ~ 0
-COL_2
 Text Label 7200 2300 2    50   ~ 0
 COL_3
 Text Label 7200 2100 2    50   ~ 0
@@ -532,10 +524,6 @@ Wire Wire Line
 	4450 2200 5200 2200
 Wire Wire Line
 	5200 2300 4450 2300
-Wire Wire Line
-	4450 2400 5200 2400
-Wire Wire Line
-	5200 2500 4450 2500
 Wire Wire Line
 	4450 2600 5200 2600
 Wire Wire Line
@@ -853,10 +841,6 @@ Wire Wire Line
 Wire Wire Line
 	7200 2600 6800 2600
 Wire Wire Line
-	7200 2700 6800 2700
-Wire Wire Line
-	7200 2800 6800 2800
-Wire Wire Line
 	4450 2900 5200 2900
 Wire Wire Line
 	5200 2800 4450 2800
@@ -900,24 +884,14 @@ F 3 "" H 3400 7250 50  0001 C CNN
 	1    3400 7250
 	0    1    1    0   
 $EndComp
-Wire Notes Line
-	4400 3650 7400 3650
 Text Notes 4450 3600 0    50   ~ 0
 Teensy++
 Text Label 4700 3500 2    50   ~ 0
 ROW_4
-Text Label 7250 3500 0    50   ~ 0
-ROW_5
-Text Label 7250 3600 0    50   ~ 0
-COL_2
 Wire Wire Line
 	6900 3500 6800 3500
 Wire Wire Line
-	7250 3500 7200 3500
-Wire Wire Line
 	6900 3600 6800 3600
-Wire Wire Line
-	7200 3600 7250 3600
 Wire Wire Line
 	5100 3500 5200 3500
 Wire Wire Line
@@ -1078,23 +1052,12 @@ $Comp
 L Jumper:SolderJumper_2_Open JP1
 U 1 1 5EF307C3
 P 4950 3500
-F 0 "JP1" H 4950 3400 50  0000 C CNN
+F 0 "JP1" H 4800 3450 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 4950 3614 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4950 3500 50  0001 C CNN
 F 3 "~" H 4950 3500 50  0001 C CNN
 	1    4950 3500
 	-1   0    0    1   
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP2
-U 1 1 5EF30EBD
-P 7050 3500
-F 0 "JP2" H 7050 3600 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 7050 3614 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 7050 3500 50  0001 C CNN
-F 3 "~" H 7050 3500 50  0001 C CNN
-	1    7050 3500
-	1    0    0    -1  
 $EndComp
 $Comp
 L Jumper:SolderJumper_2_Open JP3
@@ -1107,4 +1070,82 @@ F 3 "~" H 7050 3600 50  0001 C CNN
 	1    7050 3600
 	1    0    0    -1  
 $EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP2
+U 1 1 5EF30EBD
+P 7050 3500
+F 0 "JP2" H 7050 3600 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 7050 3614 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 7050 3500 50  0001 C CNN
+F 3 "~" H 7050 3500 50  0001 C CNN
+	1    7050 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 3600 7250 3600
+Wire Wire Line
+	7250 3500 7200 3500
+Text Label 7250 3600 0    50   ~ 0
+COL_2
+Text Label 7250 3500 0    50   ~ 0
+ROW_5
+Wire Notes Line
+	4400 3650 7400 3650
+Text Notes 4000 2500 0    50   ~ 0
+Teensy++
+Text Label 4450 2500 0    50   ~ 0
+ROW_4
+Wire Wire Line
+	5100 2500 5200 2500
+Wire Wire Line
+	4450 2500 4800 2500
+Wire Wire Line
+	4450 2400 5200 2400
+$Comp
+L Jumper:SolderJumper_2_Bridged JP4
+U 1 1 608CE7F8
+P 4950 2500
+F 0 "JP4" H 4850 2550 50  0000 C CNN
+F 1 "SolderJumper_2_Bridged" H 4950 2614 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm" H 4950 2500 50  0001 C CNN
+F 3 "~" H 4950 2500 50  0001 C CNN
+	1    4950 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP6
+U 1 1 608D26D4
+P 7000 2800
+F 0 "JP6" H 6800 2850 50  0000 C CNN
+F 1 "SolderJumper_2_Bridged" H 7000 2914 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm" H 7000 2800 50  0001 C CNN
+F 3 "~" H 7000 2800 50  0001 C CNN
+	1    7000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Bridged JP5
+U 1 1 608D1FAE
+P 7000 2700
+F 0 "JP5" H 6800 2750 50  0000 C CNN
+F 1 "SolderJumper_2_Bridged" H 7000 2814 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm" H 7000 2700 50  0001 C CNN
+F 3 "~" H 7000 2700 50  0001 C CNN
+	1    7000 2700
+	1    0    0    -1  
+$EndComp
+Text Label 7200 2700 0    50   ~ 0
+ROW_5
+Text Label 7200 2800 0    50   ~ 0
+COL_2
+Wire Wire Line
+	7200 2700 7150 2700
+Wire Wire Line
+	7150 2800 7200 2800
+Text Label 7200 2900 2    50   ~ 0
+COL_1
+Wire Wire Line
+	6850 2800 6800 2800
+Wire Wire Line
+	6850 2700 6800 2700
 $EndSCHEMATC
