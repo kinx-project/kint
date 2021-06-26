@@ -248,15 +248,22 @@ above](#soldering-instructions-for-the-teensy-3x-or-4x), but:
 
 ## Installing the firmware
 
-We have pre-built firmware (QMK default keymap and settings) available for the following variants:
+You can use the QMK Configurator online build tool to compile the QMK firmware for
+your kinT keyboard controller, or customize your layout.
 
-* [kinesis_kint2pp_default.hex](https://github.com/kinx-project/kint/blob/master/default-firmware/kinesis_kint2pp_default.hex) (Teensy++ 2.0)
-* [kinesis_kint36_default.hex](https://github.com/kinx-project/kint/blob/master/default-firmware/kinesis_kint36_default.hex) (Teensy 3.6)
+Alternatively, you can install the pre-built, tested firmware file (default QMK
+keymap and settings) we offer, for example to test whether issues are related to
+your self-compiled firmware.
+
+| Teensy       | QMK Configurator                                                             | pre-built, tested firmware                                                                                                                |
+|--------------|------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| Teensy++ 2.0 | [QMK Configurator (kint2pp)](https://config.qmk.fm/#/kinesis/kint2pp/LAYOUT) | [kinesis_kint2pp_default.hex](https://github.com/kinx-project/kint/blob/master/default-firmware/kinesis_kint2pp_default.hex) (2020-07-09) |
+| Teensy 3.6   | [QMK Configurator (kint36)](https://config.qmk.fm/#/kinesis/kint36/LAYOUT)   | [kinesis_kint36_default.hex](https://github.com/kinx-project/kint/blob/master/default-firmware/kinesis_kint36_default.hex) (2020-07-09)   |
 
 You can install these .hex files with the [Teensy
 Loader](https://www.pjrc.com/teensy/loader.html).
 
-To build your own firmware, see [QMK: Get
+To compile your own firmware, see [QMK: Get
 Started](https://docs.qmk.fm/#/?id=get-started) and refer to the [full Teensy
 compatibility chart](#reference-full-teensy-compatibility-chart) above to find
 the QMK branch to work with.
