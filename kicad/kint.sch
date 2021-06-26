@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "kinT keyboard controller"
-Date "2021-04-25"
+Date "2021-06-26"
 Rev ""
 Comp "Michael Stapelberg"
 Comment1 "https://github.com/kinx-project/kint"
@@ -1107,10 +1107,10 @@ F 3 "~" H 7050 3600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0103
 U 1 1 60D76962
 P 6000 4700
-F 0 "#PWR?" H 6000 4450 50  0001 C CNN
+F 0 "#PWR0103" H 6000 4450 50  0001 C CNN
 F 1 "GND" H 6005 4527 50  0000 C CNN
 F 2 "" H 6000 4700 50  0001 C CNN
 F 3 "" H 6000 4700 50  0001 C CNN
