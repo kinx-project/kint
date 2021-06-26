@@ -216,7 +216,6 @@ NoConn ~ 10100 5350
 NoConn ~ 10100 5550
 NoConn ~ 10100 5650
 NoConn ~ 5800 4700
-NoConn ~ 6000 4700
 NoConn ~ 6100 4700
 NoConn ~ 6200 4700
 $Comp
@@ -1105,6 +1104,17 @@ F 1 "SolderJumper_2_Open" H 7050 3714 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 7050 3600 50  0001 C CNN
 F 3 "~" H 7050 3600 50  0001 C CNN
 	1    7050 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60D76962
+P 6000 4700
+F 0 "#PWR?" H 6000 4450 50  0001 C CNN
+F 1 "GND" H 6005 4527 50  0000 C CNN
+F 2 "" H 6000 4700 50  0001 C CNN
+F 3 "" H 6000 4700 50  0001 C CNN
+	1    6000 4700
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
