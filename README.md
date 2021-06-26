@@ -155,7 +155,7 @@ latency](https://michael.stapelberg.ch/posts/2021-05-08-keyboard-input-latency-q
 To buy the board, you can:
 
 * [order the kinT controller from OSH Park](https://oshpark.com/shared_projects/YSZAuKc0) starting at 72 USD
-* [order the kinT controller from Aisler](https://aisler.net/p/NLNHRLZN) starting at 18 EUR
+* [order the kinT controller from Aisler](https://aisler.net/p/JQIIIJSL) starting at 18 EUR
 * [order the kinT controller from JLCPCB](https://github.com/kinx-project/kint/tree/master/gerbers/jlcpcb)
 * or upload the [kint.kicad_pcb
   file](https://github.com/kinx-project/kint/blob/master/kicad/kint.kicad_pcb)
