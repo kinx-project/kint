@@ -286,7 +286,7 @@ a full debugging walk-through.
      if you are using the LED from the [Bill of Materials
      (BOM)](#buying-the-board-and-components-bill-of-materials).
 
-* Test your LEDs with a multimeter:
+* If your Teensy is not soldered yet (or removed from its socket), you can test your LEDs with a multimeter:
    * switch your multimeter to diode test mode
    * place the black probe (`COM`) on e.g. Teensy pin 12 (`LED_CAPS_LOCK`)
    * place the red probe on the anode (A) of your LED
