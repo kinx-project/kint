@@ -145,7 +145,7 @@ TODO: add power consumption as a column. relevant for using the keyboard with a 
 | teensy 3.5     | yes  | $24.25 | ?             | 120 MHz M4F | MK64FX      | [issue](https://github.com/kinx-project/kint/issues/3)                                               |
 | teensy 3.6     | yes  | $29.25 | 1.97ms        | 180 MHz M4F | MK66FX      | since [9d3b11d](https://github.com/qmk/qmk_firmware/commit/9d3b11d4856f478e2c91788cf77a52e62ec85d19) |
 | teensy 4.0     | no   | $19.95 | 0.9ms         | 600 MHz M7  | MIMXRT1062  | [in progress](https://github.com/kinx-project/kint/issues/4)                                         |
-| teensy 4.1     | yes  | $26.85 | 0.9ms         | 600 MHz M7  | MIMXRT1062  | [in progress](https://github.com/kinx-project/kint/issues/5)                                         |
+| teensy 4.1     | yes  | $26.85 | 0.9ms         | 600 MHz M7  | MIMXRT1062  | pending: [QMK pull request](https://github.com/qmk/qmk_firmware/pull/13333)                          |
 
 See [this blog post for more details on keyboard input
 latency](https://michael.stapelberg.ch/posts/2021-05-08-keyboard-input-latency-qmk-kinesis/).
