@@ -106,8 +106,8 @@ schematic
 
 ## Compatibility: which Teensy to use?
 
-The kinT keyboard controller was made for the Teensy 3.x series of devices,
-which are ARM based.
+The kinT keyboard controller was made for the Teensy 3.x and 4.x series of
+devices, which are ARM based.
 
 The older Atmel based Teensy++ 2.0 are also supported, but require slightly more
 complicated soldering: not connecting a few clashing Teensy++ 2.0 pins and
