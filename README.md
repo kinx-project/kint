@@ -74,9 +74,8 @@ schematic
      I made!
 
 * The kinT is made for the newer Teensy 3.x and 4.x series, which will remain
-  widely available for years to come, whereas [Teensy++ 2.0 is only guaranteed
-  until August 2021 and expected to be discontinued in
-  2022](https://www.pjrc.com/store/teensypp.html).
+  widely available for years to come, whereas the [Teensy++ 2.0 is
+  discontinued](https://www.pjrc.com/store/teensypp.html).
 
 * The kinT is a smaller PCB (4.25 x 3.39 inches, or 108.0 x 86.1 mm), which makes it:
 
@@ -120,10 +119,7 @@ Which Teensy should you buy for your build? Here are a few considerations:
 
 * The Teensy++ 2.0 seems to be the most popular choice, also because it was the
   only option with the the predecessor keyboard controller. Note that the
-  [Teensy++ 2.0 is only guaranteed until August 2021 and expected to be
-  discontinued in 2022](https://www.pjrc.com/store/teensypp.html)
-
-  > We do expect to discontinue Teensy 2.0 and Teensy++ 2.0 in 2022
+  [Teensy++ 2.0 is discontinued](https://www.pjrc.com/store/teensypp.html)
 
 * If you are an advanced user of the QMK firmware, note that despite QMK working
   on the Teensy 3.6, [some features are not yet
