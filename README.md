@@ -117,9 +117,10 @@ Which Teensy should you buy for your build? Here are a few considerations:
 
 * The Teensy 3.6 is what I have been using for years now.
 
-* The Teensy++ 2.0 seems to be the most popular choice, also because it was the
-  only option with the the predecessor keyboard controller. Note that the
-  [Teensy++ 2.0 is discontinued](https://www.pjrc.com/store/teensypp.html)
+* The Teensy++ 2.0 used to be the most popular choice, in part because it was
+  the only option with the the predecessor keyboard controller. The [Teensy++
+  2.0 is discontinued](https://www.pjrc.com/store/teensypp.html), so I would no
+  longer recommend it for new keyboard builds.
 
 * If you are an advanced user of the QMK firmware, note that despite QMK working
   on the Teensy 3.6, [some features are not yet
