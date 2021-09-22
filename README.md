@@ -115,7 +115,10 @@ closing 3 soldering jumpers.
 
 Which Teensy should you buy for your build? Here are a few considerations:
 
-* The Teensy 3.6 is what I have been using for years now.
+* I have been using the Teensy 4.1 for many months without problems.
+
+* I used the Teensy 3.6 for multiple years, and many others are happy with it,
+  too.
 
 * The Teensy++ 2.0 used to be the most popular choice, in part because it was
   the only option with the the predecessor keyboard controller. The [Teensy++
