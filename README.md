@@ -92,7 +92,7 @@ schematic
 
 * The kinT is a good starting point for your own project:
 
-   * kinT was designed in the open source [KiCad](https://kicad-pcb.org/)
+   * kinT was designed in the open source [KiCad](https://kicad.org/)
      program, meaning you do not need any license subscriptions.
 
    * The clear silkscreen and schematic make development and debugging easier.
@@ -273,7 +273,7 @@ the QMK branch to work with.
 
 ### General technique: highlight connections in KiCad
 
-1. Install [KiCad](https://kicad-pcb.org/) (free and open source)
+1. Install [KiCad](https://kicad.org/) (free and open source)
 1. Clone https://github.com/kinx-project/kint/ and open `kicad/kint.pro` in KiCad
 1. Select `Tools` → `Edit PCB`
 1. Select `View` → `Flip Board View`, because the front side of kinT contains the LEDs, the back side contains the connectors.
