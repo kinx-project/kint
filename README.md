@@ -124,9 +124,9 @@ the kinX hub.
 The kinT keyboard controller was made for the Teensy 3.x and 4.x series of
 devices, which are ARM based.
 
-The older Atmel based Teensy++ 2.0 are also supported, but require slightly more
-complicated soldering: not connecting a few clashing Teensy++ 2.0 pins and
-closing 3 soldering jumpers.
+The older Atmel based Teensy++ 2.0 are also supported, but they require cutting
+one set of solder jumpers and closing a second set, to account for clashing pin
+assignments.
 
 Which Teensy should you buy for your build? Here are a few considerations:
 
@@ -238,10 +238,10 @@ the same time :-). I want to add an edited and higher-quality video, too.
 
    * The vertical pin header is required for powering the LEDs.
 
-1. Place your Teensy 3.x or 4.x on top of the pin header and solder all its pins.
+   * If you want your Teensy to be removable, you can use socket headers here
+     instead. [See the instructions below](#using-socket-headers).
 
-   * If you’re using a Teensy++ 2.0, you must not connect some pins! [See the
-     instructions below](#soldering-instructions-for-the-teensy-20).
+1. Place your Teensy on top of the pin header and solder all its pins.
 
 1. Turn the board around and solder all the pin header pins.
 
@@ -251,15 +251,48 @@ the same time :-). I want to add an edited and higher-quality video, too.
 ### Soldering instructions for the Teensy++ 2.0
 
 Follow the [instructions for the Teensy 3.x or 4.x
-above](#soldering-instructions-for-the-teensy-3x-or-4x), but:
+above](#soldering-instructions-for-the-teensy-3x-or-4x), and then:
 
-1. Do not connect pin 7, pin 15 and pin 16. These are marked with an x on the kinT.
+1. Using a small knife such as a hobby knife, cut the traces between the pads
+   of jumpers JP4, JP5, and JP6. This will disconnect pin 7, pin 15 and pin 16.
 
-   * An easy way to do this is to remove the corresponding pins from your pin
-     header with pliers.
+   * If you haven't cut traces like this before, SparkFun has a [brief
+     illustrated tutorial][jumper-tut] about working with jumpers that is a
+     good reference.
 
 2. Close the solder jumpers JP1, JP2, JP3. These will remap pin 7, pin 15 and
    pin 16 onto pins that can be used with the Teensy++ 2.0.
+
+If you are [using socket headers](#using-socket-headers) so that the Teensy is
+removable, you can later upgrade to a Teensy 3.x or 4.x by desoldering JP1,
+JP2, and JP3, and reclosing the jumpers JP4, JP5, and JP6.
+
+[jumper-tut]: https://learn.sparkfun.com/tutorials/how-to-work-with-jumper-pads-and-pcb-traces/what-is-a-jumper
+
+### Using socket headers
+
+Due to the space for the USB cable in the back, there's not enough room in the
+case for a standard socket header, but there are low-profile pin headers that
+do fit. [These square-pin socket headers](short-sockets) and [pins](short-pins)
+with 0.180" (4.57mm) insulation height have been verified to fit in the KB500,
+and will probably fit the KB600 as well. Round "Swiss-style" headers may also
+work, but make sure to get the appropriate matching pins for whatever socket
+you order.
+
+To build with socket headers, follow the [standard instructions
+above](#soldering-instructions-for-the-teensy-3x-or-4x), but instead of the
+steps involving soldering the pin headers, do the following:
+
+1. Turn the board around and solder **3 rows of socket headers** (top, bottom,
+   vertical) in the Teensy holes on the kinT board.
+
+1. Place and solder the corresponding **3 rows of pin headers** (top, bottom,
+   vertical) on the Teensy itself.
+
+1. Insert the Teensy into the sockets.
+
+[short-sockets]: https://octopart.com/slw-124-01-t-s-samtec-292526?r=sp
+[short-pins]: https://octopart.com/tsw-124-23-g-s-samtec-274217?r=sp
 
 ## Installing the firmware
 
