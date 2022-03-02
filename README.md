@@ -1,6 +1,6 @@
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/) [![Buy PCB: Oshpark](https://img.shields.io/badge/Buy%20PCB-Oshpark-purple.svg)](https://oshpark.com/shared_projects/YSZAuKc0) [![Buy Parts: Oshpark](https://img.shields.io/badge/Buy%20Parts-Octopart-3a6a99)](https://octopart.com/bom-tool/4AnOAR3f)
 
-<img src="https://github.com/kinx-project/kint/raw/master/replaced-controller-v2020-06-30.jpg" width="267" height="200" align="right">
+<img src="https://github.com/kinx-project/kint/raw/main/replaced-controller-v2020-06-30.jpg" width="267" height="200" align="right">
 
 The kinT keyboard controller is a replacement for your Kinesis Advantage or
 Advantage 2 ergonomic keyboards.
@@ -21,16 +21,16 @@ See also:
 <table border="0" width="100%">
 <tr>
 <td width="33%">
-<img src="https://github.com/kinx-project/kint/raw/master/pcb-3d-render-front-v2021-06-26.png">
+<img src="https://github.com/kinx-project/kint/raw/main/pcb-3d-render-front-v2021-06-26.png">
 3D render (front, LEDs)
 </td>
 <td width="33%">
-<img src="https://github.com/kinx-project/kint/raw/master/pcb-3d-render-back-v2021-06-26.png">
+<img src="https://github.com/kinx-project/kint/raw/main/pcb-3d-render-back-v2021-06-26.png">
 3D render (back, components)
 </td>
 <td width="33%">
-<a href="https://github.com/kinx-project/kint/blob/master/schematic-v2021-06-26.pdf"><img
-src="https://github.com/kinx-project/kint/raw/master/thumbnail-schematic-v2021-06-26.jpg"></a>
+<a href="https://github.com/kinx-project/kint/blob/main/schematic-v2021-06-26.pdf"><img
+src="https://github.com/kinx-project/kint/raw/main/thumbnail-schematic-v2021-06-26.jpg"></a>
 schematic
 </td>
 </tr>
@@ -156,9 +156,9 @@ To buy the board, you can:
 
 * [order the kinT controller from OSH Park](https://oshpark.com/shared_projects/YSZAuKc0) starting at 72 USD
 * [order the kinT controller from Aisler](https://aisler.net/p/JQIIIJSL) starting at 18 EUR
-* [order the kinT controller from JLCPCB](https://github.com/kinx-project/kint/tree/master/gerbers/jlcpcb)
+* [order the kinT controller from JLCPCB](https://github.com/kinx-project/kint/tree/main/gerbers/jlcpcb)
 * or upload the [kint.kicad_pcb
-  file](https://github.com/kinx-project/kint/blob/master/kicad/kint.kicad_pcb)
+  file](https://github.com/kinx-project/kint/blob/main/kicad/kint.kicad_pcb)
   to the manufacturing service you prefer.
 
 To buy the components, check out the [kinT BOM in the Octopart BOM
@@ -257,8 +257,8 @@ your self-compiled firmware.
 
 | Teensy           | QMK Configurator                                                             | pre-built, tested firmware                                                                                                                |
 |------------------|------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| Teensy++ 2.0     | [QMK Configurator (kint2pp)](https://config.qmk.fm/#/kinesis/kint2pp/LAYOUT) | [kinesis_kint2pp_default.hex](https://github.com/kinx-project/kint/blob/master/default-firmware/kinesis_kint2pp_default.hex) (2020-07-09) |
-| Teensy 3.6       | [QMK Configurator (kint36)](https://config.qmk.fm/#/kinesis/kint36/LAYOUT)   | [kinesis_kint36_default.hex](https://github.com/kinx-project/kint/blob/master/default-firmware/kinesis_kint36_default.hex) (2020-07-09)   |
+| Teensy++ 2.0     | [QMK Configurator (kint2pp)](https://config.qmk.fm/#/kinesis/kint2pp/LAYOUT) | [kinesis_kint2pp_default.hex](https://github.com/kinx-project/kint/blob/main/default-firmware/kinesis_kint2pp_default.hex) (2020-07-09) |
+| Teensy 3.6       | [QMK Configurator (kint36)](https://config.qmk.fm/#/kinesis/kint36/LAYOUT)   | [kinesis_kint36_default.hex](https://github.com/kinx-project/kint/blob/main/default-firmware/kinesis_kint36_default.hex) (2020-07-09)   |
 | Teensy 4.0 / 4.1 | [QMK Configurator (kint41)](https://config.qmk.fm/#/kinesis/kint41/LAYOUT)   | TODO                                                                                                                                      |
 
 You can install these .hex files with the [Teensy
