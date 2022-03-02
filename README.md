@@ -61,6 +61,21 @@ schematic
 
 1. [Install the firmware](https://github.com/kinx-project/kint#installing-the-firmware)
 
+## Installing the kinT replacement controller in your Kinesis keyboard
+
+The easiest way is to remove the existing cable from the Kinesis keyboard, and
+use a regular USB cable instead (going through the existing hole in the case, no
+mod required).
+
+If you want to keep using the existing Kinesis cable, you could build the [kinX
+open hardware
+hub](https://michael.stapelberg.ch/posts/2018-04-17-kinx-usb-hub/), which uses a
+compatible connector.
+
+Another way is to cut open a USB cable and solder it onto the matching pins of
+the Kinesis cable.  You can confirm the pinout in the hardware design files for
+the kinX hub.
+
 ## Why use the kinT instead of the older replacement board?
 
 * The kinT supports both, the older Kinesis Advantage (KB500) **and** the newer
