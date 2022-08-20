@@ -303,11 +303,11 @@ Alternatively, you can install the pre-built, tested firmware file (default QMK
 keymap and settings) we offer, for example to test whether issues are related to
 your self-compiled firmware.
 
-| Teensy           | QMK Configurator                                                             | pre-built, tested firmware                                                                                                                |
-|------------------|------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| Teensy           | QMK Configurator                                                             | pre-built, tested firmware                                                                                                              |
+|------------------|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | Teensy++ 2.0     | [QMK Configurator (kint2pp)](https://config.qmk.fm/#/kinesis/kint2pp/LAYOUT) | [kinesis_kint2pp_default.hex](https://github.com/kinx-project/kint/blob/main/default-firmware/kinesis_kint2pp_default.hex) (2020-07-09) |
 | Teensy 3.6       | [QMK Configurator (kint36)](https://config.qmk.fm/#/kinesis/kint36/LAYOUT)   | [kinesis_kint36_default.hex](https://github.com/kinx-project/kint/blob/main/default-firmware/kinesis_kint36_default.hex) (2020-07-09)   |
-| Teensy 4.0 / 4.1 | [QMK Configurator (kint41)](https://config.qmk.fm/#/kinesis/kint41/LAYOUT)   | TODO                                                                                                                                      |
+| Teensy 4.0 / 4.1 | [QMK Configurator (kint41)](https://config.qmk.fm/#/kinesis/kint41/LAYOUT)   | [kinesis_kint41_default.hex](https://github.com/kinx-project/kint/blob/main/default-firmware/kinesis_kint41_default.hex) (QMK 0.17.9)   |
 
 You can install these .hex files with the [Teensy
 Loader](https://www.pjrc.com/teensy/loader.html).
