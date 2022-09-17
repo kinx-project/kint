@@ -325,7 +325,8 @@ the QMK branch to work with.
 1. Clone https://github.com/kinx-project/kint/ and open `kicad/kint.pro` in KiCad
 1. Select `Tools` → `Edit PCB`
 1. Select `View` → `Flip Board View`, because the front side of kinT contains the LEDs, the back side contains the connectors.
-1. Select `Highlight Net`, the second icon from the top in the right icon bar
+1. Select `Highlight Net`, the second icon from the top in the right icon bar.
+   In KiCad 6, the icon is gone. Instead, hold the `Ctrl` key while clicking on the net.
 1. Click on the pin of interest. In the bottom left, you’ll see the Net Name (e.g. `COL_3`), and KiCad will highlight all connected traces.
 
 ### Issue: LEDs not working
