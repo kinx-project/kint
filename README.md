@@ -36,6 +36,21 @@ schematic
 </tr>
 </table>
 
+## Compatibility
+
+The kinT keyboard controller was made for the Kinesis Advantage or Advantage 2
+series.
+
+The kinT keyboard controller is not compatible with the newer Kinesis Advantage
+360 series, introduced in 2022, because the 360 is a split keyboard that uses an
+entirely different form factor for its electronics ([Kinesis 360 teardown
+photos](https://photos.app.goo.gl/BwgzHgaTz1RKBjqc6)).
+
+The kinT keyboard controller is also not compatible with **very old Advantage**
+keyboards, where the left and right keywell circuit boards plug directly into
+the controller. See [issue #42](https://github.com/kinx-project/kint/issues/42)
+for details and pictures.
+
 ## Building your own kinT keyboard controller
 
 1. Follow [“Buying the board and components (Bill of
