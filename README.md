@@ -78,18 +78,22 @@ for details and pictures.
 
 ## Installing the kinT replacement controller in your Kinesis keyboard
 
-The easiest way is to remove the existing cable from the Kinesis keyboard, and
+After replacing your existing Kinesis controller with the kinT controller, you have some options with respect to the USB cable:
+
+1. The easiest way is to remove the existing cable from the Kinesis keyboard, and
 use a regular USB cable instead (going through the existing hole in the case, no
 mod required).
 
-If you want to keep using the existing Kinesis cable, you could build the [kinX
+1. If you want to keep using the existing Kinesis cable, you could build the [kinX
 open hardware
 hub](https://michael.stapelberg.ch/posts/2018-04-17-kinx-usb-hub/), which uses a
 compatible connector.
 
-Another way is to cut open a USB cable and solder it onto the matching pins of
+1. Another way is to cut open a USB cable and solder it onto the matching pins of
 the Kinesis cable.  You can confirm the pinout in the hardware design files for
-the kinX hub.
+the kinX hub. From issue #9, the [7-pin variant](https://github.com/kinx-project/kint/issues/9#issuecomment-751507493) and the [9-pin variant](https://github.com/kinx-project/kint/issues/9#issuecomment-774753427).
+
+1. And yet one more option is to use a right angle USB dashboard extension instead of the Kinesis cable as described in [this issue #9 comment](https://github.com/kinx-project/kint/issues/9#issuecomment-1434304973). You would then plug a regular USB cable into this extension.
 
 ## Why use the kinT instead of the older replacement board?
 
@@ -375,6 +379,9 @@ a full debugging walk-through.
    ![IMG_0759](https://user-images.githubusercontent.com/55506/91976333-0f065b80-ed21-11ea-81dc-477edfb2e9f0.jpg)
 
 ### Issue: Keys not working
+If groups of keys are not responding, recheck that you've inserted cables straight and deep into each Molex connector before fully closing the connector.
 
-See also [Example issue #16](https://github.com/kinx-project/kint/issues/16) for
-a full debugging walk-through.
+![Molex Connector](check-molex-connectors.jpg) 
+
+See also [issue #16](https://github.com/kinx-project/kint/issues/16) for
+a full debugging walk-through of key issues.
