@@ -9,6 +9,7 @@ You can use it for example…
 
 * to build or modify your own keyboard
 * to [work around bugs in the standard controller](https://michael.stapelberg.ch/posts/2013-03-21-kinesis_custom_controller/)
+* to resurrect a keyboard with a failing Kinesis keyboard controller
 * because you prefer to run open source software such as the [QMK firmware](https://docs.qmk.fm/), even on your keyboard
 
 See also:
