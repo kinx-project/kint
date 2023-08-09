@@ -337,6 +337,8 @@ Started](https://docs.qmk.fm/#/?id=get-started) and refer to the [full Teensy
 compatibility chart](#reference-full-teensy-compatibility-chart) above to find
 the QMK branch to work with.
 
+TIP: When you flash your Teensy you'll be asked to press the reset button. The first time you flash, you'll need to press the push button on the Teensy itself. Default keyboard layouts map this ability to the Kinesis <kbd>progm</kbd> key. So for subsequent flashes, you can press the <kbd>progm</kbd> key instead.
+
 ## Debugging / Troubleshooting
 
 ### General technique: highlight connections in KiCad
