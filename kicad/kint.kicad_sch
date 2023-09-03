@@ -3044,11 +3044,11 @@
     (pin "9" (uuid 282da0ef-8a36-4584-9887-306ebfaf4d1f))
   )
 
-  (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 125.73 63.5 0) (unit 1)
+  (symbol (lib_id "Jumper:SolderJumper_2_Bridged") (at 125.73 63.5 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000608ce7f8)
     (property "Reference" "JP4" (id 0) (at 123.19 62.23 0))
-    (property "Value" "SolderJumper_2_Bridged" (id 1) (at 125.73 60.6044 0)
+    (property "Value" "SolderJumper_2_Bridged" (id 1) (at 125.73 66.3956 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm" (id 2) (at 125.73 63.5 0)
