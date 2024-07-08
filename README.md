@@ -216,6 +216,13 @@ no need to get the specific versions from the BOM above — if you have LEDs,
 resistors and pin headers still lying around from other projects, feel free to
 re-use them!
 
+Note: if you lost the original ribbon cables, you can get a compatible
+replacement from [Digikey (Molex 13 Position FFC, FPC Cable 0.049" (1.25mm)
+3.000"
+(76.20mm))](https://www.digikey.co.uk/en/products/detail/molex/0151680815/4143332),
+which is slightly longer than the original (CivLux E208903 - AWM 20960 105C 300V
+VW-1), but seems to work well.
+
 ## Soldering
 
 All the soldering connections on the kinT keyboard controller are easy to make,
